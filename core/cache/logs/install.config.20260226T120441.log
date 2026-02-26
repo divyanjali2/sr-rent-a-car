@@ -1,0 +1,2 @@
+[2026-02-26 12:04:41] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\cache\setup\smarty\f7e34a166d3f414fa10d31ecc3b26abac1d2632e_0.file.complete.tpl.php : 30) PHP warning: Undefined array key "errors"
+[2026-02-26 12:04:41] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\cache\setup\smarty\f7e34a166d3f414fa10d31ecc3b26abac1d2632e_0.file.complete.tpl.php : 30) PHP warning: Attempt to read property "value" on null
