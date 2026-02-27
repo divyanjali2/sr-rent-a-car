@@ -120,32 +120,7 @@
 
 </section>
 
-
-
-<!-- <section class="ftco-section ftco-wrap-about">
-  <div class="container">
-    <div id="tsparticles"></div>
-      <div class="row">
-        <div class="col-md-4 d-flex">
-          <div class="img img-1 mr-md-2" style="background-image: url(assets/images/home/about_us_1.jpg);"></div>
-          <div class="img img-2 ml-md-2" style="background-image: url(assets/images/home/about_us_2.jpg);"></div>
-        </div>
-        <div class="col-md-8 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
-          <div class="heading-section mb-4 my-5 my-md-0">
-            <span class="subheading">Who</span>
-            <h2 class="mb-4">We  Are</h2>
-          </div>
-          <p style="text-align: justify;"> <b style="font-size: 20px; color: #da0000;">SR Rent A Car </b>  is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers. The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect and deliver because we know what it’s like to be a consumer.
-          </p>
-
-          <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
-            <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we\'re able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
-            </p>
-      </div>
-    </div>
-  </div>
-</section> -->
-
+<!-- who we are section -->
 <section class="ftco-section ftco-wrap-about srAbout">
   <div class="container">
     <div id="tsparticles"></div>
@@ -192,60 +167,53 @@
   </div>
 </section>
 		  
-		  <section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter">
-		  <div class="container">
-			  <div class="row d-md-flex">
-				  <div class="col-md-12">
-					  <div class="row d-md-flex align-items-center">
-						<div class="col-md-2 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-						  <div class="block-18">
-							<div class="text">
-							  <strong class="number" data-number="15">0</strong>
-							  <span>Awards</span>
-							</div>
-						  </div>
-						</div>
-  
-					<div class="col-md-2 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-					  <div class="block-18">
-						<div class="text">
-						  <strong class="number" data-number="20">0</strong>
-						  <span>Years of Experienced</span>
-						</div>
-					  </div>
-					</div>
-  
-				  
-					<div class="col-md-2 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-					  <div class="block-18">
-						<div class="text">
-						  <strong class="number" data-number="500">0</strong>
-						  <span>Vehicles</span>
-						</div>
-					  </div>
-					</div>
-					<div class="col-md-2 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-					  <div class="block-18">
-						<div class="text">
-						  <strong class="number" data-number="560">0</strong>
-						  <span>Chauffeurs</span>
-						</div>
-					  </div>
-					</div>
-					<div class="col-md-2 col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-					  <div class="block-18">
-						<div class="text">
-						  <strong class="number" data-number="45000">0</strong>
-						  <span>Happy Customers Annually</span>
-						</div>
-					  </div>
-					</div>
-				</div>
-			</div>
-		  
-		  </div>
-		  </div>
-	  </section>
+<section class="srStats" id="section-counter">
+  <div class="container">
+    <div class="srStats__grid">
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">🏆</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="15">0</strong>
+          <span class="srStats__label">Awards</span>
+        </div>
+      </div>
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">⏳</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="20">0</strong>
+          <span class="srStats__label">Years of Experience</span>
+        </div>
+      </div>
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">🚗</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="500">0</strong>
+          <span class="srStats__label">Vehicles</span>
+        </div>
+      </div>
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">🧑‍✈️</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="560">0</strong>
+          <span class="srStats__label">Chauffeurs</span>
+        </div>
+      </div>
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">😊</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="45000">0</strong>
+          <span class="srStats__label">Happy Customers Annually</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 	  
 	  <section class="ftco-section bg-light">
 		<div class="container">
@@ -1211,7 +1179,7 @@ document.addEventListener("DOMContentLoaded", () => {
   attachAuto("heroRent_dropInput");
 
 });
-</script>',
+</script',
     'richtext' => 1,
     'template' => 2,
     'menuindex' => 0,
@@ -1220,7 +1188,7 @@ document.addEventListener("DOMContentLoaded", () => {
     'createdby' => 1,
     'createdon' => 1723316876,
     'editedby' => 1,
-    'editedon' => 1772176487,
+    'editedon' => 1772177779,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -1522,32 +1490,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </section>
 
-
-
-<!-- <section class="ftco-section ftco-wrap-about">
-  <div class="container">
-    <div id="tsparticles"></div>
-      <div class="row">
-        <div class="col-md-4 d-flex">
-          <div class="img img-1 mr-md-2" style="background-image: url(assets/images/home/about_us_1.jpg);"></div>
-          <div class="img img-2 ml-md-2" style="background-image: url(assets/images/home/about_us_2.jpg);"></div>
-        </div>
-        <div class="col-md-8 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
-          <div class="heading-section mb-4 my-5 my-md-0">
-            <span class="subheading">Who</span>
-            <h2 class="mb-4">We  Are</h2>
-          </div>
-          <p style="text-align: justify;"> <b style="font-size: 20px; color: #da0000;">SR Rent A Car </b>  is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers. The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect and deliver because we know what it’s like to be a consumer.
-          </p>
-
-          <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
-            <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we\'re able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
-            </p>
-      </div>
-    </div>
-  </div>
-</section> -->
-
+<!-- who we are section -->
 <section class="ftco-section ftco-wrap-about srAbout">
   <div class="container">
     <div id="tsparticles"></div>
@@ -1594,60 +1537,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 		  
-		  <section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter">
-		  <div class="container">
-			  <div class="row d-md-flex">
-				  <div class="col-md-12">
-					  <div class="row d-md-flex align-items-center">
-						<div class="col-md-2 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-						  <div class="block-18">
-							<div class="text">
-							  <strong class="number" data-number="15">0</strong>
-							  <span>Awards</span>
-							</div>
-						  </div>
-						</div>
-  
-					<div class="col-md-2 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-					  <div class="block-18">
-						<div class="text">
-						  <strong class="number" data-number="20">0</strong>
-						  <span>Years of Experienced</span>
-						</div>
-					  </div>
-					</div>
-  
-				  
-					<div class="col-md-2 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-					  <div class="block-18">
-						<div class="text">
-						  <strong class="number" data-number="500">0</strong>
-						  <span>Vehicles</span>
-						</div>
-					  </div>
-					</div>
-					<div class="col-md-2 col-lg-2 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-					  <div class="block-18">
-						<div class="text">
-						  <strong class="number" data-number="560">0</strong>
-						  <span>Chauffeurs</span>
-						</div>
-					  </div>
-					</div>
-					<div class="col-md-2 col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
-					  <div class="block-18">
-						<div class="text">
-						  <strong class="number" data-number="45000">0</strong>
-						  <span>Happy Customers Annually</span>
-						</div>
-					  </div>
-					</div>
-				</div>
-			</div>
-		  
-		  </div>
-		  </div>
-	  </section>
+<section class="srStats" id="section-counter">
+  <div class="container">
+    <div class="srStats__grid">
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">🏆</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="15">0</strong>
+          <span class="srStats__label">Awards</span>
+        </div>
+      </div>
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">⏳</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="20">0</strong>
+          <span class="srStats__label">Years of Experience</span>
+        </div>
+      </div>
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">🚗</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="500">0</strong>
+          <span class="srStats__label">Vehicles</span>
+        </div>
+      </div>
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">🧑‍✈️</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="560">0</strong>
+          <span class="srStats__label">Chauffeurs</span>
+        </div>
+      </div>
+
+      <div class="srStats__card ftco-animate">
+        <div class="srStats__icon" aria-hidden="true">😊</div>
+        <div class="srStats__meta">
+          <strong class="srStats__num number" data-number="45000">0</strong>
+          <span class="srStats__label">Happy Customers Annually</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 	  
 	  <section class="ftco-section bg-light">
 		<div class="container">
@@ -2613,7 +2549,7 @@ document.addEventListener("DOMContentLoaded", () => {
   attachAuto("heroRent_dropInput");
 
 });
-</script>
+</script
 <!-- ✅ Global Top-Right Logo (visible on all pages) -->
 <div class="global-logo">
   <img src="assets/images/award.png" alt="Sri Lanka Rent A Car">
