@@ -44,58 +44,59 @@
   <!-- Booking bar -->
   <div class="heroRent__bar">
     <div class="container">
-      <form class="heroRentForm" action="[[~4]]" method="get">
-        <div class="heroRentForm__grid">
 
-          <!-- Pickup -->
-          <div class="heroRentForm__field heroRentForm__field--wide">
-            <label class="heroRentForm__label" for="heroRent_pickup">Vehicle Pickup location</label>
-            <input class="heroRentForm__input" id="heroRent_pickup" type="text" name="pickup_location" placeholder="e.g., Colombo" required>
+      <!-- Mobile Accordion Toggle -->
+      <button type="button" class="heroRentAcc__toggle" aria-expanded="false" aria-controls="heroRentAccPanel">
+        <span>Search & Reserve</span>
+        <span class="heroRentAcc__icon" aria-hidden="true"></span>
+      </button>
+
+      <!-- Accordion Panel -->
+      <div class="heroRentAcc__panel" id="heroRentAccPanel" hidden>
+        <form class="heroRentForm" action="[[~4]]" method="get">
+          <div class="heroRentForm__grid">
+
+            <!-- Pickup -->
+            <div class="heroRentForm__field heroRentForm__field--wide">
+              <label class="heroRentForm__label" for="heroRent_pickup">Vehicle Pickup location</label>
+              <input class="heroRentForm__input" id="heroRent_pickup" type="text" name="pickup_location" placeholder="e.g., Colombo" required>
+            </div>
+
+            <!-- Same location checkbox -->
+            <div class="heroRentForm__field heroRentForm__field--check">
+              <label class="heroRentForm__checkLabel" for="heroRent_sameLocation">
+                <input type="checkbox" id="heroRent_sameLocation" checked>
+                <span>Return to same location</span>
+              </label>
+            </div>
+
+            <!-- Drop-off -->
+            <div class="heroRentForm__field heroRentForm__field--wide" id="heroRent_dropWrap" style="display:none;">
+              <label class="heroRentForm__label" for="heroRent_dropInput">Vehicle Drop-off location</label>
+              <input class="heroRentForm__input" type="text" name="dropoff_location" id="heroRent_dropInput" placeholder="e.g., Kandy">
+            </div>
+
+            <!-- Pickup datetime (Flatpickr) -->
+            <div class="heroRentForm__field">
+              <label class="heroRentForm__label" for="heroRent_pickupDT">Pickup date & time</label>
+              <input class="heroRentForm__input heroRentDT" id="heroRent_pickupDT" type="text" name="pickup_datetime" placeholder="Pickup Date & Time" required>
+            </div>
+
+            <!-- Dropoff datetime (Flatpickr) -->
+            <div class="heroRentForm__field">
+              <label class="heroRentForm__label" for="heroRent_dropDT">Drop-off date & time</label>
+              <input class="heroRentForm__input heroRentDT" id="heroRent_dropDT" type="text" name="dropoff_datetime" placeholder="Drop-off Date & Time" required>
+            </div>
+
+            <!-- Submit -->
+            <div class="heroRentForm__field heroRentForm__field--submit">
+              <button type="submit" class="heroRentForm__btn">Search</button>
+            </div>
+
           </div>
+        </form>
+      </div>
 
-          <!-- Same location checkbox -->
-          <div class="heroRentForm__field heroRentForm__field--check">
-            <label class="heroRentForm__checkLabel" for="heroRent_sameLocation">
-              <input type="checkbox" id="heroRent_sameLocation" checked>
-              <span>Return to same location</span>
-            </label>
-          </div>
-
-          <!-- Drop-off -->
-          <div class="heroRentForm__field heroRentForm__field--wide" id="heroRent_dropWrap" style="display:none;">
-            <label class="heroRentForm__label" for="heroRent_dropInput">Vehicle Drop-off location</label>
-            <input class="heroRentForm__input" type="text" name="dropoff_location" id="heroRent_dropInput" placeholder="e.g., Kandy">
-          </div>
-
-          <!-- Pickup date/time -->
-          <div class="heroRentForm__field">
-            <label class="heroRentForm__label" for="heroRent_pickupDate">Pickup date</label>
-            <input class="heroRentForm__input" id="heroRent_pickupDate" type="date" name="pickup_date" required>
-          </div>
-
-          <div class="heroRentForm__field">
-            <label class="heroRentForm__label" for="heroRent_pickupTime">Pickup time</label>
-            <input class="heroRentForm__input" id="heroRent_pickupTime" type="time" name="pickup_time" required>
-          </div>
-
-          <!-- Dropoff date/time -->
-          <div class="heroRentForm__field">
-            <label class="heroRentForm__label" for="heroRent_dropDate">Drop-off date</label>
-            <input class="heroRentForm__input" id="heroRent_dropDate" type="date" name="dropoff_date" required>
-          </div>
-
-          <div class="heroRentForm__field">
-            <label class="heroRentForm__label" for="heroRent_dropTime">Drop-off time</label>
-            <input class="heroRentForm__input" id="heroRent_dropTime" type="time" name="dropoff_time" required>
-          </div>
-
-          <!-- Submit -->
-          <div class="heroRentForm__field heroRentForm__field--submit">
-            <button type="submit" class="heroRentForm__btn">Search</button>
-          </div>
-
-        </div>
-      </form>
     </div>
   </div>
 
@@ -1035,21 +1036,120 @@
     pagination: { el: '.heroRent__dots', clickable: true },
     navigation: { nextEl: '.heroRent__next', prevEl: '.heroRent__prev' }
   });
+</script>
 
-  // checkbox toggle
-  (function(){
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.querySelector('.heroRentAcc__toggle');
+    const panel = document.getElementById('heroRentAccPanel');
+    const mq = window.matchMedia("(max-width: 767px)");
+
+    function setAccordionState() {
+      if (!btn || !panel) return;
+
+      const isMobile = mq.matches;
+
+      if (isMobile) {
+        if (btn.getAttribute("data-user-toggled") !== "1") {
+          btn.setAttribute("aria-expanded", "false");
+          panel.hidden = true;
+        }
+      } else {
+        btn.setAttribute("aria-expanded", "true");
+        panel.hidden = false;
+      }
+    }
+
+    if (btn && panel) {
+      btn.addEventListener("click", () => {
+        btn.setAttribute("data-user-toggled", "1");
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!expanded));
+        panel.hidden = expanded;
+
+        if (!expanded) setTimeout(initFlatpickr, 50);
+      });
+
+      // initial state
+      setAccordionState();
+
+      if (mq.addEventListener) {
+        mq.addEventListener("change", () => {
+          btn.removeAttribute("data-user-toggled");
+          setAccordionState();
+          if (!mq.matches) setTimeout(initFlatpickr, 0);
+        });
+      } else {
+        window.addEventListener("resize", () => {
+          btn.removeAttribute("data-user-toggled");
+          setAccordionState();
+          if (!mq.matches) setTimeout(initFlatpickr, 0);
+        });
+      }
+    }
+
+    // ----- Same location toggle -----
     const same = document.getElementById('heroRent_sameLocation');
     const wrap = document.getElementById('heroRent_dropWrap');
     const input = document.getElementById('heroRent_dropInput');
 
-    function toggle(){
+    function toggleDrop(){
+      if (!same || !wrap || !input) return;
       const show = !same.checked;
       wrap.style.display = show ? 'block' : 'none';
       input.required = show;
       if(!show) input.value = '';
     }
 
-    same.addEventListener('change', toggle);
-    toggle();
-  })();
+    if (same) {
+      same.addEventListener('change', toggleDrop);
+      toggleDrop();
+    }
+
+    let fpInitialized = false;
+
+    function initFlatpickr() {
+      if (fpInitialized) return;
+
+      if (typeof flatpickr === "undefined") {
+        console.error("Flatpickr is not loaded. Include flatpickr.js before init.");
+        return;
+      }
+
+      const pickupEl = document.getElementById("heroRent_pickupDT");
+      const dropEl   = document.getElementById("heroRent_dropDT");
+      if (!pickupEl || !dropEl) return;
+
+      let dropPicker;
+
+      flatpickr(pickupEl, {
+        enableTime: true,
+        dateFormat: "Y-m-d H:i",
+        minDate: "today",
+        time_24hr: true,
+        minuteIncrement: 15,
+        disableMobile: true, 
+        onChange: function(selectedDates) {
+          if (dropPicker && selectedDates && selectedDates[0]) {
+            dropPicker.set("minDate", selectedDates[0]);
+            const d = dropPicker.selectedDates[0];
+            if (d && d < selectedDates[0]) dropPicker.clear();
+          }
+        }
+      });
+
+      dropPicker = flatpickr(dropEl, {
+        enableTime: true,
+        dateFormat: "Y-m-d H:i",
+        minDate: "today",
+        time_24hr: true,
+        minuteIncrement: 15,
+        disableMobile: true 
+      });
+
+      fpInitialized = true;
+    }
+    if (!mq.matches) initFlatpickr();
+
+  });
 </script>

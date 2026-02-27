@@ -13585,6 +13585,13 @@ font-size:14px;
   min-width:0;
 }
 
+.flatpickr-calendar{ z-index: 999999 !important; }
+
+.flatpickr-day.nextMonthDay {
+  color: #393939 !important;
+}
+
+
 .heroRentForm__label{
   display:block;
   font-size:15px;
@@ -13604,6 +13611,7 @@ font-size:14px;
   padding: 10px 12px;
   outline:none;
   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+  font-size: 15px;
 }
 
 .heroRentForm__input:focus{
@@ -13659,6 +13667,63 @@ font-size:14px;
   transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
   background: linear-gradient(to right, red, blue);
   color:#fff;
+}
+
+/* Accordion toggle: hidden on desktop */
+.heroRentAcc__toggle{
+  display:none;
+  width:100%;
+  height:52px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.14);
+  background: linear-gradient(180deg, rgba(0,0,0,.65), rgba(0,0,0,.45));
+  color:#fff;
+  padding: 0 14px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.35);
+  align-items:center;
+  justify-content:space-between;
+  font-weight:600;
+  letter-spacing:.2px;
+  backdrop-filter: blur(10px);
+}
+
+.heroRentAcc__icon{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  position:relative;
+}
+.heroRentAcc__icon::before,
+.heroRentAcc__icon::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:14px;
+  height:2px;
+  background:#efc900;
+  transform:translate(-50%,-50%);
+}
+.heroRentAcc__icon::after{
+  transform:translate(-50%,-50%) rotate(90deg);
+}
+
+/* Panel wrapper */
+.heroRentAcc__panel{
+  margin-top:10px;
+}
+
+/* On mobile: show toggle, panel is collapsible */
+@media (max-width: 767px){
+  .heroRentAcc__toggle{ display:flex; }
+  .heroRentForm{
+    border-radius: 16px;
+  }
+}
+
+/* When expanded: rotate plus to minus */
+.heroRentAcc__toggle[aria-expanded="true"] .heroRentAcc__icon::after{
+  transform:translate(-50%,-50%) rotate(0deg);
 }
 
 .heroRentForm__btn:hover{
