@@ -275,420 +275,335 @@
 </section>
 	
 	
-	  <section class="ftco-section">
-		<div class="container">
-			<div class="row no-gutters justify-content-center mb-5 pb-2">
-		  <div class="col-md-12 text-center heading-section ftco-animate">
-			  <span class="subheading">National</span>
-			<h2 class="mb-4">Festivals</h2>
-		  </div>
-		</div>
-  
-		
-  
-  
-		<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-		  <div class="carousel-inner">
-			<div class="carousel-item active">
-			  <div class=" flex-center">
-				<div class="container">
-				  <div class="row align-items-center">
-					<div class="col-md-7 col-12 order-md-1 order-1">
-					  <h4 style="color: red; font-size: 22px;">Vesak Full Moon Poya Day</h4>
-					  <p style="text-align: justify;">Vesak, also known as Buddha Purnima or Buddha Day, is the most important festival in the Buddhist calendar. It commemorates the birth, enlightenment, and passing (parinirvana) of Gautama Buddha, all of which are believed to have occurred on the same full moon day in the month of Vesak</p>
-				  
-					  <a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;">Festival Session : April or May</a> </div>
-					<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/1.jpg" class="mx-auto" alt="slide"></div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-			<div class="carousel-item">
-			  <div class=" flex-center">
-				<div class="container">
-				  <div class="row align-items-center">
-					<div class="col-md-7 col-12 order-md-1 order-2">
-					  <h4 style="color: red; font-size: 22px;">Deepavali Festival</h4>
-					  <p style="text-align: justify;">Deepavali, also known as Diwali, is one of the most important and widely celebrated festivals in Hinduism, as well as in other Indian-origin religions like Sikhism and Jainism. The word "Deepavali" comes from the Sanskrit words "deepa," meaning light, and "avali," meaning row, which signifies "a row of lights." It is often called the "Festival of Lights" and symbolizes the victory of light over darkness, good over evil, and knowledge over ignorance.</p>
-				  
-					  <a href="#" style="font-size: 20px; font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;">
-					   Festival Session : October or November
-					</a>
-					 </div>
-					<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/2.jpg" class="mx-auto" alt="slide"></div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-			<div class="carousel-item">
-			  <div class=" flex-center">
-				<div class="container">
-				  <div class="row align-items-center">
-					<div class="row align-items-center">
-					  <div class="col-md-7 col-12 order-md-1 order-3">
-						<h4 style="color: red; font-size: 22px;">Sinhala & Tamil New Year Festival</h4>
-						<p style="text-align: justify;">Sinhala New Year, also known as Aluth Avurudu, is a major cultural festival in Sri Lanka, primarily celebrated by the Sinhalese community. It marks the end of the harvest season and the transition of the sun from the zodiac sign Pisces to Aries, symbolizing the start of the new year in the Hindu solar calendar. This event typically occurs in April and is a time for family gatherings, rituals, and festivities that blend both Buddhist and astrological traditions.</p>
-					
-						<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;">Festival Session : April</a> </div>
-					  <div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/3.jpg" class="mx-auto" alt="slide"></div>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-  
-			<div class="carousel-item">
-			  <div class=" flex-center">
-				<div class="container">
-				  <div class="row align-items-center">
-					<div class="row align-items-center">
-					  <div class="col-md-7 col-12 order-md-1 order-4">
-						<h4 style="color: red; font-size: 22px;">Esala Perahara</h4>
-						<p style="text-align: justify;">Esala Perahera, also known as the Festival of the Tooth, is one of the grandest and most sacred Buddhist festivals in Sri Lanka. It takes place annually in the city of Kandy during the month of Esala (July or August), and is held in honor of the Sacred Tooth Relic of the Buddha, which is enshrined in the Temple of the Tooth (Sri Dalada Maligawa).</p>
-					
-						<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;">Festival Session : July or August</a> </div>
-					  <div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/4.jpg" class="mx-auto" alt="slide"></div>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-  
-			<div class="carousel-item">
-			  <div class=" flex-center"></div>
-				<div class="container">
-				  <div class="row align-items-center">
-					<div class="row align-items-center">
-					  <div class="col-md-7 col-12 order-md-1 order-5">
-						<h4 style="color: red; font-size: 22px;">Sri Pada Festival</h4>
-						<p style="text-align: justify;">The Sri Pada Festival is an annual pilgrimage that takes place at Sri Pada (Adam’s Peak) in Sri Lanka. This sacred mountain is a revered site for Buddhists, Hindus, Muslims, and Christians due to the sacred footprint at its summit, which each religion attributes to a significant religious figure. The pilgrimage season typically runs from December to April, coinciding with the dry season, making it easier to ascend the mountain.</p>
-					
-						<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;"> Festival Session : December to April</a> </div>
-					  <div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/5.jpg" class="mx-auto" alt="slide"></div>
-					</div>
-				  </div>
-				</div>
-			  </div>
-
-
-              <div class="carousel-item">
-                <div class=" flex-center"></div>
-                  <div class="container">
-                    <div class="row align-items-center">
-                      <div class="row align-items-center">
-                        <div class="col-md-7 col-12 order-md-1 order-5">
-                          <h4 style="color: red; font-size: 22px;">Nallur Festival</h4>
-                          <p style="text-align: justify;">The Nallur Festival stands as a vibrant and extraordinary Hindu celebration deeply rooted in Sri Lankan cultural heritage. This spectacular 25-day festival centers around the historic Nallur Kandswamy Temple in Jaffna, dedicated to Lord Murugan (also known as Skanda), the Hindu god of war and victory. The festival transforms the temple premises into a mesmerizing spectacle of devotion, featuring elaborate rituals, traditional music, intricate dance performances, and breathtaking processions.</p>
-                      
-                          <a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;"> Festival Session : July to August</a> </div>
-                        <div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/6.jpg" class="mx-auto" alt="slide"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class=" flex-center"></div>
-                      <div class="container">
-                        <div class="row align-items-center">
-                          <div class="row align-items-center">
-                            <div class="col-md-7 col-12 order-md-1 order-5">
-                              <h4 style="color: red; font-size: 22px;">Nallur Festival</h4>
-                              <p style="text-align: justify;">The Kataragama Festival emerges as one of Sri Lanka's most mystical and inclusive religious celebrations, taking place in the sacred town of Kataragama. This unique festival transcends religious boundaries, drawing pilgrims from Buddhist, Hindu, Muslim, and indigenous communities in a remarkable display of spiritual unity. Centered around the Kataragama Devale, the festival honors Lord Skanda (Murugan), a deity revered for his warrior spirit and divine grace. The celebration reaches its zenith with spectacular fire-walking ceremonies, elaborate processions, and intense devotional rituals that blend ancient traditions with spiritual fervor.</p>
-                          
-                              <a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;"> Festival Session : July to August</a> </div>
-                            <div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/7.jpg" class="mx-auto" alt="slide"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-
-
-
-
-
-			</div>
-			  
-			</div>
-  
-		  </div>
-		  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
-	  
-		</div>
-	</section>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-	
-  
-		
-		  
-  
-  <section class="ftco-section bg-light">
+<!-- <section class="ftco-section">
 	<div class="container">
-	  <div class="row justify-content-center mb-5 pb-2">
+		<div class="row no-gutters justify-content-center mb-5 pb-2">
 		<div class="col-md-12 text-center heading-section ftco-animate">
-		  <span class="subheading">Our</span>
-		  <h2 class="mb-4">Fleet</h2>
+			<span class="subheading">National</span>
+		<h2 class="mb-4">Festivals</h2>
 		</div>
-	  </div>
-  
-	  <!-- Carousel -->
-	  <div id="fleetCarousel" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
-		  <!-- First item -->
-		  <div class="carousel-item active">
-			<div class="row">
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/mcar.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title">MINI CARS</h1>
-                      
-					</div>
-					<div class="info-card-detail">
-					 <h6 class="cat">Perudua Axia</h6>
-					 <h6 class="cat">Japan Alto</h6>
-					 <h6 class="cat">Indian Alto</h6>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/econ.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> ECONOMY CARS </h1>
-                      
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Toyota Aqua</h6>
-						<h6 class="cat">Suzuki Hustler</h6>
-						<h6 class="cat">Suzuki Swift</h6>
-
-						<h6 class="cat">Suzuki WagonR</h6>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/standard.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> STANDARD CARS</h1>
-                      
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Perudua Bezza</h6>
-						<h6 class="cat">Honda Insight</h6>
-						<h6 class="cat">KIA RIO </h6>
-						<h6 class="cat">Nissan Sunny</h6>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/semi_ex.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> SEMI EXECUTIVE CARS </h1>
-                    
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Toyota Corolla 121</h6>
-						<h6 class="cat">Toyota Belta</h6>
-						<h6 class="cat">Honda Grace </h6>
-						<h6 class="cat">Toyota Prius</h6>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <!-- Add more items here for the first slide -->
-			</div>
-		  </div>
-  
-		  <!-- Second item -->
-		  <div class="carousel-item">
-			<div class="row">
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/ex.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> EXECUTIVE CARS </h1>
-                      
-					 
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Toyota Axio</h6>
-						<h6 class="cat">Toyota Allion</h6>
-						
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/lux.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> LUXURY CARS </h1>
-                     
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Mercedes Benz</h6>
-						<h6 class="cat">BMW 520D</h6>
-						<h6 class="cat">Jaguar RXF</h6>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/msuv.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> MINI SUV (4 X 4 ) </h1>
-                    
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Hyundai Tucson</h6>
-						<h6 class="cat">Nissan X - Trail</h6>
-						<h6 class="cat">KIA Sorento</h6>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/lsuv.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> LARGE SUV (4 X 4 ) </h1>
-				  
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Toyota Land Cruiser V8</h6>
-						<h6 class="cat">Toyota Land Cruiser V150</h6>
-						<h6 class="cat">Mitsibishi Montero</h6>
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <!-- Add more items here for the second slide -->
-			</div>
-		  </div>
-  
-  
-		  <div class="carousel-item">
-			<div class="row">
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/minivan.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> MINI VAN </h1>
-					 
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Nissan Vanette</h6>
-						<h6 class="cat">Nissan Caravan</h6>
-						
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/van.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> VAN </h1>
-					 
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Toyota KDH</h6>
-						<h6 class="cat">Micro Tourer</h6>
-						
-					</div>
-				  </div>
-				</div>
-			  </div>
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/minibus.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> LUXURY COACH </h1>
-				  
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Toyota Coaster</h6>
-					
-					</div>
-				  </div>
-				</div>
-			  </div>
-  
-			  <div class="col-sm-6 col-md-3">
-				<div class="info-card">
-				  <img style="width: 100%" src="assets/images/fleet/bus.png" />
-				  <div class="info-card-details animate">
-					<div class="info-card-header">
-					  <h1 class="car_title"> SUPER LUXURY COACH </h1>
-				  
-					</div>
-					<div class="info-card-detail">
-						<h6 class="cat">Scania</h6>
-						
-					</div>
-				  </div>
-				</div>
-			  </div>
-  
-			  <!-- Add more items here for the second slide -->
-			</div>
-		  </div>
-  
-  
-  
-  
-  
-  
-		  <!-- Add additional carousel items as needed -->
-		  
-		</div>
-		
-		<!-- Controls -->
-		<a class="carousel-control-prev" href="#fleetCarousel" role="button" data-slide="prev">
-		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		  <span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#fleetCarousel" role="button" data-slide="next">
-		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		  <span class="sr-only">Next</span>
-		</a>
-	  </div>
-      <a href="[[~4]]" class="theme-btn btn-style-four" style="margin-top: 50px; padding-top: 20px; padding-bottom: 20px;border-radius: 10px;">Explore Fleet</a>
-
-     
-
-
 	</div>
-   
-  </section>
+
+	
+
+
+	<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+		<div class="carousel-inner">
+		<div class="carousel-item active">
+			<div class=" flex-center">
+			<div class="container">
+				<div class="row align-items-center">
+				<div class="col-md-7 col-12 order-md-1 order-1">
+					<h4 style="color: red; font-size: 22px;">Vesak Full Moon Poya Day</h4>
+					<p style="text-align: justify;">Vesak, also known as Buddha Purnima or Buddha Day, is the most important festival in the Buddhist calendar. It commemorates the birth, enlightenment, and passing (parinirvana) of Gautama Buddha, all of which are believed to have occurred on the same full moon day in the month of Vesak</p>
+				
+					<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;">Festival Session : April or May</a> </div>
+				<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/1.jpg" class="mx-auto" alt="slide"></div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class=" flex-center">
+			<div class="container">
+				<div class="row align-items-center">
+				<div class="col-md-7 col-12 order-md-1 order-2">
+					<h4 style="color: red; font-size: 22px;">Deepavali Festival</h4>
+					<p style="text-align: justify;">Deepavali, also known as Diwali, is one of the most important and widely celebrated festivals in Hinduism, as well as in other Indian-origin religions like Sikhism and Jainism. The word "Deepavali" comes from the Sanskrit words "deepa," meaning light, and "avali," meaning row, which signifies "a row of lights." It is often called the "Festival of Lights" and symbolizes the victory of light over darkness, good over evil, and knowledge over ignorance.</p>
+				
+					<a href="#" style="font-size: 20px; font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;">
+					Festival Session : October or November
+				</a>
+					</div>
+				<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/2.jpg" class="mx-auto" alt="slide"></div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class=" flex-center">
+			<div class="container">
+				<div class="row align-items-center">
+				<div class="row align-items-center">
+					<div class="col-md-7 col-12 order-md-1 order-3">
+					<h4 style="color: red; font-size: 22px;">Sinhala & Tamil New Year Festival</h4>
+					<p style="text-align: justify;">Sinhala New Year, also known as Aluth Avurudu, is a major cultural festival in Sri Lanka, primarily celebrated by the Sinhalese community. It marks the end of the harvest season and the transition of the sun from the zodiac sign Pisces to Aries, symbolizing the start of the new year in the Hindu solar calendar. This event typically occurs in April and is a time for family gatherings, rituals, and festivities that blend both Buddhist and astrological traditions.</p>
+				
+					<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;">Festival Session : April</a> </div>
+					<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/3.jpg" class="mx-auto" alt="slide"></div>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="carousel-item">
+			<div class=" flex-center">
+			<div class="container">
+				<div class="row align-items-center">
+				<div class="row align-items-center">
+					<div class="col-md-7 col-12 order-md-1 order-4">
+					<h4 style="color: red; font-size: 22px;">Esala Perahara</h4>
+					<p style="text-align: justify;">Esala Perahera, also known as the Festival of the Tooth, is one of the grandest and most sacred Buddhist festivals in Sri Lanka. It takes place annually in the city of Kandy during the month of Esala (July or August), and is held in honor of the Sacred Tooth Relic of the Buddha, which is enshrined in the Temple of the Tooth (Sri Dalada Maligawa).</p>
+				
+					<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;">Festival Session : July or August</a> </div>
+					<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/4.jpg" class="mx-auto" alt="slide"></div>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="carousel-item">
+			<div class=" flex-center"></div>
+			<div class="container">
+				<div class="row align-items-center">
+				<div class="row align-items-center">
+					<div class="col-md-7 col-12 order-md-1 order-5">
+					<h4 style="color: red; font-size: 22px;">Sri Pada Festival</h4>
+					<p style="text-align: justify;">The Sri Pada Festival is an annual pilgrimage that takes place at Sri Pada (Adam’s Peak) in Sri Lanka. This sacred mountain is a revered site for Buddhists, Hindus, Muslims, and Christians due to the sacred footprint at its summit, which each religion attributes to a significant religious figure. The pilgrimage season typically runs from December to April, coinciding with the dry season, making it easier to ascend the mountain.</p>
+				
+					<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;"> Festival Session : December to April</a> </div>
+					<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/5.jpg" class="mx-auto" alt="slide"></div>
+				</div>
+				</div>
+			</div>
+			</div>
+
+
+			<div class="carousel-item">
+			<div class=" flex-center"></div>
+				<div class="container">
+				<div class="row align-items-center">
+					<div class="row align-items-center">
+					<div class="col-md-7 col-12 order-md-1 order-5">
+						<h4 style="color: red; font-size: 22px;">Nallur Festival</h4>
+						<p style="text-align: justify;">The Nallur Festival stands as a vibrant and extraordinary Hindu celebration deeply rooted in Sri Lankan cultural heritage. This spectacular 25-day festival centers around the historic Nallur Kandswamy Temple in Jaffna, dedicated to Lord Murugan (also known as Skanda), the Hindu god of war and victory. The festival transforms the temple premises into a mesmerizing spectacle of devotion, featuring elaborate rituals, traditional music, intricate dance performances, and breathtaking processions.</p>
+					
+						<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;"> Festival Session : July to August</a> </div>
+					<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/6.jpg" class="mx-auto" alt="slide"></div>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<div class=" flex-center"></div>
+					<div class="container">
+					<div class="row align-items-center">
+						<div class="row align-items-center">
+						<div class="col-md-7 col-12 order-md-1 order-5">
+							<h4 style="color: red; font-size: 22px;">Nallur Festival</h4>
+							<p style="text-align: justify;">The Kataragama Festival emerges as one of Sri Lanka's most mystical and inclusive religious celebrations, taking place in the sacred town of Kataragama. This unique festival transcends religious boundaries, drawing pilgrims from Buddhist, Hindu, Muslim, and indigenous communities in a remarkable display of spiritual unity. Centered around the Kataragama Devale, the festival honors Lord Skanda (Murugan), a deity revered for his warrior spirit and divine grace. The celebration reaches its zenith with spectacular fire-walking ceremonies, elaborate processions, and intense devotional rituals that blend ancient traditions with spiritual fervor.</p>
+						
+							<a href="#" style="font-size: 20px;font-weight: 700; border: 1px solid rgb(134, 0, 0); padding: 5px;"> Festival Session : July to August</a> </div>
+						<div class="col-md-5 col-12 order-md-2 order-1"><img src="assets/images/festivals/7.jpg" class="mx-auto" alt="slide"></div>
+						</div>
+					</div>
+					</div>
+				</div>
+
+
+
+
+
+
+		</div>
+			
+		</div>
+
+		</div>
+		<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+	
+	</div>
+</section> -->
+  
+<!-- our fleet section -->
+<section id="our-fleet">
+  <div class="container">
+    <div class="row justify-content-center mb-3">
+      <div class="col-md-7 text-center heading-section ftco-animate">
+        <span class="subheading_ourfleet">Our Fleet</span>
+        <h2 class="mb-4">Explore Our Fleet</h2>
+      </div>
+    </div>
+
+    <!-- Fleet Cards -->
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/mcar.png" alt="Mercedes-Benz" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">MINI CARS</h5>
+          <span class="fleet-arrow">
+            <!-- simple arrow (no icon library needed) -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/econ.png" alt="Audi" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">ECONOMY CARS</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/standard.png" alt="BMW" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">STANDARD CARS</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/semi_ex.png" alt="Porsche" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">SEMI EXECUTIVE CARS</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/lux.png" alt="Mercedes-Benz" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title"> LUXURY CARS</h5>
+          <span class="fleet-arrow">
+            <!-- simple arrow (no icon library needed) -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/ex.png" alt="Audi" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">EXECUTIVE CARS</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/msuv.png" alt="BMW" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">MINI SUV (4 X 4 )</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/lsuv.png" alt="Porsche" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">LARGE SUV (4 X 4 )</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+	  <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/minivan.png" alt="Audi" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">MINI VAN</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/van.png" alt="BMW" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">VAN</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/minibus.png" alt="Porsche" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title">LUXURY COACH</h5>
+          <span class="fleet-arrow">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <a href="#" class="fleet-card">
+          <img src="assets/images/fleet/bus.png" alt="Mercedes-Benz" class="fleet-img">
+          <div class="fleet-overlay"></div>
+          <h5 class="fleet-title"> SUPER LUXURY COACH</h5>
+          <span class="fleet-arrow">
+            <!-- simple arrow (no icon library needed) -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
   
   <!-- Include jQuery and Bootstrap JS (add this before the closing </body> tag) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -784,3 +784,5 @@ Array
 [2026-02-27 07:36:56] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_7.png): File not supported
 [2026-02-27 07:36:57] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_8.png): File not supported
 [2026-02-27 07:36:58] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_9.png): File not supported
+[2026-02-27 13:09:28] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 319) PHP warning: mkdir(): File exists
+[2026-02-27 13:09:28] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 324) PHP warning: mkdir(): File exists
