@@ -8553,7 +8553,8 @@ h1, h2, h3, h4, h5,
           font-weight: normal;
           font-family: "Great Vibes", cursive;
           margin-bottom: 0;
-          line-height: 1; }
+          line-height: 1; 
+        }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 60px;
           color: #fff;
@@ -12709,15 +12710,13 @@ details[open] .faq__summary:after {
 .theme-btn.btn-style-two {
   background: linear-gradient(to right, red, blue);
   color: white;
-  border: none; /* Set border to none for no border */
+  border: 0;
+  border-radius: 0; 
   padding: 10px 20px;
-  border-radius: 10px; /* Rounded corners */
   text-decoration: none;
-  transition: background 0.3s ease; /* Smooth transition */
-  width: 400px;
-  background-size: 200% 100%; /* Necessary for the animation effect */
-  animation: gradientAnimation 5s infinite; /* Add the animation */
-  padding: 20px;
+  transition: background 0.3s ease;
+  background-size: 200% 100%; 
+  animation: gradientAnimation 5s infinite; 
 }
 
 @keyframes gradientAnimation {
@@ -13483,4 +13482,216 @@ font-size:14px;
 }
 .tptext a:hover {
   text-decoration: none;
+}
+
+
+
+/**
+  * 1. Remove default margin and padding from the body to ensure the background covers the entire viewport.
+  * 2. Set a light gray background color for the page.
+  */
+
+/* HERO */
+.heroRent{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* SWIPER */
+.heroRent__swiper,
+.heroRent__slide{
+  height: 100vh;
+}
+
+.heroRent__slide{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.heroRent__shade{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.40);
+}
+
+/* TEXT CONTENT */
+.heroRent__content{
+  position:absolute;
+  inset:0;
+  z-index:10;
+  display:flex;
+  align-items:center;
+  text-align:center;
+  color:#fff;
+  pointer-events:none;
+}
+
+.heroRent__contentInner{
+  pointer-events:auto;
+}
+
+.heroRent__sub{
+  display:block;
+  font-size: 80px;
+  color: #efc900;
+  font-weight: normal;
+  font-family: "Great Vibes", cursive;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.heroRent__title{
+  font-size:40px;
+  color: #fff;
+  line-height: 1.5;
+  font-family: "Poppins", Arial, sans-serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.heroRent__cta{
+  display:inline-block;
+}
+
+/* BOOKING BAR POSITION */
+.heroRent__bar{
+  position:absolute;
+  left:0; right:0;
+  bottom:24px;
+  z-index:20;
+}
+
+/* FORM REDESIGN */
+.heroRentForm{
+  background: linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.35));
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  padding: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.heroRentForm__grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  align-items:end;
+}
+
+.heroRentForm__field{
+  min-width:0;
+}
+
+.heroRentForm__label{
+  display:block;
+  font-size:15px;
+  color:rgba(255,255,255,.92);
+  letter-spacing:.3px;
+  line-height: 3rem !important;
+  height: 3rem !important;
+  text-align: left;
+}
+
+/* inputs */
+.heroRentForm__input{
+  width:100%;
+  height:46px;
+  border: 1px solid rgba(255,255,255,.20);
+  background: rgba(255,255,255,.92);
+  padding: 10px 12px;
+  outline:none;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+
+.heroRentForm__input:focus{
+  border-color: rgba(239, 201, 0, .65);
+  box-shadow: 0 0 0 4px rgba(239, 201, 0, .18);
+  transform: translateY(-1px);
+}
+
+/* checkbox */
+.heroRentForm__field--check{
+  display:flex;
+  align-items:flex-end;
+}
+
+.heroRentForm__checkLabel{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:rgba(255,255,255,.92);
+  font-size:13px;
+  margin:0;
+  cursor:pointer;
+  user-select:none;
+  height:46px;
+}
+
+.heroRentForm__checkLabel input[type="checkbox"]{
+  width:18px;
+  height:18px;
+  accent-color: #efc900;
+}
+
+/* wider fields on desktop */
+@media (min-width: 992px){
+  .heroRentForm__field--wide{
+    grid-column: span 2;
+  }
+}
+
+/* submit */
+.heroRentForm__field--submit{
+  display:flex;
+}
+
+.heroRentForm__btn{
+  width:100%;
+  height:46px;
+  font-size:18px;
+  font-weight:600;
+  letter-spacing:.3px;
+  border: 1px solid rgba(255,255,255,.18);
+  box-shadow: 0 14px 30px rgba(0,0,0,.28);
+  transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+  background: linear-gradient(to right, red, blue);
+  color:#fff;
+}
+
+.heroRentForm__btn:hover{
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+  box-shadow: 0 18px 40px rgba(0,0,0,.35);
+}
+
+/* responsive */
+@media (max-width: 767px){
+  .heroRent__bar{ bottom:10px; }
+  .heroRentForm{ padding:14px; border-radius:14px; }
+  .heroRentForm__grid{ grid-template-columns: 1fr; }
+  .heroRentForm__field--wide{ grid-column:auto; }
+}
+
+/* optional: keep form classy width on very large screens */
+@media (min-width: 1400px){
+  .heroRentForm{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* NAV */
+.heroRent__nav{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  z-index:30;
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  background:rgba(0,0,0,.5);
+  display:flex;
 }
