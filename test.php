@@ -9,6 +9,7 @@
     gtag('config', 'G-5861K2TN4V');
 </script>
 
+<!-- home hero section -->
 <section class="heroRent">
 
   <!-- Swiper -->
@@ -102,42 +103,9 @@
 
 </section>
 
-<section class="brandStrip">
-  <div class="brandStrip__inner">
-    <div class="brandStrip__track">
-
-      <!-- Original Logos -->
-      <div class="brandStrip__item"><img src="assets/images/strip/src_1.png" alt="Brand 1"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_2.png" alt="Brand 2"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_3.png" alt="Brand 3"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_4.png" alt="Brand 4"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_5.png" alt="Brand 5"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_6.png" alt="Brand 6"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_7.png" alt="Brand 7"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_8.png" alt="Brand 8"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_9.png" alt="Brand 9"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_10.png" alt="Brand 10"></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_11.png" alt="Brand 11"></div>
-
-      <!-- Duplicate for seamless loop -->
-      <div class="brandStrip__item"><img src="assets/images/strip/src_1.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_2.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_3.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_4.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_5.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_6.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_7.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_8.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_9.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_10.png" alt=""></div>
-      <div class="brandStrip__item"><img src="assets/images/strip/src_11.png" alt=""></div>
-
-    </div>
-  </div>
-</section>
 
 
-<section class="ftco-section ftco-wrap-about">
+<!-- <section class="ftco-section ftco-wrap-about">
   <div class="container">
     <div id="tsparticles"></div>
       <div class="row">
@@ -156,6 +124,52 @@
           <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
             <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we're able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
             </p>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section class="ftco-section ftco-wrap-about srAbout">
+  <div class="container">
+    <div id="tsparticles"></div>
+
+    <div class="row align-items-start">
+      <!-- LEFT: big image -->
+      <div class="col-lg-5">
+        <div class="srAbout__bigImg" style="background-image:url('assets/images/home/about_us_1.jpg');"></div>
+      </div>
+
+      <!-- RIGHT: content -->
+      <div class="col-lg-7">
+        <div class="srAbout__content ftco-animate pt-0">
+
+          <div class="srAbout__heading">
+            <span class="srAbout__tag">WHO</span>
+            <h2 class="srAbout__title">We Are</h2>
+          </div>
+
+          <p class="srAbout__text">
+            <b class="srAbout__brand">SR Rent A Car</b> 
+            is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers.
+            The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect
+            and deliver because we know what it’s like to be a consumer.
+          </p>
+
+          <!-- Floating Image Inside Text -->
+          <div class="srAbout__floatImg" style="background-image:url('assets/images/home/about_us_2.jpg');"></div>
+
+          <p class="srAbout__text">
+            Our new fleets of vehicles are maintained to the highest standard, ensuring cleanliness & reliability.
+            We take safety very seriously, making it easier for you to relax and enjoy a family vacation.
+            From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.
+          </p>
+
+          <p class="srAbout__text">
+            With offices conveniently located near Bandaranaike International Airport, we're able to meet and greet you with a smile
+            and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
+          </p>
+
+        </div>
       </div>
     </div>
   </div>
