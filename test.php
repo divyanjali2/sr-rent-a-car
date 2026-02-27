@@ -102,79 +102,64 @@
 
 </section>
 
+<section class="brandStrip">
+  <div class="brandStrip__inner">
+    <div class="brandStrip__track">
 
-	  
-			<!-- <section >
-			<div class="logo-slider">
-			  <div class="logo-slide-track">
-				<div class="slide">
-				  <img src="assets/images/strip/src_1.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_2.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_3.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_4.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_5.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_6.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_7.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_8.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_9.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_10.png" alt="" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_11.png" alt="" alt="" />
-				</div>
-				
-			  </div>
-			</div>
-			
-			</section>
-		 -->
-  
-	
-  
-		  <section class="ftco-section ftco-wrap-about">
-  
-			  <div class="container">
-   <div id="tsparticles"></div>
-				  <div class="row">
-					  <div class="col-md-4 d-flex">
-						  <div class="img img-1 mr-md-2" style="background-image: url(assets/images/home/about_us_1.jpg);"></div>
-						  <div class="img img-2 ml-md-2" style="background-image: url(assets/images/home/about_us_2.jpg);"></div>
-					  </div>
-					  <div class="col-md-8 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
-				<div class="heading-section mb-4 my-5 my-md-0">
-					<span class="subheading">Who</span>
-				  <h2 class="mb-4">We  Are</h2>
-				</div>
-				<p style="text-align: justify;"> <b style="font-size: 20px; color: #da0000;">SR Rent A Car </b>  is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers. The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect and deliver because we know what it’s like to be a consumer.
-                </p>
-  
-			  <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
-			  
-					  <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we're able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
-                    </p>
-					  </div>
-				  </div>
-			  </div>
-		  </section>
-  
+      <!-- Original Logos -->
+      <div class="brandStrip__item"><img src="assets/images/strip/src_1.png" alt="Brand 1"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_2.png" alt="Brand 2"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_3.png" alt="Brand 3"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_4.png" alt="Brand 4"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_5.png" alt="Brand 5"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_6.png" alt="Brand 6"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_7.png" alt="Brand 7"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_8.png" alt="Brand 8"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_9.png" alt="Brand 9"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_10.png" alt="Brand 10"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_11.png" alt="Brand 11"></div>
+
+      <!-- Duplicate for seamless loop -->
+      <div class="brandStrip__item"><img src="assets/images/strip/src_1.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_2.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_3.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_4.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_5.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_6.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_7.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_8.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_9.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_10.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_11.png" alt=""></div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="ftco-section ftco-wrap-about">
+  <div class="container">
+    <div id="tsparticles"></div>
+      <div class="row">
+        <div class="col-md-4 d-flex">
+          <div class="img img-1 mr-md-2" style="background-image: url(assets/images/home/about_us_1.jpg);"></div>
+          <div class="img img-2 ml-md-2" style="background-image: url(assets/images/home/about_us_2.jpg);"></div>
+        </div>
+        <div class="col-md-8 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
+          <div class="heading-section mb-4 my-5 my-md-0">
+            <span class="subheading">Who</span>
+            <h2 class="mb-4">We  Are</h2>
+          </div>
+          <p style="text-align: justify;"> <b style="font-size: 20px; color: #da0000;">SR Rent A Car </b>  is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers. The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect and deliver because we know what it’s like to be a consumer.
+          </p>
+
+          <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
+            <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we're able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
+            </p>
+      </div>
+    </div>
+  </div>
+</section>
 		  
 		  <section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter">
 		  <div class="container">
@@ -1152,4 +1137,47 @@
     if (!mq.matches) initFlatpickr();
 
   });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  function attachAuto(id, defaultValue = null){
+    const el = document.getElementById(id);
+    if(!el || !window.google) return;
+
+    const ac = new google.maps.places.Autocomplete(el, {
+      componentRestrictions: { country: "lk" }
+    });
+
+    // Set default value if provided
+    if (defaultValue) {
+      el.value = defaultValue;
+
+      // Optional: force Google to recognize the default as a real place
+      const service = new google.maps.places.AutocompleteService();
+      service.getPlacePredictions({
+        input: defaultValue,
+        componentRestrictions: { country: "lk" }
+      }, function(predictions, status) {
+        if (status === google.maps.places.PlacesServiceStatus.OK && predictions.length > 0) {
+          // You could optionally fetch full place details here if needed
+          // But for most booking forms, just pre-filling text is enough
+        }
+      });
+    }
+
+    ac.addListener("place_changed", () => {
+      const place = ac.getPlace();
+      // console.log(place.formatted_address);
+    });
+  }
+
+  // Pickup with default
+  attachAuto("heroRent_pickup", "SR Rent A Car Sri Lanka, Negombo");
+
+  // Dropoff without default
+  attachAuto("heroRent_dropInput");
+
+});
 </script>

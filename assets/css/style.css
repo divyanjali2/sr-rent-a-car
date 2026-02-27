@@ -11110,78 +11110,34 @@ padding: 1rem 0 0 0;
   width: 5px;
 }/* Logo Slider */
 
-.logo-slider {
+/* .logo-slider {
 	margin: auto;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
   
-}
+} */
 
-.logo-slider::before, .logo-slider::after {
+/* .logo-slider::before, .logo-slider::after {
 	content: "";
 	height: 175px;
 	position: absolute;
 	width: 200px;
 	z-index: 2;
-}
+} */
 
-.logo-slider::after {
+/* .logo-slider::after {
 	right: 0;
 	top: 0;
 	-webkit-transform: rotateZ(180deg);
 	transform: rotateZ(180deg);
 }
 
-.logo-slider::before {
-	left: 0;
-	top: 0;
-}
-
-.logo-slider .logo-slide-track {
-	-webkit-animation: logo-scroll 60s linear infinite;
-	animation: logo-scroll 60s linear infinite;
-	display: flex; /* Updated for modern flexbox */
-	width: calc(250px * 14);
-	animation-duration: 30s;
-	animation-iteration-count: infinite;
-}
-
-.logo-slider .slide {
-	height: 150px;
-	width: 250px;
-
-}
-
-@-webkit-keyframes logo-scroll {
-	0% {
-		-webkit-transform: translateX(0);
-		transform: translateX(0);
-	}
-
-	100% {
-		-webkit-transform: translateX(calc(-250px * 7));
-		transform: translateX(calc(-250px * 7));
-	}
-}
-
-@keyframes logo-scroll {
-	0% {
-		-webkit-transform: translateX(0);
-		transform: translateX(0);
-	}
-
-	100% {
-		-webkit-transform: translateX(calc(-250px * 7));
-		transform: translateX(calc(-250px * 7));
-	}
-}
-
-.logo-slider {
+/* .logo-slider {
   overflow: hidden;
   width: 100%;
   padding-top: 30px;
-}
+} */
 
 .logo-slide-track {
   display: flex;
@@ -13759,4 +13715,65 @@ font-size:14px;
   border-radius:50%;
   background:rgba(0,0,0,.5);
   display:flex;
+}
+
+/* logo section */
+.brandStrip {
+  background: #fff;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.brandStrip__inner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.brandStrip__track {
+  display: flex;
+  width: max-content;
+  animation: brandScroll 35s linear infinite;
+}
+
+.brandStrip__item {
+  flex: 0 0 auto;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.brandStrip__item img {
+  max-width: 100%;
+  max-height: 60px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.brandStrip__item img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+@keyframes brandScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .brandStrip__item {
+    width: 130px;
+    padding: 0 12px;
+  }
+
+  .brandStrip__item img {
+    max-height: 45px;
+  }
 }

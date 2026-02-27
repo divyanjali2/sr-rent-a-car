@@ -119,79 +119,64 @@
 
 </section>
 
+<section class="brandStrip">
+  <div class="brandStrip__inner">
+    <div class="brandStrip__track">
 
-	  
-			<!-- <section >
-			<div class="logo-slider">
-			  <div class="logo-slide-track">
-				<div class="slide">
-				  <img src="assets/images/strip/src_1.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_2.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_3.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_4.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_5.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_6.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_7.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_8.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_9.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_10.png" alt="" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_11.png" alt="" alt="" />
-				</div>
-				
-			  </div>
-			</div>
-			
-			</section>
-		 -->
-  
-	
-  
-		  <section class="ftco-section ftco-wrap-about">
-  
-			  <div class="container">
-   <div id="tsparticles"></div>
-				  <div class="row">
-					  <div class="col-md-4 d-flex">
-						  <div class="img img-1 mr-md-2" style="background-image: url(assets/images/home/about_us_1.jpg);"></div>
-						  <div class="img img-2 ml-md-2" style="background-image: url(assets/images/home/about_us_2.jpg);"></div>
-					  </div>
-					  <div class="col-md-8 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
-				<div class="heading-section mb-4 my-5 my-md-0">
-					<span class="subheading">Who</span>
-				  <h2 class="mb-4">We  Are</h2>
-				</div>
-				<p style="text-align: justify;"> <b style="font-size: 20px; color: #da0000;">SR Rent A Car </b>  is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers. The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect and deliver because we know what it’s like to be a consumer.
-                </p>
-  
-			  <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
-			  
-					  <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we\'re able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
-                    </p>
-					  </div>
-				  </div>
-			  </div>
-		  </section>
-  
+      <!-- Original Logos -->
+      <div class="brandStrip__item"><img src="assets/images/strip/src_1.png" alt="Brand 1"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_2.png" alt="Brand 2"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_3.png" alt="Brand 3"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_4.png" alt="Brand 4"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_5.png" alt="Brand 5"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_6.png" alt="Brand 6"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_7.png" alt="Brand 7"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_8.png" alt="Brand 8"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_9.png" alt="Brand 9"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_10.png" alt="Brand 10"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_11.png" alt="Brand 11"></div>
+
+      <!-- Duplicate for seamless loop -->
+      <div class="brandStrip__item"><img src="assets/images/strip/src_1.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_2.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_3.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_4.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_5.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_6.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_7.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_8.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_9.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_10.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_11.png" alt=""></div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="ftco-section ftco-wrap-about">
+  <div class="container">
+    <div id="tsparticles"></div>
+      <div class="row">
+        <div class="col-md-4 d-flex">
+          <div class="img img-1 mr-md-2" style="background-image: url(assets/images/home/about_us_1.jpg);"></div>
+          <div class="img img-2 ml-md-2" style="background-image: url(assets/images/home/about_us_2.jpg);"></div>
+        </div>
+        <div class="col-md-8 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
+          <div class="heading-section mb-4 my-5 my-md-0">
+            <span class="subheading">Who</span>
+            <h2 class="mb-4">We  Are</h2>
+          </div>
+          <p style="text-align: justify;"> <b style="font-size: 20px; color: #da0000;">SR Rent A Car </b>  is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers. The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect and deliver because we know what it’s like to be a consumer.
+          </p>
+
+          <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
+            <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we\'re able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
+            </p>
+      </div>
+    </div>
+  </div>
+</section>
 		  
 		  <section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter">
 		  <div class="container">
@@ -1056,127 +1041,160 @@
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.querySelector(\'.heroRentAcc__toggle\');
+    const panel = document.getElementById(\'heroRentAccPanel\');
+    const mq = window.matchMedia("(max-width: 767px)");
 
-  // ----- Accordion responsive behavior -----
-  const btn = document.querySelector(\'.heroRentAcc__toggle\');
-  const panel = document.getElementById(\'heroRentAccPanel\');
-  const mq = window.matchMedia("(max-width: 767px)");
+    function setAccordionState() {
+      if (!btn || !panel) return;
 
-  function setAccordionState() {
-    if (!btn || !panel) return;
+      const isMobile = mq.matches;
 
-    const isMobile = mq.matches;
-
-    if (isMobile) {
-      // mobile: collapsed by default unless user toggled
-      if (btn.getAttribute("data-user-toggled") !== "1") {
-        btn.setAttribute("aria-expanded", "false");
-        panel.hidden = true;
-      }
-    } else {
-      // desktop: always open
-      btn.setAttribute("aria-expanded", "true");
-      panel.hidden = false;
-    }
-  }
-
-  if (btn && panel) {
-    btn.addEventListener("click", () => {
-      btn.setAttribute("data-user-toggled", "1");
-      const expanded = btn.getAttribute("aria-expanded") === "true";
-      btn.setAttribute("aria-expanded", String(!expanded));
-      panel.hidden = expanded;
-
-      // If user opens on mobile, init flatpickr safely
-      if (!expanded) setTimeout(initFlatpickr, 50);
-    });
-
-    // initial state
-    setAccordionState();
-
-    // update state on breakpoint changes
-    if (mq.addEventListener) {
-      mq.addEventListener("change", () => {
-        btn.removeAttribute("data-user-toggled");
-        setAccordionState();
-
-        // ensure flatpickr is ready after switching to desktop/open state
-        if (!mq.matches) setTimeout(initFlatpickr, 0);
-      });
-    } else {
-      // older Safari fallback
-      window.addEventListener("resize", () => {
-        btn.removeAttribute("data-user-toggled");
-        setAccordionState();
-        if (!mq.matches) setTimeout(initFlatpickr, 0);
-      });
-    }
-  }
-
-  // ----- Same location toggle -----
-  const same = document.getElementById(\'heroRent_sameLocation\');
-  const wrap = document.getElementById(\'heroRent_dropWrap\');
-  const input = document.getElementById(\'heroRent_dropInput\');
-
-  function toggleDrop(){
-    if (!same || !wrap || !input) return;
-    const show = !same.checked;
-    wrap.style.display = show ? \'block\' : \'none\';
-    input.required = show;
-    if(!show) input.value = \'\';
-  }
-
-  if (same) {
-    same.addEventListener(\'change\', toggleDrop);
-    toggleDrop();
-  }
-
-  // ----- Flatpickr (fixed for mobile + hidden accordion) -----
-  let fpInitialized = false;
-
-  function initFlatpickr() {
-    if (fpInitialized) return;
-
-    if (typeof flatpickr === "undefined") {
-      console.error("Flatpickr is not loaded. Include flatpickr.js before init.");
-      return;
-    }
-
-    const pickupEl = document.getElementById("heroRent_pickupDT");
-    const dropEl   = document.getElementById("heroRent_dropDT");
-    if (!pickupEl || !dropEl) return;
-
-    let dropPicker;
-
-    flatpickr(pickupEl, {
-      enableTime: true,
-      dateFormat: "Y-m-d H:i",
-      minDate: "today",
-      time_24hr: true,
-      minuteIncrement: 15,
-      disableMobile: true, // ✅ force flatpickr UI on phones
-      onChange: function(selectedDates) {
-        if (dropPicker && selectedDates && selectedDates[0]) {
-          dropPicker.set("minDate", selectedDates[0]);
-          const d = dropPicker.selectedDates[0];
-          if (d && d < selectedDates[0]) dropPicker.clear();
+      if (isMobile) {
+        if (btn.getAttribute("data-user-toggled") !== "1") {
+          btn.setAttribute("aria-expanded", "false");
+          panel.hidden = true;
         }
+      } else {
+        btn.setAttribute("aria-expanded", "true");
+        panel.hidden = false;
       }
+    }
+
+    if (btn && panel) {
+      btn.addEventListener("click", () => {
+        btn.setAttribute("data-user-toggled", "1");
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!expanded));
+        panel.hidden = expanded;
+
+        if (!expanded) setTimeout(initFlatpickr, 50);
+      });
+
+      // initial state
+      setAccordionState();
+
+      if (mq.addEventListener) {
+        mq.addEventListener("change", () => {
+          btn.removeAttribute("data-user-toggled");
+          setAccordionState();
+          if (!mq.matches) setTimeout(initFlatpickr, 0);
+        });
+      } else {
+        window.addEventListener("resize", () => {
+          btn.removeAttribute("data-user-toggled");
+          setAccordionState();
+          if (!mq.matches) setTimeout(initFlatpickr, 0);
+        });
+      }
+    }
+
+    // ----- Same location toggle -----
+    const same = document.getElementById(\'heroRent_sameLocation\');
+    const wrap = document.getElementById(\'heroRent_dropWrap\');
+    const input = document.getElementById(\'heroRent_dropInput\');
+
+    function toggleDrop(){
+      if (!same || !wrap || !input) return;
+      const show = !same.checked;
+      wrap.style.display = show ? \'block\' : \'none\';
+      input.required = show;
+      if(!show) input.value = \'\';
+    }
+
+    if (same) {
+      same.addEventListener(\'change\', toggleDrop);
+      toggleDrop();
+    }
+
+    let fpInitialized = false;
+
+    function initFlatpickr() {
+      if (fpInitialized) return;
+
+      if (typeof flatpickr === "undefined") {
+        console.error("Flatpickr is not loaded. Include flatpickr.js before init.");
+        return;
+      }
+
+      const pickupEl = document.getElementById("heroRent_pickupDT");
+      const dropEl   = document.getElementById("heroRent_dropDT");
+      if (!pickupEl || !dropEl) return;
+
+      let dropPicker;
+
+      flatpickr(pickupEl, {
+        enableTime: true,
+        dateFormat: "Y-m-d H:i",
+        minDate: "today",
+        time_24hr: true,
+        minuteIncrement: 15,
+        disableMobile: true, 
+        onChange: function(selectedDates) {
+          if (dropPicker && selectedDates && selectedDates[0]) {
+            dropPicker.set("minDate", selectedDates[0]);
+            const d = dropPicker.selectedDates[0];
+            if (d && d < selectedDates[0]) dropPicker.clear();
+          }
+        }
+      });
+
+      dropPicker = flatpickr(dropEl, {
+        enableTime: true,
+        dateFormat: "Y-m-d H:i",
+        minDate: "today",
+        time_24hr: true,
+        minuteIncrement: 15,
+        disableMobile: true 
+      });
+
+      fpInitialized = true;
+    }
+    if (!mq.matches) initFlatpickr();
+
+  });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  function attachAuto(id, defaultValue = null){
+    const el = document.getElementById(id);
+    if(!el || !window.google) return;
+
+    const ac = new google.maps.places.Autocomplete(el, {
+      componentRestrictions: { country: "lk" }
     });
 
-    dropPicker = flatpickr(dropEl, {
-      enableTime: true,
-      dateFormat: "Y-m-d H:i",
-      minDate: "today",
-      time_24hr: true,
-      minuteIncrement: 15,
-      disableMobile: true // ✅
-    });
+    // Set default value if provided
+    if (defaultValue) {
+      el.value = defaultValue;
 
-    fpInitialized = true;
+      // Optional: force Google to recognize the default as a real place
+      const service = new google.maps.places.AutocompleteService();
+      service.getPlacePredictions({
+        input: defaultValue,
+        componentRestrictions: { country: "lk" }
+      }, function(predictions, status) {
+        if (status === google.maps.places.PlacesServiceStatus.OK && predictions.length > 0) {
+          // You could optionally fetch full place details here if needed
+          // But for most booking forms, just pre-filling text is enough
+        }
+      });
+    }
+
+    ac.addListener("place_changed", () => {
+      const place = ac.getPlace();
+      // console.log(place.formatted_address);
+    });
   }
-  if (!mq.matches) initFlatpickr();
+
+  // Pickup with default
+  attachAuto("heroRent_pickup", "SR Rent A Car Sri Lanka, Negombo");
+
+  // Dropoff without default
+  attachAuto("heroRent_dropInput");
 
 });
 </script>',
@@ -1188,7 +1206,7 @@ document.addEventListener("DOMContentLoaded", function () {
     'createdby' => 1,
     'createdon' => 1723316876,
     'editedby' => 1,
-    'editedon' => 1772171208,
+    'editedon' => 1772174514,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -1231,6 +1249,9 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHmbwBrk0OKY0Nhp9FrR_zn8HKLGZ54OU"></script>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -1486,79 +1507,64 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </section>
 
+<section class="brandStrip">
+  <div class="brandStrip__inner">
+    <div class="brandStrip__track">
 
-	  
-			<!-- <section >
-			<div class="logo-slider">
-			  <div class="logo-slide-track">
-				<div class="slide">
-				  <img src="assets/images/strip/src_1.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_2.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_3.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_4.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_5.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_6.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_7.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_8.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_9.png" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_10.png" alt="" alt="" />
-				</div>
-				<div class="slide">
-				  <img src="assets/images/strip/src_11.png" alt="" alt="" />
-				</div>
-				
-			  </div>
-			</div>
-			
-			</section>
-		 -->
-  
-	
-  
-		  <section class="ftco-section ftco-wrap-about">
-  
-			  <div class="container">
-   <div id="tsparticles"></div>
-				  <div class="row">
-					  <div class="col-md-4 d-flex">
-						  <div class="img img-1 mr-md-2" style="background-image: url(assets/images/home/about_us_1.jpg);"></div>
-						  <div class="img img-2 ml-md-2" style="background-image: url(assets/images/home/about_us_2.jpg);"></div>
-					  </div>
-					  <div class="col-md-8 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
-				<div class="heading-section mb-4 my-5 my-md-0">
-					<span class="subheading">Who</span>
-				  <h2 class="mb-4">We  Are</h2>
-				</div>
-				<p style="text-align: justify;"> <b style="font-size: 20px; color: #da0000;">SR Rent A Car </b>  is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers. The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect and deliver because we know what it’s like to be a consumer.
-                </p>
-  
-			  <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
-			  
-					  <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we\'re able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
-                    </p>
-					  </div>
-				  </div>
-			  </div>
-		  </section>
-  
+      <!-- Original Logos -->
+      <div class="brandStrip__item"><img src="assets/images/strip/src_1.png" alt="Brand 1"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_2.png" alt="Brand 2"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_3.png" alt="Brand 3"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_4.png" alt="Brand 4"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_5.png" alt="Brand 5"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_6.png" alt="Brand 6"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_7.png" alt="Brand 7"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_8.png" alt="Brand 8"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_9.png" alt="Brand 9"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_10.png" alt="Brand 10"></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_11.png" alt="Brand 11"></div>
+
+      <!-- Duplicate for seamless loop -->
+      <div class="brandStrip__item"><img src="assets/images/strip/src_1.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_2.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_3.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_4.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_5.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_6.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_7.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_8.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_9.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_10.png" alt=""></div>
+      <div class="brandStrip__item"><img src="assets/images/strip/src_11.png" alt=""></div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="ftco-section ftco-wrap-about">
+  <div class="container">
+    <div id="tsparticles"></div>
+      <div class="row">
+        <div class="col-md-4 d-flex">
+          <div class="img img-1 mr-md-2" style="background-image: url(assets/images/home/about_us_1.jpg);"></div>
+          <div class="img img-2 ml-md-2" style="background-image: url(assets/images/home/about_us_2.jpg);"></div>
+        </div>
+        <div class="col-md-8 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate">
+          <div class="heading-section mb-4 my-5 my-md-0">
+            <span class="subheading">Who</span>
+            <h2 class="mb-4">We  Are</h2>
+          </div>
+          <p style="text-align: justify;"> <b style="font-size: 20px; color: #da0000;">SR Rent A Car </b>  is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers. The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect and deliver because we know what it’s like to be a consumer.
+          </p>
+
+          <p style="text-align: justify;">Our new fleets of vehicles are maintaince to the highest standard. Ensuring cleanliness & reliability. We take safety very seriously, making it easier for you to relax and enjoy a family vacation. From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.</p>
+            <p style="text-align: justify;">With offices conveniently located near Bandaranaike International Airport, we\'re able to meet and greet you with a smile and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
+            </p>
+      </div>
+    </div>
+  </div>
+</section>
 		  
 		  <section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter">
 		  <div class="container">
@@ -2423,127 +2429,160 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.querySelector(\'.heroRentAcc__toggle\');
+    const panel = document.getElementById(\'heroRentAccPanel\');
+    const mq = window.matchMedia("(max-width: 767px)");
 
-  // ----- Accordion responsive behavior -----
-  const btn = document.querySelector(\'.heroRentAcc__toggle\');
-  const panel = document.getElementById(\'heroRentAccPanel\');
-  const mq = window.matchMedia("(max-width: 767px)");
+    function setAccordionState() {
+      if (!btn || !panel) return;
 
-  function setAccordionState() {
-    if (!btn || !panel) return;
+      const isMobile = mq.matches;
 
-    const isMobile = mq.matches;
-
-    if (isMobile) {
-      // mobile: collapsed by default unless user toggled
-      if (btn.getAttribute("data-user-toggled") !== "1") {
-        btn.setAttribute("aria-expanded", "false");
-        panel.hidden = true;
-      }
-    } else {
-      // desktop: always open
-      btn.setAttribute("aria-expanded", "true");
-      panel.hidden = false;
-    }
-  }
-
-  if (btn && panel) {
-    btn.addEventListener("click", () => {
-      btn.setAttribute("data-user-toggled", "1");
-      const expanded = btn.getAttribute("aria-expanded") === "true";
-      btn.setAttribute("aria-expanded", String(!expanded));
-      panel.hidden = expanded;
-
-      // If user opens on mobile, init flatpickr safely
-      if (!expanded) setTimeout(initFlatpickr, 50);
-    });
-
-    // initial state
-    setAccordionState();
-
-    // update state on breakpoint changes
-    if (mq.addEventListener) {
-      mq.addEventListener("change", () => {
-        btn.removeAttribute("data-user-toggled");
-        setAccordionState();
-
-        // ensure flatpickr is ready after switching to desktop/open state
-        if (!mq.matches) setTimeout(initFlatpickr, 0);
-      });
-    } else {
-      // older Safari fallback
-      window.addEventListener("resize", () => {
-        btn.removeAttribute("data-user-toggled");
-        setAccordionState();
-        if (!mq.matches) setTimeout(initFlatpickr, 0);
-      });
-    }
-  }
-
-  // ----- Same location toggle -----
-  const same = document.getElementById(\'heroRent_sameLocation\');
-  const wrap = document.getElementById(\'heroRent_dropWrap\');
-  const input = document.getElementById(\'heroRent_dropInput\');
-
-  function toggleDrop(){
-    if (!same || !wrap || !input) return;
-    const show = !same.checked;
-    wrap.style.display = show ? \'block\' : \'none\';
-    input.required = show;
-    if(!show) input.value = \'\';
-  }
-
-  if (same) {
-    same.addEventListener(\'change\', toggleDrop);
-    toggleDrop();
-  }
-
-  // ----- Flatpickr (fixed for mobile + hidden accordion) -----
-  let fpInitialized = false;
-
-  function initFlatpickr() {
-    if (fpInitialized) return;
-
-    if (typeof flatpickr === "undefined") {
-      console.error("Flatpickr is not loaded. Include flatpickr.js before init.");
-      return;
-    }
-
-    const pickupEl = document.getElementById("heroRent_pickupDT");
-    const dropEl   = document.getElementById("heroRent_dropDT");
-    if (!pickupEl || !dropEl) return;
-
-    let dropPicker;
-
-    flatpickr(pickupEl, {
-      enableTime: true,
-      dateFormat: "Y-m-d H:i",
-      minDate: "today",
-      time_24hr: true,
-      minuteIncrement: 15,
-      disableMobile: true, // ✅ force flatpickr UI on phones
-      onChange: function(selectedDates) {
-        if (dropPicker && selectedDates && selectedDates[0]) {
-          dropPicker.set("minDate", selectedDates[0]);
-          const d = dropPicker.selectedDates[0];
-          if (d && d < selectedDates[0]) dropPicker.clear();
+      if (isMobile) {
+        if (btn.getAttribute("data-user-toggled") !== "1") {
+          btn.setAttribute("aria-expanded", "false");
+          panel.hidden = true;
         }
+      } else {
+        btn.setAttribute("aria-expanded", "true");
+        panel.hidden = false;
       }
+    }
+
+    if (btn && panel) {
+      btn.addEventListener("click", () => {
+        btn.setAttribute("data-user-toggled", "1");
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!expanded));
+        panel.hidden = expanded;
+
+        if (!expanded) setTimeout(initFlatpickr, 50);
+      });
+
+      // initial state
+      setAccordionState();
+
+      if (mq.addEventListener) {
+        mq.addEventListener("change", () => {
+          btn.removeAttribute("data-user-toggled");
+          setAccordionState();
+          if (!mq.matches) setTimeout(initFlatpickr, 0);
+        });
+      } else {
+        window.addEventListener("resize", () => {
+          btn.removeAttribute("data-user-toggled");
+          setAccordionState();
+          if (!mq.matches) setTimeout(initFlatpickr, 0);
+        });
+      }
+    }
+
+    // ----- Same location toggle -----
+    const same = document.getElementById(\'heroRent_sameLocation\');
+    const wrap = document.getElementById(\'heroRent_dropWrap\');
+    const input = document.getElementById(\'heroRent_dropInput\');
+
+    function toggleDrop(){
+      if (!same || !wrap || !input) return;
+      const show = !same.checked;
+      wrap.style.display = show ? \'block\' : \'none\';
+      input.required = show;
+      if(!show) input.value = \'\';
+    }
+
+    if (same) {
+      same.addEventListener(\'change\', toggleDrop);
+      toggleDrop();
+    }
+
+    let fpInitialized = false;
+
+    function initFlatpickr() {
+      if (fpInitialized) return;
+
+      if (typeof flatpickr === "undefined") {
+        console.error("Flatpickr is not loaded. Include flatpickr.js before init.");
+        return;
+      }
+
+      const pickupEl = document.getElementById("heroRent_pickupDT");
+      const dropEl   = document.getElementById("heroRent_dropDT");
+      if (!pickupEl || !dropEl) return;
+
+      let dropPicker;
+
+      flatpickr(pickupEl, {
+        enableTime: true,
+        dateFormat: "Y-m-d H:i",
+        minDate: "today",
+        time_24hr: true,
+        minuteIncrement: 15,
+        disableMobile: true, 
+        onChange: function(selectedDates) {
+          if (dropPicker && selectedDates && selectedDates[0]) {
+            dropPicker.set("minDate", selectedDates[0]);
+            const d = dropPicker.selectedDates[0];
+            if (d && d < selectedDates[0]) dropPicker.clear();
+          }
+        }
+      });
+
+      dropPicker = flatpickr(dropEl, {
+        enableTime: true,
+        dateFormat: "Y-m-d H:i",
+        minDate: "today",
+        time_24hr: true,
+        minuteIncrement: 15,
+        disableMobile: true 
+      });
+
+      fpInitialized = true;
+    }
+    if (!mq.matches) initFlatpickr();
+
+  });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  function attachAuto(id, defaultValue = null){
+    const el = document.getElementById(id);
+    if(!el || !window.google) return;
+
+    const ac = new google.maps.places.Autocomplete(el, {
+      componentRestrictions: { country: "lk" }
     });
 
-    dropPicker = flatpickr(dropEl, {
-      enableTime: true,
-      dateFormat: "Y-m-d H:i",
-      minDate: "today",
-      time_24hr: true,
-      minuteIncrement: 15,
-      disableMobile: true // ✅
-    });
+    // Set default value if provided
+    if (defaultValue) {
+      el.value = defaultValue;
 
-    fpInitialized = true;
+      // Optional: force Google to recognize the default as a real place
+      const service = new google.maps.places.AutocompleteService();
+      service.getPlacePredictions({
+        input: defaultValue,
+        componentRestrictions: { country: "lk" }
+      }, function(predictions, status) {
+        if (status === google.maps.places.PlacesServiceStatus.OK && predictions.length > 0) {
+          // You could optionally fetch full place details here if needed
+          // But for most booking forms, just pre-filling text is enough
+        }
+      });
+    }
+
+    ac.addListener("place_changed", () => {
+      const place = ac.getPlace();
+      // console.log(place.formatted_address);
+    });
   }
-  if (!mq.matches) initFlatpickr();
+
+  // Pickup with default
+  attachAuto("heroRent_pickup", "SR Rent A Car Sri Lanka, Negombo");
+
+  // Dropoff without default
+  attachAuto("heroRent_dropInput");
 
 });
 </script>
@@ -3023,6 +3062,9 @@ document.addEventListener(\'scroll\', function() {
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHmbwBrk0OKY0Nhp9FrR_zn8HKLGZ54OU"></script>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -3638,6 +3680,9 @@ document.addEventListener(\'scroll\', function() {
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHmbwBrk0OKY0Nhp9FrR_zn8HKLGZ54OU"></script>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -3815,6 +3860,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHmbwBrk0OKY0Nhp9FrR_zn8HKLGZ54OU"></script>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">

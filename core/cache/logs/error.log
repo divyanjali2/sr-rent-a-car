@@ -751,3 +751,36 @@ Array
 [2026-02-27 04:58:08] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\Om\xPDOQuery.php : 670) Could not construct or prepare query because it is invalid or could not connect: SELECT `modExtensionPackage`.`id`, `modExtensionPackage`.`namespace`, `modExtensionPackage`.`name`, `modExtensionPackage`.`path`, `modExtensionPackage`.`table_prefix`, `modExtensionPackage`.`service_class`, `modExtensionPackage`.`service_name`, `modExtensionPackage`.`created_at`, `modExtensionPackage`.`updated_at`, Namespace.path AS namespace_path FROM `modx_extension_packages` AS `modExtensionPackage` JOIN `modx_namespaces` `Namespace` ON `modExtensionPackage`.`namespace` =  `Namespace`.`name` ORDER BY namespace ASC 
 [2026-02-27 06:04:43] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 319) PHP warning: mkdir(): File exists
 [2026-02-27 06:04:43] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 324) PHP warning: mkdir(): File exists
+[2026-02-27 07:36:31] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(logo.png): File not supported
+[2026-02-27 07:36:33] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(logo.ico): File not supported
+[2026-02-27 07:36:33] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(whatsapp-icon.png): File not supported
+[2026-02-27 07:36:33] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(ajax-loader.gif): File not supported
+[2026-02-27 07:36:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(award.png): File not supported
+[2026-02-27 07:36:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(favicon.ico): File not supported
+[2026-02-27 07:36:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(logo.png): File not supported
+[2026-02-27 07:36:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(logo_white.png): File not supported
+[2026-02-27 07:36:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(payment.png): File not supported
+[2026-02-27 07:36:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(raca.png): File not supported
+[2026-02-27 07:36:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(service-item-bg.jpg.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_1.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_10.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_11.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_2.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_3.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_4.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_5.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_6.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_7.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_8.png): File not supported
+[2026-02-27 07:36:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(src_9.png): File not supported
+[2026-02-27 07:36:44] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_2.png): File not supported
+[2026-02-27 07:36:44] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_10.png): File not supported
+[2026-02-27 07:36:44] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_11.png): File not supported
+[2026-02-27 07:36:44] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_1.png): File not supported
+[2026-02-27 07:36:51] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_3.png): File not supported
+[2026-02-27 07:36:52] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_4.png): File not supported
+[2026-02-27 07:36:53] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_5.png): File not supported
+[2026-02-27 07:36:56] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_6.png): File not supported
+[2026-02-27 07:36:56] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_7.png): File not supported
+[2026-02-27 07:36:57] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_8.png): File not supported
+[2026-02-27 07:36:58] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\james-heinrich\phpthumb\phpthumb.class.php : 2496) PHP warning: exif_read_data(src_9.png): File not supported
