@@ -8253,7 +8253,7 @@ h1, h2, h3, h4, h5,
   left: 0;
   right: 0;
   z-index: 3;
-  background: rgb(60, 59, 59) !important;
+  background: rgb(0 29 49) !important;
   color: rgba(255, 255, 255,);
   font-size: 18px; }
   @media (max-width: 991.98px) {
@@ -8378,7 +8378,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background:#d1d1d1 !important;
+    background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgb(0, 0, 0); }
     @media (min-width: 992px) {
@@ -13434,7 +13434,7 @@ font-size:14px;
 /* HERO */
 .heroRent{
   position: relative;
-  height: 100vh;
+  height: 100vh !important;
   overflow: hidden;
 }
 
@@ -13486,11 +13486,10 @@ font-size:14px;
   font-size:40px;
   color: #fff;
   line-height: 1.5;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Playfair Display", serif;  
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 18px;
+  font-weight: 700;
 }
 
 .heroRent__cta{
@@ -13686,6 +13685,108 @@ font-size:14px;
   .heroRentForm{
     max-width: 1200px;
     margin: 0 auto;
+  }
+}
+
+
+/* === Yacht-style hero frame === */
+.heroRent--yacht{
+  height:auto;            /* not full 100vh page section */
+  background:#fff;        /* page background */
+}
+
+.heroRent--yacht .heroRent__frame{
+  position: relative;
+  height: 101vh;
+  min-height: 560px;
+  max-height: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 35px 90px rgba(0,0,0,.20);
+}
+
+/* swiper height inside frame */
+.heroRent--yacht .heroRent__swiper,
+.heroRent--yacht .heroRent__slide{
+  height: 100%;
+}
+
+/* overlay like example */
+.heroRent--yacht .heroRent__shade{
+  background: rgba(0,0,0,.35);
+}
+
+/* place hero text on left (like example) */
+.heroRent__contentInner--left{
+  max-width: 620px;
+  text-align: left;
+}
+
+.heroRent__lead{
+  color: rgba(255,255,255,.85);
+  margin-bottom: 16px;
+  font-size: 15px;
+  letter-spacing: .3px;
+  font-weight: 800;
+}
+
+/* little pill button like the sample */
+.heroRent__pill{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  height: 40px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.92);
+  color:#0b0f1a;
+  font-weight: 700;
+  text-decoration:none;
+  box-shadow: 0 14px 30px rgba(0,0,0,.18);
+}
+
+/* Booking bar sits above wave */
+.heroRent--yacht .heroRent__bar{
+  position:absolute;
+  left:0; right:0;
+  bottom: 5rem;          /* keep it above wave */
+  z-index: 20;
+}
+
+.heroRent__wave{
+  position:absolute;
+  bottom:-1px;
+  left:0;
+  width:100%;
+  height:160px;
+  z-index:15;
+  pointer-events:none;
+}
+
+.heroRent__wave svg{
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+/* Responsive */
+@media (max-width: 991px){
+  .heroRent__contentInner--left{
+    /* padding-top: 55px; */
+    text-align:center;
+    margin: 0 auto;
+  }
+  .heroRent--yacht .heroRent__bar{
+    bottom: 80px;
+  }
+}
+
+@media (max-width: 767px){
+  .heroRent--yacht{
+    padding-top: 10px;
+  }
+  .heroRent--yacht .heroRent__bar{
+    bottom: 70px;
   }
 }
 
@@ -13919,4 +14020,83 @@ font-size:14px;
   .srStats__grid{ grid-template-columns: 1fr; }
   .srStats__card--wide{ grid-column: auto; }
   .srStats__num{ font-size: 28px; }
+}
+
+
+.srWhy{
+  background:#f8f9fb;
+}
+
+.srWhy__heading{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.srWhy__tag{
+  display:inline-block;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:2px;
+  color:#da0000;
+}
+
+.srWhy__title{
+  font-size:32px;
+  font-weight:800;
+}
+
+.srWhy__subtitle{
+  color:#666;
+  font-size:15px;
+}
+
+/* Grid */
+.srWhy__grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Card */
+.srWhy__card{
+  background:#fff;
+  padding:0 22px;
+  box-shadow:0 15px 40px rgba(0,0,0,.08);
+  transition: transform .3s ease, box-shadow .3s ease;
+  text-align:center;
+}
+
+.srWhy__card:hover{
+  transform: translateY(-8px);
+  box-shadow:0 25px 60px rgba(0,0,0,.15);
+}
+
+.srWhy__icon{
+  font-size:32px;
+  margin-bottom:15px;
+}
+
+.srWhy__cardTitle{
+  font-size:18px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.srWhy__cardText{
+  font-size:14px;
+  color:#555;
+  line-height:1.7;
+}
+
+/* Responsive */
+@media (max-width: 992px){
+  .srWhy__grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px){
+  .srWhy__grid{
+    grid-template-columns: 1fr;
+  }
 }

@@ -27,43 +27,39 @@
 </script>
 
 <!-- home hero section -->
-<section class="heroRent">
+<section class="heroRent heroRent--yacht">
 
-  <!-- Swiper -->
-  <div class="heroRent__swiper swiper">
-    <div class="swiper-wrapper">
+  <div class="heroRent__frame">
 
-      <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/home/bg_1.jpg\');">
-        <div class="heroRent__shade"></div>
-      </div>
-
-      <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/home/bg_2.jpg\');">
-        <div class="heroRent__shade"></div>
-      </div>
-
-      <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/home/bg_3.jpg\');">
-        <div class="heroRent__shade"></div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Common content -->
-  <div class="heroRent__content">
-    <div class="container">
-      <div class="heroRent__contentInner">
-        <span class="heroRent__sub">Affordable</span>
-        <h1 class="heroRent__title">Sri Lanka Rent A Car</h1>
-        <!-- <a href="[[~4]]" class="theme-btn btn-style-two heroRent__cta">Reserve your vehicle Now</a> -->
+    <!-- Swiper -->
+    <div class="heroRent__swiper swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/1.jpeg\');">
+          <div class="heroRent__shade"></div>
+        </div>
+        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/2.jpg\');">
+          <div class="heroRent__shade"></div>
+        </div>
+        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/3.jpg\');">
+          <div class="heroRent__shade"></div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Booking bar -->
-  <div class="heroRent__bar">
-    <div class="container">
+    <!-- Content -->
+    <div class="heroRent__content">
+      <div class="container">
+        <div class="heroRent__contentInner heroRent__contentInner--left">
+          <span class="heroRent__sub">Affordable</span>
+          <h1 class="heroRent__title">Sri Lanka Rent A Car</h1>
+          <p class="heroRent__lead">Premium vehicles • Chauffeur services • Airport pickup</p>
+        </div>
+      </div>
+    </div>
 
-      <!-- Mobile Accordion Toggle -->
+    <div class="heroRent__bar">
+      <div class="container">
+        <!-- Mobile Accordion Toggle -->
       <button type="button" class="heroRentAcc__toggle" aria-expanded="false" aria-controls="heroRentAccPanel">
         <span>Search & Reserve</span>
         <span class="heroRentAcc__icon" aria-hidden="true"></span>
@@ -114,10 +110,23 @@
           </div>
         </form>
       </div>
+      </div>
+    </div>
 
+    <!-- Wave bottom -->
+    <div class="heroRent__wave">
+      <svg viewBox="0 0 1440 180" preserveAspectRatio="none">
+        <path fill="#ffffff" d="
+          M0,170
+          C220,170 360,165 520,150
+          C820,120 980,55 1440,85
+          L1440,180
+          L0,180
+          Z">
+        </path>
+      </svg>
     </div>
   </div>
-
 </section>
 
 <!-- who we are section -->
@@ -166,7 +175,8 @@
     </div>
   </div>
 </section>
-		  
+		
+<!-- counter section -->
 <section class="srStats" id="section-counter">
   <div class="container">
     <div class="srStats__grid">
@@ -214,71 +224,137 @@
     </div>
   </div>
 </section>
+
+<!-- why-special section -->
+<section id="why-special" class="srWhy py-5">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="srWhy__heading text-center mb-5">
+      <span class="srWhy__tag">WHY CHOOSE US</span>
+      <h2 class="srWhy__title">What Makes Us Special</h2>
+      <p class="srWhy__subtitle">
+        Experience comfort, reliability and professional service across Sri Lanka.
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="srWhy__grid">
+		<div class="srWhy__card">
+		<div class="srWhy__icon">💰</div>
+		<h4 class="srWhy__cardTitle">Affordable Rates</h4>
+		<p class="srWhy__cardText">
+			Competitive pricing with transparent costs, ensuring exceptional value for every journey.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">⏳</div>
+		<h4 class="srWhy__cardTitle">20+ Years Experience</h4>
+		<p class="srWhy__cardText">
+			Over two decades of trusted service delivering reliability and customer satisfaction.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">🛡️</div>
+		<h4 class="srWhy__cardTitle">Insurance Coverage</h4>
+		<p class="srWhy__cardText">
+			Comprehensive insurance protection for a safe and worry-free travel experience.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">🔁</div>
+		<h4 class="srWhy__cardTitle">Multiple Drop-Off Locations</h4>
+		<p class="srWhy__cardText">
+			Flexible pick-up and drop-off options across Sri Lanka for maximum convenience.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">🚨</div>
+		<h4 class="srWhy__cardTitle">Roadside Assistance</h4>
+		<p class="srWhy__cardText">
+			24/7 emergency support to ensure uninterrupted travel throughout your trip.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">🕒</div>
+		<h4 class="srWhy__cardTitle">24/7 Access</h4>
+		<p class="srWhy__cardText">
+			Round-the-clock booking and customer support whenever you need us.
+		</p>
+		</div>
+    </div>
+  </div>
+</section>
 	  
 	  <section class="ftco-section bg-light">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-2">
-				<div class="col-md-12 text-center heading-section ftco-animate">
-					<span class="subheading">Why</span>
-					<h2 class="mb-4">We Special</h2>
-				</div>
-			</div>
-	
-			<!-- Carousel -->
-			<div id="servicesCarousel" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_1.jpg" alt="Description of Image 1" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_2.jpg" alt="Description of Image 2" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_3.jpg" alt="Description of Image 3" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_4.jpg" alt="Description of Image 4" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_5.jpg" alt="Description of Image 5" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-							<div class="col-12 col-md-4  d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_6.jpg" alt="Description of Image 6" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-	
-				<a class="carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#servicesCarousel" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-			<!-- End of Carousel -->
-	
-		</div>
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+            <span class="subheading">Why</span>
+            <h2 class="mb-4">We Special</h2>
+          </div>
+        </div>
+    
+        <!-- Carousel -->
+        <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_1.jpg" alt="Description of Image 1" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_2.jpg" alt="Description of Image 2" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_3.jpg" alt="Description of Image 3" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_4.jpg" alt="Description of Image 4" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_5.jpg" alt="Description of Image 5" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+                <div class="col-12 col-md-4  d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_6.jpg" alt="Description of Image 6" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <a class="carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#servicesCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- End of Carousel -->
+    
+      </div>
 	</section>
 	
 
@@ -1179,7 +1255,7 @@ document.addEventListener("DOMContentLoaded", () => {
   attachAuto("heroRent_dropInput");
 
 });
-</script',
+</script>',
     'richtext' => 1,
     'template' => 2,
     'menuindex' => 0,
@@ -1188,7 +1264,7 @@ document.addEventListener("DOMContentLoaded", () => {
     'createdby' => 1,
     'createdon' => 1723316876,
     'editedby' => 1,
-    'editedon' => 1772177779,
+    'editedon' => 1772189882,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -1304,15 +1380,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
         <div class="col-lg-12 d-block">
           <div class="row d-flex">
-            <div class="col-md pr-6 d-flex topper align-items-lg-start">
+            <div class="col-md-4 pr-6 d-flex topper align-items-lg-start">
               <span class="tptext"><a href="https://srilankarentacar.lk/">SR Rent A Car (Pvt.) Ltd.</a></span>
             </div>
-            <div class="col-md pr-3 d-flex topper ">
+            <div class="col-md-4 pr-3 d-flex topper ">
                 <span class="tptext">
                 <a href="mailto:bookings@srilankarentacar.com">bookings@srilankarentacar.com</a>
                 </span>            
                 </div>
-                <div class="col-md-5 pr-3 d-flex topper align-items-center text-lg-right justify-content-end">
+                <div class="col-md-4 pr-3 d-flex topper align-items-center text-lg-right justify-content-end">
                 <p class="mb-0 register-link">
                     <span class="tptext">
                         <a href="tel:+94777780729">+94 77 778 0729</a>
@@ -1397,43 +1473,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </script>
 
 <!-- home hero section -->
-<section class="heroRent">
+<section class="heroRent heroRent--yacht">
 
-  <!-- Swiper -->
-  <div class="heroRent__swiper swiper">
-    <div class="swiper-wrapper">
+  <div class="heroRent__frame">
 
-      <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/home/bg_1.jpg\');">
-        <div class="heroRent__shade"></div>
-      </div>
-
-      <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/home/bg_2.jpg\');">
-        <div class="heroRent__shade"></div>
-      </div>
-
-      <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/home/bg_3.jpg\');">
-        <div class="heroRent__shade"></div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Common content -->
-  <div class="heroRent__content">
-    <div class="container">
-      <div class="heroRent__contentInner">
-        <span class="heroRent__sub">Affordable</span>
-        <h1 class="heroRent__title">Sri Lanka Rent A Car</h1>
-        <!-- <a href="index.php?id=4" class="theme-btn btn-style-two heroRent__cta">Reserve your vehicle Now</a> -->
+    <!-- Swiper -->
+    <div class="heroRent__swiper swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/1.jpeg\');">
+          <div class="heroRent__shade"></div>
+        </div>
+        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/2.jpg\');">
+          <div class="heroRent__shade"></div>
+        </div>
+        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/3.jpg\');">
+          <div class="heroRent__shade"></div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Booking bar -->
-  <div class="heroRent__bar">
-    <div class="container">
+    <!-- Content -->
+    <div class="heroRent__content">
+      <div class="container">
+        <div class="heroRent__contentInner heroRent__contentInner--left">
+          <span class="heroRent__sub">Affordable</span>
+          <h1 class="heroRent__title">Sri Lanka Rent A Car</h1>
+          <p class="heroRent__lead">Premium vehicles • Chauffeur services • Airport pickup</p>
+        </div>
+      </div>
+    </div>
 
-      <!-- Mobile Accordion Toggle -->
+    <div class="heroRent__bar">
+      <div class="container">
+        <!-- Mobile Accordion Toggle -->
       <button type="button" class="heroRentAcc__toggle" aria-expanded="false" aria-controls="heroRentAccPanel">
         <span>Search & Reserve</span>
         <span class="heroRentAcc__icon" aria-hidden="true"></span>
@@ -1484,10 +1556,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </form>
       </div>
+      </div>
+    </div>
 
+    <!-- Wave bottom -->
+    <div class="heroRent__wave">
+      <svg viewBox="0 0 1440 180" preserveAspectRatio="none">
+        <path fill="#ffffff" d="
+          M0,170
+          C220,170 360,165 520,150
+          C820,120 980,55 1440,85
+          L1440,180
+          L0,180
+          Z">
+        </path>
+      </svg>
     </div>
   </div>
-
 </section>
 
 <!-- who we are section -->
@@ -1536,7 +1621,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </section>
-		  
+		
+<!-- counter section -->
 <section class="srStats" id="section-counter">
   <div class="container">
     <div class="srStats__grid">
@@ -1584,71 +1670,137 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </section>
+
+<!-- why-special section -->
+<section id="why-special" class="srWhy py-5">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="srWhy__heading text-center mb-5">
+      <span class="srWhy__tag">WHY CHOOSE US</span>
+      <h2 class="srWhy__title">What Makes Us Special</h2>
+      <p class="srWhy__subtitle">
+        Experience comfort, reliability and professional service across Sri Lanka.
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="srWhy__grid">
+		<div class="srWhy__card">
+		<div class="srWhy__icon">💰</div>
+		<h4 class="srWhy__cardTitle">Affordable Rates</h4>
+		<p class="srWhy__cardText">
+			Competitive pricing with transparent costs, ensuring exceptional value for every journey.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">⏳</div>
+		<h4 class="srWhy__cardTitle">20+ Years Experience</h4>
+		<p class="srWhy__cardText">
+			Over two decades of trusted service delivering reliability and customer satisfaction.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">🛡️</div>
+		<h4 class="srWhy__cardTitle">Insurance Coverage</h4>
+		<p class="srWhy__cardText">
+			Comprehensive insurance protection for a safe and worry-free travel experience.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">🔁</div>
+		<h4 class="srWhy__cardTitle">Multiple Drop-Off Locations</h4>
+		<p class="srWhy__cardText">
+			Flexible pick-up and drop-off options across Sri Lanka for maximum convenience.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">🚨</div>
+		<h4 class="srWhy__cardTitle">Roadside Assistance</h4>
+		<p class="srWhy__cardText">
+			24/7 emergency support to ensure uninterrupted travel throughout your trip.
+		</p>
+		</div>
+
+		<div class="srWhy__card">
+		<div class="srWhy__icon">🕒</div>
+		<h4 class="srWhy__cardTitle">24/7 Access</h4>
+		<p class="srWhy__cardText">
+			Round-the-clock booking and customer support whenever you need us.
+		</p>
+		</div>
+    </div>
+  </div>
+</section>
 	  
 	  <section class="ftco-section bg-light">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-2">
-				<div class="col-md-12 text-center heading-section ftco-animate">
-					<span class="subheading">Why</span>
-					<h2 class="mb-4">We Special</h2>
-				</div>
-			</div>
-	
-			<!-- Carousel -->
-			<div id="servicesCarousel" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_1.jpg" alt="Description of Image 1" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_2.jpg" alt="Description of Image 2" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_3.jpg" alt="Description of Image 3" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="row justify-content-center">
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_4.jpg" alt="Description of Image 4" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-							<div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_5.jpg" alt="Description of Image 5" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-							<div class="col-12 col-md-4  d-flex align-self-stretch ftco-animate text-center">
-								<div class="item">
-									<img src="assets/images/home/specialities/sr_cards_6.jpg" alt="Description of Image 6" style="width: 100%; height: auto; display: block;">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-	
-				<a class="carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#servicesCarousel" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-			<!-- End of Carousel -->
-	
-		</div>
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-12 text-center heading-section ftco-animate">
+            <span class="subheading">Why</span>
+            <h2 class="mb-4">We Special</h2>
+          </div>
+        </div>
+    
+        <!-- Carousel -->
+        <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_1.jpg" alt="Description of Image 1" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_2.jpg" alt="Description of Image 2" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_3.jpg" alt="Description of Image 3" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_4.jpg" alt="Description of Image 4" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_5.jpg" alt="Description of Image 5" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+                <div class="col-12 col-md-4  d-flex align-self-stretch ftco-animate text-center">
+                  <div class="item">
+                    <img src="assets/images/home/specialities/sr_cards_6.jpg" alt="Description of Image 6" style="width: 100%; height: auto; display: block;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <a class="carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#servicesCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- End of Carousel -->
+    
+      </div>
 	</section>
 	
 
@@ -2549,7 +2701,7 @@ document.addEventListener("DOMContentLoaded", () => {
   attachAuto("heroRent_dropInput");
 
 });
-</script
+</script>
 <!-- ✅ Global Top-Right Logo (visible on all pages) -->
 <div class="global-logo">
   <img src="assets/images/award.png" alt="Sri Lanka Rent A Car">
@@ -3099,15 +3251,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
         <div class="col-lg-12 d-block">
           <div class="row d-flex">
-            <div class="col-md pr-6 d-flex topper align-items-lg-start">
+            <div class="col-md-4 pr-6 d-flex topper align-items-lg-start">
               <span class="tptext"><a href="https://srilankarentacar.lk/">SR Rent A Car (Pvt.) Ltd.</a></span>
             </div>
-            <div class="col-md pr-3 d-flex topper ">
+            <div class="col-md-4 pr-3 d-flex topper ">
                 <span class="tptext">
                 <a href="mailto:bookings@srilankarentacar.com">bookings@srilankarentacar.com</a>
                 </span>            
                 </div>
-                <div class="col-md-5 pr-3 d-flex topper align-items-center text-lg-right justify-content-end">
+                <div class="col-md-4 pr-3 d-flex topper align-items-center text-lg-right justify-content-end">
                 <p class="mb-0 register-link">
                     <span class="tptext">
                         <a href="tel:+94777780729">+94 77 778 0729</a>
@@ -3717,15 +3869,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
         <div class="col-lg-12 d-block">
           <div class="row d-flex">
-            <div class="col-md pr-6 d-flex topper align-items-lg-start">
+            <div class="col-md-4 pr-6 d-flex topper align-items-lg-start">
               <span class="tptext"><a href="https://srilankarentacar.lk/">SR Rent A Car (Pvt.) Ltd.</a></span>
             </div>
-            <div class="col-md pr-3 d-flex topper ">
+            <div class="col-md-4 pr-3 d-flex topper ">
                 <span class="tptext">
                 <a href="mailto:bookings@srilankarentacar.com">bookings@srilankarentacar.com</a>
                 </span>            
                 </div>
-                <div class="col-md-5 pr-3 d-flex topper align-items-center text-lg-right justify-content-end">
+                <div class="col-md-4 pr-3 d-flex topper align-items-center text-lg-right justify-content-end">
                 <p class="mb-0 register-link">
                     <span class="tptext">
                         <a href="tel:+94777780729">+94 77 778 0729</a>
@@ -3897,15 +4049,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
         <div class="col-lg-12 d-block">
           <div class="row d-flex">
-            <div class="col-md pr-6 d-flex topper align-items-lg-start">
+            <div class="col-md-4 pr-6 d-flex topper align-items-lg-start">
               <span class="tptext"><a href="https://srilankarentacar.lk/">SR Rent A Car (Pvt.) Ltd.</a></span>
             </div>
-            <div class="col-md pr-3 d-flex topper ">
+            <div class="col-md-4 pr-3 d-flex topper ">
                 <span class="tptext">
                 <a href="mailto:bookings@srilankarentacar.com">bookings@srilankarentacar.com</a>
                 </span>            
                 </div>
-                <div class="col-md-5 pr-3 d-flex topper align-items-center text-lg-right justify-content-end">
+                <div class="col-md-4 pr-3 d-flex topper align-items-center text-lg-right justify-content-end">
                 <p class="mb-0 register-link">
                     <span class="tptext">
                         <a href="tel:+94777780729">+94 77 778 0729</a>
