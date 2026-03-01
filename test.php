@@ -861,7 +861,6 @@
 	</style>
 
 <script>
-  // Swiper init
   const heroRentSwiper = new Swiper('.heroRent__swiper', {
     loop: true,
     autoplay: { delay: 3500, disableOnInteraction: false },
@@ -874,20 +873,20 @@
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-  new Swiper(".fleetSwiper", {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    navigation: {
-      nextEl: ".fleet-next",
-      prevEl: ".fleet-prev"
-    },
-    breakpoints: {
-      576: { slidesPerView: 2 },
-      992: { slidesPerView: 3 }
-    }
+  document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".fleetSwiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: ".fleet-next",
+        prevEl: ".fleet-prev"
+      },
+      breakpoints: {
+        576: { slidesPerView: 2 },
+        992: { slidesPerView: 3 }
+      }
+    });
   });
-});
 </script>
 
 <script>
@@ -1007,45 +1006,45 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
 
-  function attachAuto(id, defaultValue = null){
-    const el = document.getElementById(id);
-    if(!el || !window.google) return;
+    function attachAuto(id, defaultValue = null){
+      const el = document.getElementById(id);
+      if(!el || !window.google) return;
 
-    const ac = new google.maps.places.Autocomplete(el, {
-      componentRestrictions: { country: "lk" }
-    });
-
-    // Set default value if provided
-    if (defaultValue) {
-      el.value = defaultValue;
-
-      // Optional: force Google to recognize the default as a real place
-      const service = new google.maps.places.AutocompleteService();
-      service.getPlacePredictions({
-        input: defaultValue,
+      const ac = new google.maps.places.Autocomplete(el, {
         componentRestrictions: { country: "lk" }
-      }, function(predictions, status) {
-        if (status === google.maps.places.PlacesServiceStatus.OK && predictions.length > 0) {
-          // You could optionally fetch full place details here if needed
-          // But for most booking forms, just pre-filling text is enough
-        }
+      });
+
+      // Set default value if provided
+      if (defaultValue) {
+        el.value = defaultValue;
+
+        // Optional: force Google to recognize the default as a real place
+        const service = new google.maps.places.AutocompleteService();
+        service.getPlacePredictions({
+          input: defaultValue,
+          componentRestrictions: { country: "lk" }
+        }, function(predictions, status) {
+          if (status === google.maps.places.PlacesServiceStatus.OK && predictions.length > 0) {
+            // You could optionally fetch full place details here if needed
+            // But for most booking forms, just pre-filling text is enough
+          }
+        });
+      }
+
+      ac.addListener("place_changed", () => {
+        const place = ac.getPlace();
+        // console.log(place.formatted_address);
       });
     }
 
-    ac.addListener("place_changed", () => {
-      const place = ac.getPlace();
-      // console.log(place.formatted_address);
-    });
-  }
+    // Pickup with default
+    attachAuto("heroRent_pickup", "SR Rent A Car Sri Lanka, Negombo");
 
-  // Pickup with default
-  attachAuto("heroRent_pickup", "SR Rent A Car Sri Lanka, Negombo");
+    // Dropoff without default
+    attachAuto("heroRent_dropInput");
 
-  // Dropoff without default
-  attachAuto("heroRent_dropInput");
-
-});
+  });
 </script>
 
