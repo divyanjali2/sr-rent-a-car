@@ -434,7 +434,8 @@
 	
 	</div>
 </section> -->
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 <!-- our fleet section -->
 <section id="our-fleet">
   <div class="container">
@@ -445,183 +446,120 @@
       </div>
     </div>
 
-    <!-- Fleet Cards -->
-    <div class="row g-4">
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/mcar.png" alt="Mercedes-Benz" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">MINI CARS</h5>
-          <span class="fleet-arrow">
-            <!-- simple arrow (no icon library needed) -->
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
+    <div class="fleet-swiper-wrap mt-4">
+
+      <!-- Arrows -->
+      <div class="fleet-swiper-actions">
+        <button class="fleet-nav fleet-prev">&#8592;</button>
+        <button class="fleet-nav fleet-next">&#8594;</button>
       </div>
 
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/econ.png" alt="Audi" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">ECONOMY CARS</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
+      <div class="swiper fleetSwiper">
+        <div class="swiper-wrapper">
+
+          <!-- 1 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/mcar.png" class="fleet-img">
+              <h5 class="fleet-title">MINI CARS</h5>
+            </a>
+          </div>
+
+          <!-- 2 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/econ.png" class="fleet-img">
+              <h5 class="fleet-title">ECONOMY CARS</h5>
+            </a>
+          </div>
+
+          <!-- 3 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/standard.png" class="fleet-img">
+              <h5 class="fleet-title">STANDARD CARS</h5>
+            </a>
+          </div>
+
+          <!-- 4 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/semi_ex.png" class="fleet-img">
+              <h5 class="fleet-title">SEMI EXECUTIVE CARS</h5>
+            </a>
+          </div>
+
+          <!-- 5 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/lux.png" class="fleet-img">
+              <h5 class="fleet-title">LUXURY CARS</h5>
+            </a>
+          </div>
+
+          <!-- 6 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/ex.png" class="fleet-img">
+              <h5 class="fleet-title">EXECUTIVE CARS</h5>
+            </a>
+          </div>
+
+          <!-- 7 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/msuv.png" class="fleet-img">
+              <h5 class="fleet-title">MINI SUV (4 X 4)</h5>
+            </a>
+          </div>
+
+          <!-- 8 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/lsuv.png" class="fleet-img">
+              <h5 class="fleet-title">LARGE SUV (4 X 4)</h5>
+            </a>
+          </div>
+
+          <!-- 9 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/minivan.png" class="fleet-img">
+              <h5 class="fleet-title">MINI VAN</h5>
+            </a>
+          </div>
+
+          <!-- 10 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/van.png" class="fleet-img">
+              <h5 class="fleet-title">VAN</h5>
+            </a>
+          </div>
+
+          <!-- 11 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/minibus.png" class="fleet-img">
+              <h5 class="fleet-title">LUXURY COACH</h5>
+            </a>
+          </div>
+
+          <!-- 12 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/bus.png" class="fleet-img">
+              <h5 class="fleet-title">SUPER LUXURY COACH</h5>
+            </a>
+          </div>
+
+        </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/standard.png" alt="BMW" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">STANDARD CARS</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/semi_ex.png" alt="Porsche" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">SEMI EXECUTIVE CARS</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/lux.png" alt="Mercedes-Benz" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title"> LUXURY CARS</h5>
-          <span class="fleet-arrow">
-            <!-- simple arrow (no icon library needed) -->
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/ex.png" alt="Audi" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">EXECUTIVE CARS</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/msuv.png" alt="BMW" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">MINI SUV (4 X 4 )</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/lsuv.png" alt="Porsche" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">LARGE SUV (4 X 4 )</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-	  <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/minivan.png" alt="Audi" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">MINI VAN</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/van.png" alt="BMW" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">VAN</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/minibus.png" alt="Porsche" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">LUXURY COACH</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/bus.png" alt="Mercedes-Benz" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title"> SUPER LUXURY COACH</h5>
-          <span class="fleet-arrow">
-            <!-- simple arrow (no icon library needed) -->
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
     </div>
   </div>
 </section>
 
-  
   <!-- Include jQuery and Bootstrap JS (add this before the closing </body> tag) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
@@ -629,68 +567,68 @@
   
 	
   <section class="ftco-section">
-	<div class="container">
-		<div class="row justify-content-center mb-5">
-			<div class="col-md-7 text-center heading-section ftco-animate">
-				<span class="subheading">What</span>
-				<h2 class="mb-4">We Offer</h2>
-			</div>
-		</div>
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 text-center heading-section ftco-animate">
+          <span class="subheading">What</span>
+          <h2 class="mb-4">We Offer</h2>
+        </div>
+      </div>
 
-		<div class="container mb-4">
-			<div class="row">
-				<!-- Card 1 -->
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-				  <div class="card shadow">
-					  <div class="card-body text-center" style="height: 450px;">
-						  <a href="#">
-							  <img class="card-img-top" src="assets/images/home/rentacar.jpg" alt="">
-						  </a>
-						  <hr>
-						  <h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Rent A Car</h3>
-						  <hr>
-						  <p style="text-align: justify; font-size: 14px;">SR Rent A Car is an independent car rental company in Sri Lanka since 2004. We offer luxurious customer service for you at the most affordable rental car rates.</p>
-						  <a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
-					  </div>
-				  </div>
-			  </div>
-			  <!-- Card 2 -->
-			  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-				<div class="card shadow">
-					<div class="card-body text-center" style="height: 450px;">
-						<a href="#">
-							<img class="card-img-top" src="assets/images/home/transfer.jpg" alt="">
-						</a>
-						<hr>
-						<h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Airport Transfer</h3>
-						<hr>
-						<p style="text-align: justify; font-size: 14px;">SR Rent A Car offer chauffeur-driven Airport Transfer and Hotel Transfer in Sri Lanka. We offer our service for Colombo International Airport & all hotels in Sri Lanka.</p>
-						<a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
-					</div>
-				</div>
-			</div>
+      <div class="container mb-4">
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body text-center" style="height: 450px;">
+                <a href="#">
+                  <img class="card-img-top" src="assets/images/home/rentacar.jpg" alt="">
+                </a>
+                <hr>
+                <h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Rent A Car</h3>
+                <hr>
+                <p style="text-align: justify; font-size: 14px;">SR Rent A Car is an independent car rental company in Sri Lanka since 2004. We offer luxurious customer service for you at the most affordable rental car rates.</p>
+                <a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+          <div class="card shadow">
+            <div class="card-body text-center" style="height: 450px;">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/home/transfer.jpg" alt="">
+              </a>
+              <hr>
+              <h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Airport Transfer</h3>
+              <hr>
+              <p style="text-align: justify; font-size: 14px;">SR Rent A Car offer chauffeur-driven Airport Transfer and Hotel Transfer in Sri Lanka. We offer our service for Colombo International Airport & all hotels in Sri Lanka.</p>
+              <a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
+            </div>
+          </div>
+        </div>
 
-			  <!-- Card 3 -->
-			  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-				<div class="card shadow">
-					<div class="card-body text-center" style="height: 450px;">
-						<a href="#">
-							<img class="card-img-top" src="assets/images/home/wedding.jpg" alt="">
-						</a>
-						<hr>
-						<h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Wedding Rentals</h3>
-						<hr>
-						<p style="text-align: justify; font-size: 14px;">Your wedding day is the most memorable day which you’ll remember for the rest of your life. You try your very best to make it perfect with many items.</p>
-						<a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
+          <!-- Card 3 -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+          <div class="card shadow">
+            <div class="card-body text-center" style="height: 450px;">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/home/wedding.jpg" alt="">
+              </a>
+              <hr>
+              <h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Wedding Rentals</h3>
+              <hr>
+              <p style="text-align: justify; font-size: 14px;">Your wedding day is the most memorable day which you’ll remember for the rest of your life. You try your very best to make it perfect with many items.</p>
+              <a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
 
-	
+    
 
-	</div>
+    </div>
 </section>
 		  
 		  <section class="ftco-section testimony-section img">
@@ -943,6 +881,24 @@
   });
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  new Swiper(".fleetSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".fleet-next",
+      prevEl: ".fleet-prev"
+    },
+    breakpoints: {
+      576: { slidesPerView: 2 },
+      992: { slidesPerView: 3 }
+    }
+  });
+});
+</script>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const btn = document.querySelector(\'.heroRentAcc__toggle\');
@@ -1100,7 +1056,9 @@ document.addEventListener("DOMContentLoaded", () => {
   attachAuto("heroRent_dropInput");
 
 });
-</script>',
+</script>
+
+',
     'richtext' => 1,
     'template' => 2,
     'menuindex' => 0,
@@ -1109,7 +1067,7 @@ document.addEventListener("DOMContentLoaded", () => {
     'createdby' => 1,
     'createdon' => 1723316876,
     'editedby' => 1,
-    'editedon' => 1772193907,
+    'editedon' => 1772341981,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -1725,7 +1683,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	</div>
 </section> -->
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 <!-- our fleet section -->
 <section id="our-fleet">
   <div class="container">
@@ -1736,183 +1695,120 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
-    <!-- Fleet Cards -->
-    <div class="row g-4">
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/mcar.png" alt="Mercedes-Benz" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">MINI CARS</h5>
-          <span class="fleet-arrow">
-            <!-- simple arrow (no icon library needed) -->
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
+    <div class="fleet-swiper-wrap mt-4">
+
+      <!-- Arrows -->
+      <div class="fleet-swiper-actions">
+        <button class="fleet-nav fleet-prev">&#8592;</button>
+        <button class="fleet-nav fleet-next">&#8594;</button>
       </div>
 
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/econ.png" alt="Audi" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">ECONOMY CARS</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
+      <div class="swiper fleetSwiper">
+        <div class="swiper-wrapper">
+
+          <!-- 1 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/mcar.png" class="fleet-img">
+              <h5 class="fleet-title">MINI CARS</h5>
+            </a>
+          </div>
+
+          <!-- 2 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/econ.png" class="fleet-img">
+              <h5 class="fleet-title">ECONOMY CARS</h5>
+            </a>
+          </div>
+
+          <!-- 3 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/standard.png" class="fleet-img">
+              <h5 class="fleet-title">STANDARD CARS</h5>
+            </a>
+          </div>
+
+          <!-- 4 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/semi_ex.png" class="fleet-img">
+              <h5 class="fleet-title">SEMI EXECUTIVE CARS</h5>
+            </a>
+          </div>
+
+          <!-- 5 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/lux.png" class="fleet-img">
+              <h5 class="fleet-title">LUXURY CARS</h5>
+            </a>
+          </div>
+
+          <!-- 6 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/ex.png" class="fleet-img">
+              <h5 class="fleet-title">EXECUTIVE CARS</h5>
+            </a>
+          </div>
+
+          <!-- 7 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/msuv.png" class="fleet-img">
+              <h5 class="fleet-title">MINI SUV (4 X 4)</h5>
+            </a>
+          </div>
+
+          <!-- 8 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/lsuv.png" class="fleet-img">
+              <h5 class="fleet-title">LARGE SUV (4 X 4)</h5>
+            </a>
+          </div>
+
+          <!-- 9 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/minivan.png" class="fleet-img">
+              <h5 class="fleet-title">MINI VAN</h5>
+            </a>
+          </div>
+
+          <!-- 10 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/van.png" class="fleet-img">
+              <h5 class="fleet-title">VAN</h5>
+            </a>
+          </div>
+
+          <!-- 11 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/minibus.png" class="fleet-img">
+              <h5 class="fleet-title">LUXURY COACH</h5>
+            </a>
+          </div>
+
+          <!-- 12 -->
+          <div class="swiper-slide">
+            <a href="#" class="fleet-card">
+              <img src="assets/images/fleet/bus.png" class="fleet-img">
+              <h5 class="fleet-title">SUPER LUXURY COACH</h5>
+            </a>
+          </div>
+
+        </div>
       </div>
 
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/standard.png" alt="BMW" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">STANDARD CARS</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/semi_ex.png" alt="Porsche" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">SEMI EXECUTIVE CARS</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/lux.png" alt="Mercedes-Benz" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title"> LUXURY CARS</h5>
-          <span class="fleet-arrow">
-            <!-- simple arrow (no icon library needed) -->
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/ex.png" alt="Audi" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">EXECUTIVE CARS</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/msuv.png" alt="BMW" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">MINI SUV (4 X 4 )</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/lsuv.png" alt="Porsche" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">LARGE SUV (4 X 4 )</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-	  <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/minivan.png" alt="Audi" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">MINI VAN</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/van.png" alt="BMW" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">VAN</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/minibus.png" alt="Porsche" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title">LUXURY COACH</h5>
-          <span class="fleet-arrow">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
-
-      <div class="col-12 col-sm-6 col-lg-4">
-        <a href="#" class="fleet-card">
-          <img src="assets/images/fleet/bus.png" alt="Mercedes-Benz" class="fleet-img">
-          <div class="fleet-overlay"></div>
-          <h5 class="fleet-title"> SUPER LUXURY COACH</h5>
-          <span class="fleet-arrow">
-            <!-- simple arrow (no icon library needed) -->
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M7 17L17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </span>
-        </a>
-      </div>
     </div>
   </div>
 </section>
 
-  
   <!-- Include jQuery and Bootstrap JS (add this before the closing </body> tag) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
@@ -1920,68 +1816,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 	
   <section class="ftco-section">
-	<div class="container">
-		<div class="row justify-content-center mb-5">
-			<div class="col-md-7 text-center heading-section ftco-animate">
-				<span class="subheading">What</span>
-				<h2 class="mb-4">We Offer</h2>
-			</div>
-		</div>
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 text-center heading-section ftco-animate">
+          <span class="subheading">What</span>
+          <h2 class="mb-4">We Offer</h2>
+        </div>
+      </div>
 
-		<div class="container mb-4">
-			<div class="row">
-				<!-- Card 1 -->
-				<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-				  <div class="card shadow">
-					  <div class="card-body text-center" style="height: 450px;">
-						  <a href="#">
-							  <img class="card-img-top" src="assets/images/home/rentacar.jpg" alt="">
-						  </a>
-						  <hr>
-						  <h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Rent A Car</h3>
-						  <hr>
-						  <p style="text-align: justify; font-size: 14px;">SR Rent A Car is an independent car rental company in Sri Lanka since 2004. We offer luxurious customer service for you at the most affordable rental car rates.</p>
-						  <a class="theme-btn btn-style-four" href="index.php?id=9" role="button">Explore More</a>
-					  </div>
-				  </div>
-			  </div>
-			  <!-- Card 2 -->
-			  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-				<div class="card shadow">
-					<div class="card-body text-center" style="height: 450px;">
-						<a href="#">
-							<img class="card-img-top" src="assets/images/home/transfer.jpg" alt="">
-						</a>
-						<hr>
-						<h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Airport Transfer</h3>
-						<hr>
-						<p style="text-align: justify; font-size: 14px;">SR Rent A Car offer chauffeur-driven Airport Transfer and Hotel Transfer in Sri Lanka. We offer our service for Colombo International Airport & all hotels in Sri Lanka.</p>
-						<a class="theme-btn btn-style-four" href="index.php?id=9" role="button">Explore More</a>
-					</div>
-				</div>
-			</div>
+      <div class="container mb-4">
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+            <div class="card shadow">
+              <div class="card-body text-center" style="height: 450px;">
+                <a href="#">
+                  <img class="card-img-top" src="assets/images/home/rentacar.jpg" alt="">
+                </a>
+                <hr>
+                <h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Rent A Car</h3>
+                <hr>
+                <p style="text-align: justify; font-size: 14px;">SR Rent A Car is an independent car rental company in Sri Lanka since 2004. We offer luxurious customer service for you at the most affordable rental car rates.</p>
+                <a class="theme-btn btn-style-four" href="index.php?id=9" role="button">Explore More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+          <div class="card shadow">
+            <div class="card-body text-center" style="height: 450px;">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/home/transfer.jpg" alt="">
+              </a>
+              <hr>
+              <h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Airport Transfer</h3>
+              <hr>
+              <p style="text-align: justify; font-size: 14px;">SR Rent A Car offer chauffeur-driven Airport Transfer and Hotel Transfer in Sri Lanka. We offer our service for Colombo International Airport & all hotels in Sri Lanka.</p>
+              <a class="theme-btn btn-style-four" href="index.php?id=9" role="button">Explore More</a>
+            </div>
+          </div>
+        </div>
 
-			  <!-- Card 3 -->
-			  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-				<div class="card shadow">
-					<div class="card-body text-center" style="height: 450px;">
-						<a href="#">
-							<img class="card-img-top" src="assets/images/home/wedding.jpg" alt="">
-						</a>
-						<hr>
-						<h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Wedding Rentals</h3>
-						<hr>
-						<p style="text-align: justify; font-size: 14px;">Your wedding day is the most memorable day which you’ll remember for the rest of your life. You try your very best to make it perfect with many items.</p>
-						<a class="theme-btn btn-style-four" href="index.php?id=9" role="button">Explore More</a>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
+          <!-- Card 3 -->
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+          <div class="card shadow">
+            <div class="card-body text-center" style="height: 450px;">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/home/wedding.jpg" alt="">
+              </a>
+              <hr>
+              <h3 style="font-family: Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif;color: rgb(0, 8, 34);size: 20px;">Wedding Rentals</h3>
+              <hr>
+              <p style="text-align: justify; font-size: 14px;">Your wedding day is the most memorable day which you’ll remember for the rest of your life. You try your very best to make it perfect with many items.</p>
+              <a class="theme-btn btn-style-four" href="index.php?id=9" role="button">Explore More</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
 
-	
+    
 
-	</div>
+    </div>
 </section>
 		  
 		  <section class="ftco-section testimony-section img">
@@ -2234,6 +2130,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   });
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  new Swiper(".fleetSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".fleet-next",
+      prevEl: ".fleet-prev"
+    },
+    breakpoints: {
+      576: { slidesPerView: 2 },
+      992: { slidesPerView: 3 }
+    }
+  });
+});
+</script>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const btn = document.querySelector(\'.heroRentAcc__toggle\');
@@ -2392,6 +2306,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 </script>
+
+
 <!-- ✅ Global Top-Right Logo (visible on all pages) -->
 <div class="global-logo">
   <img src="assets/images/award.png" alt="Sri Lanka Rent A Car">

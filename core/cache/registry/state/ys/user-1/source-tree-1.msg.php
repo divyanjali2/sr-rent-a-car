@@ -1,2 +1,2 @@
 <?php
-return '/Filesystem/assets/images/strip';
+return '/Filesystem/assets/js';

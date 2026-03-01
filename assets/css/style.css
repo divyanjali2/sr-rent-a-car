@@ -9134,7 +9134,8 @@ textarea.form-control {
 
 .ftco-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+line-height: 20px; }
 
 .bg-primary {
   background: #c8a97e !important; }
@@ -14101,65 +14102,78 @@ font-size:14px;
   }
 }
 
-#our-fleet {
-  background: #fff;
-  padding: 40px 0;
+/* =========================
+   OUR FLEET SECTION
+   ========================= */
+#our-fleet{
+  background:#fff;
+  padding:40px 0;
 }
 
-
-/* Fleet cards */
+/* =========================
+   FLEET CARD (works for grid + swiper)
+   ========================= */
 .fleet-card{
-  position: relative;
-  display: block;
-  border-radius: 10px;
-  overflow: hidden;
-  text-decoration: none;
-  background: #111;
-  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  position:relative;
+  display:block;
+  height:220px;                 /* IMPORTANT: consistent card height */
+  border-radius:10px;
+  overflow:hidden;
+  text-decoration:none;
+  background:#bfbdbd4d;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+  border:3px solid #043e78;
 }
 
 .fleet-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(1.02);
-  transition: transform .35s ease;
+  width:100%;
+  height:100%;
+  object-fit:contain;           /* better for PNG cutout cars */
+  transform:scale(1.02);
+  transition:transform .35s ease;
 }
 
 .fleet-overlay{
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.15));
+  position:absolute;
+  inset:0;
 }
 
 .fleet-title{
-  position: absolute;
-  bottom: 7px;
-  left: 16px;
-  margin: 0;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: .2px;
-  line-height: 1.05;
-  font-size: 16px;
-  font-family: auto;
+  position:absolute;
+  bottom:7px;
+  left:16px;
+  margin:0;
+  color:#000000f7;
+  font-weight:700;
+  letter-spacing:.2px;
+  line-height:1.05;
+  font-size:16px;
+  font-family:auto;
 }
 
 .fleet-arrow{
-  position: absolute;
-  right: 14px;
-  bottom: 14px;
-  width: 44px;
-  height: 44px;
-  border-radius: 999px;
-  display: grid;
-  place-items: center;
-  background: rgba(255,255,255,.92);
-  color: #1b1b1b;
-  transition: transform .25s ease, background .25s ease;
+  position:absolute;
+  right:14px;
+  bottom:14px;
+  width:44px;
+  height:44px;
+  border-radius:999px;
+  display:grid;
+  place-items:center;
+  background:rgba(255,255,255,.92);
+  color:#1b1b1b;
+  transition:transform .25s ease, background .25s ease, color .25s ease;
 }
 
-.subheading_ourfleet {
+.fleet-card:hover .fleet-img{ transform:scale(1.08); }
+.fleet-card:hover .fleet-arrow{
+  transform:translateY(-2px);
+  background:#3b82f6;
+  color:#fff;
+}
+
+/* heading */
+.subheading_ourfleet{
   display:inline-block;
   font-size:12px;
   font-weight:700;
@@ -14167,12 +14181,76 @@ font-size:14px;
   color:#da0000;
 }
 
-.fleet-card:hover .fleet-img{ transform: scale(1.08); }
-.fleet-card:hover .fleet-arrow{
-  transform: translateY(-2px);
-  background: #3b82f6; /* blue like the image */
-  color: #fff;
+/* Bootstrap 4 fallback if g-4 doesn't exist */
+#our-fleet .row.g-4{ row-gap:18px; }
+
+/* =========================
+   SWIPER WRAPPER + NAV (top-right)
+   ========================= */
+.fleet-swiper-wrap{
+  position:relative;
+  margin-top:24px;
 }
 
-/* Optional: match spacing like the screenshot */
-#our-fleet .row.g-4{ row-gap: 18px; }
+/* Arrows on the top-right of the slider area */
+.fleet-swiper-actions{
+  position:absolute;
+  top:20rem;
+  right:0;
+  display:flex;
+  gap:10px;
+  z-index:10;
+}
+
+.fleet-nav{
+  width:44px;
+  height:44px;
+  border-radius:999px;
+  border:1px solid rgba(0,0,0,.12);
+  background:#fff;
+  cursor:pointer;
+  display:grid;
+  place-items:center;
+  font-size:18px;
+  transition:transform .2s ease, background .2s ease;
+  border: 2px solid #055175;
+}
+
+.fleet-nav:hover{
+  transform:translateY(-2px);
+  background:#f2f2f2;
+}
+
+/* =========================
+   SWIPER: IMPORTANT PART
+   - hide slider until initialized
+   - prevent "all slides visible" grid/stack issue
+   ========================= */
+
+.fleetSwiper {
+  overflow: hidden;
+}
+
+.fleetSwiper .swiper-wrapper {
+  display: flex;
+}
+
+.fleetSwiper .swiper-slide {
+  flex-shrink: 0;
+}
+
+.fleet-card {
+  height: 220px;
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #bfbdbd4d;
+  border: 3px solid #043e78;
+}
+
+.fleet-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
