@@ -647,234 +647,210 @@
   </div>
 </section>
 		  
-		  <section class="ftco-section testimony-section img">
-			  <div class="overlay"></div>
-		<div class="container">
-		  <div class="row justify-content-center mb-5">
-			<div class="col-md-12 text-center heading-section ftco-animate">
-				<span class="subheading">Testimony</span>
-			  <h2 class="mb-4">Happy Customer</h2>
-			</div>
-		  </div>
-		 
-		  <!--heading--->
-   
-		<!--testimonials-box-container------>
-		<div class="testimonial-box-container">
-		   
-			<!--BOX-2-------------->
-			<div class="testimonial-box">
-				<!--top------------------------->
-				<div class="box-top">
-					<!--profile----->
-					<div class="profile">
-						<!--img---->
-						<div class="profile-img">
-							<img src="assets/images/testimonial/1.png" />
-						</div>
-						<!--name-and-username-->
-						<div class="name-user">
-							<strong>UnderSmokingDoors TV </strong>
-							<span>August 20, 2024.</span>
-						</div>
-					</div>
-					<!--reviews------>
-					<div class="reviews">
-					  <img src="assets/images/testimonial/google.png" alt="Google Logo" class="google-logo">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><!--Empty star-->
-					</div>
-				</div>
-				<!--Comments---------------------------------------->
-				<div class="client-comment">
-				  <p style="text-align: justify;">Tutto perfetto, ritiro semplice e veloce, auto in perfette condizioni..un ringraziamento particolare a Sampath per l'attenzione e disponibilità dimostrata..consiglio assolutamente! </p>
-				</div>
-			</div>
-			  <!--BOX-1-------------->
-			  <div class="testimonial-box">
-				<!--top------------------------->
-				<div class="box-top">
-					<!--profile----->
-					<div class="profile">
-						<!--img---->
-						<div class="profile-img">
-							<img src="assets/images/testimonial/2.png" />
-						</div>
-						<!--name-and-username-->
-						<div class="name-user">
-							<strong>Daniel “Kraiks” Vachal </strong>
-							<span>August 12, 2024.</span>
-						</div>
-					</div>
-					<!--reviews------>
-					<div class="reviews">
-					  <img src="assets/images/testimonial/google.png" alt="Google Logo" class="google-logo">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="far fa-star"></i><!--Empty star-->
-					</div>
-				</div>
-				<!--Comments---------------------------------------->
-				<div class="client-comment">
-					<p style="text-align: justify;">Great service overall, we were delayed because of our flight. No problem, they offered to deliver the car to our hotel.However, i didnt have my international </p>
-				</div>
-			</div>
-			<!--BOX-3-------------->
-			<div class="testimonial-box">
-				<!--top------------------------->
-				<div class="box-top">
-					<!--profile----->
-					<div class="profile">
-						<!--img---->
-						<div class="profile-img">
-							<img src="assets/images/testimonial/3.png" />
-						</div>
-						<!--name-and-username-->
-						<div class="name-user">
-						  <strong>Brian Steele </strong>
-						  <span>August 19, 2024.</span>
-						</div>
-					</div>
-					<!--reviews------>
-					<div class="reviews">
-					  <img src="assets/images/testimonial/google.png" alt="Google Logo" class="google-logo">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="far fa-star"></i><!--Empty star-->
-				 
-					</div>
-				</div>
-				<!--Comments---------------------------------------->
-				<div class="client-comment">
-					<p>We had booked an airport transfer from Our hotel in Bentota Thaala to the airport and our driver Sahan had been delayed by the weather and traffic but still managed ...</p>
-				</div>
-			</div>
-			<!--BOX-4-------------->
-			<div class="testimonial-box">
-				<!--top------------------------->
-				<div class="box-top">
-					<!--profile----->
-					<div class="profile">
-						<!--img---->
-						<div class="profile-img">
-							<img src="assets/images/testimonial/4.png" />
-						</div>
-						<!--name-and-username-->
-						<div class="name-user">
-							<strong>Devran Karaveli </strong>
-							<span>July 22, 2024.</span>
-						</div>
-					</div>
-					<!--reviews------>
-					<div class="reviews">
-					  <img src="assets/images/testimonial/google.png" alt="Google Logo" class="google-logo">
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="fas fa-star"></i>
-						<i class="far fa-star"></i><!--Empty star-->
-					</div>
-				</div>
-				<!--Comments---------------------------------------->
-				<div class="client-comment">
-					<p>A good, reliable business with understanding and well-intentioned staff who help in every way possible.</p>
-				</div>
-			</div>
-		   
-		</div>
-	
-			  </div>
-			</div>
-		  </div>
-		</div>
-		<br><br>
-		<div class="bottom-image"><a href="https://www.google.com/search?client=firefox-b-d&q=sr+rent+a+car#lrd=0x3ae2f9da7f0d8cad:0x23cc584d58386b05,1,,,," target="_blank">
-		  <img src="assets/images/home/google.png" alt="Bottom Image"></a>
-	  </div>
-	  </section>
-	  <section class="ftco-section bg-light">
-		<div class="container">
-			<div class="row justify-content-center mb-5">
-				<div class="col-md-7 text-center heading-section ftco-animate">
-					<span class="subheading">Blog</span>
-					<h2 class="mb-4">Recent Posts</h2>
-				</div>
-			</div>
-	
-			<div class="container mb-4">
-				<div class="row">
-					<!-- Card 1 -->
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-					  <div class="card shadow">
-						  <div class="card-body text-center">
-							  <a href="#">
-								  <img class="card-img-top" src="assets/images/blog/car_crashed.jpg" alt="">
-							  </a>
-							  <ul class="list-inline mt-3">
-								  <li class="list-inline-item"><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-								  <li class="list-inline-item"><i class="far fa-clock"></i> Apr 19, 2024</li>
-							  </ul>
-							  <hr>
-							  <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: royalblue;">Navigating a Vehicle Accident in Sri Lanka as a Foreigner: A Comprehensive Guide</h3>
-							  <p style="text-align: justify; font-size: 14px;">Driving in a foreign country can be an exciting experience, but it's essential to be prepared for unexpected situations like a vehicle accident. If you find yourself in this unfortunate situation while driving a rental vehicle in Sri Lanka, knowing the right steps to...</p>
-							  <a class="theme-btn btn-style-three" href="[[~7]]" role="button">Read more...</a>
-						  </div>
-					  </div>
-				  </div>
-				  <!-- Card 2 -->
-				  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-					<div class="card shadow">
-						<div class="card-body text-center">
-							<a href="#">
-								<img class="card-img-top" src="assets/images/blog/hidden_gems.jpg" alt="">
-							</a>
-							<ul class="list-inline mt-3">
-								<li class="list-inline-item"><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-								<li class="list-inline-item"><i class="far fa-clock"></i> Sep 20, 2023</li>
-							</ul>
-							<hr>
-							<h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: royalblue;">Hidden Gems near Kandy to Discover with Your Rental Car</h3>
-							<p style="text-align: justify; font-size: 14px;">Kandy, the cultural jewel of Sri Lanka, beckons travellers with its rich history, vibrant culture, and captivating landscapes. While the city itself teems with attractions, the true essence of this region lies in the undiscovered gems hidden in its environs. For an...</p>
-							<a class="theme-btn btn-style-three" href="[[~8]]" role="button">Read more...</a>
-						</div>
-					</div>
-				</div>
-  
-				  <!-- Card 3 -->
-				  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-					<div class="card shadow">
-						<div class="card-body text-center">
-							<a href="#">
-								<img class="card-img-top" src="assets/images/blog/driving_license.jpg" alt="">
-							</a>
-							<ul class="list-inline mt-3">
-								<li class="list-inline-item"><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-								<li class="list-inline-item"><i class="far fa-clock"></i>Nov 1, 2021</li>
-							</ul>
-							<hr>
-							<h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: royalblue;">Valid Driving Licenses To Rent A Car In Sri Lanka</h3>
-							<p style="text-align: justify; font-size: 14px;">Driving in a foreign country can be an exciting experience, but it's essential to be prepared for unexpected situations like a vehicle accident. If you find yourself in this unfortunate situation while driving a rental vehicle in Sri Lanka, knowing the right steps to...</p>
-							<a class="theme-btn btn-style-three" href="[[~12]]" role="button">Read more...</a>
-						</div>
-					</div>
-				</div>
-				</div>
-			</div>
-	
-			<!-- Large Button Section -->
-			<div class="text-center mt-5">
-				<a class="theme-btn btn-style-two" href="[[~5]]" role="button">View All Posts</a>
-			</div>
-	
-		</div>
-	</section>
+<!-- testimonials section -->
+<section class="testimonials-modern">
+  <div class="container">
+    <div class="text-center mb-0">
+      <span class="tm-sub">Testimonial</span>
+      <h2 class="tm-title">We Care About Our<br>Customers Experience Too</h2>
+    </div>
+
+    <div class="tm-wrap">
+      <!-- arrows (right side like image) -->
+      <div class="tm-controls">
+        <button class="tm-btn tm-prev" type="button" aria-label="Previous">&#8592;</button>
+        <button class="tm-btn tm-next" type="button" aria-label="Next">&#8594;</button>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper tmSwiper">
+        <div class="swiper-wrapper">
+
+          <!-- Review 1 -->
+          <div class="swiper-slide">
+            <div class="tm-card">
+              <div class="tm-avatar">
+                <img src="assets/images/testimonial/1.png" alt="UnderSmokingDoors TV">
+              </div>
+
+              <p class="tm-text">
+                “Tutto perfetto, ritiro semplice e veloce, auto in perfette condizioni.. un ringraziamento particolare a Sampath… consiglio assolutamente!”
+              </p>
+
+              <div class="tm-footer">
+                <div>
+                  <div class="tm-name">UnderSmokingDoors TV</div>
+                  <div class="tm-role">Google Review • Aug 20, 2024</div>
+                </div>
+
+                <div class="tm-stars" aria-label="5 stars">
+                  ★★★★★
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="swiper-slide">
+            <div class="tm-card">
+              <div class="tm-avatar">
+                <img src="assets/images/testimonial/2.png" alt="Daniel Kraiks Vachal">
+              </div>
+
+              <p class="tm-text">
+                “Great service overall, we were delayed because of our flight. No problem, they offered to deliver the car to our hotel…”
+              </p>
+
+              <div class="tm-footer">
+                <div>
+                  <div class="tm-name">Daniel “Kraiks” Vachal</div>
+                  <div class="tm-role">Google Review • Aug 12, 2024</div>
+                </div>
+
+                <div class="tm-stars" aria-label="4 stars">
+                  ★★★★☆
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="swiper-slide">
+            <div class="tm-card">
+              <div class="tm-avatar">
+                <img src="assets/images/testimonial/3.png" alt="Brian Steele">
+              </div>
+
+              <p class="tm-text">
+                “We had booked an airport transfer… our driver Sahan had been delayed by the weather and traffic but still managed…”
+              </p>
+
+              <div class="tm-footer">
+                <div>
+                  <div class="tm-name">Brian Steele</div>
+                  <div class="tm-role">Google Review • Aug 19, 2024</div>
+                </div>
+
+                <div class="tm-stars" aria-label="4 stars">
+                  ★★★★☆
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 4 (optional extra slide) -->
+          <div class="swiper-slide">
+            <div class="tm-card">
+              <div class="tm-avatar">
+                <img src="assets/images/testimonial/4.png" alt="Devran Karaveli">
+              </div>
+
+              <p class="tm-text">
+                “A good, reliable business with understanding and well-intentioned staff who help in every way possible.”
+              </p>
+
+              <div class="tm-footer">
+                <div>
+                  <div class="tm-name">Devran Karaveli</div>
+                  <div class="tm-role">Google Review • Jul 22, 2024</div>
+                </div>
+
+                <div class="tm-stars" aria-label="4 stars">
+                  ★★★★☆
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- bottom google badge (keep yours if you want) -->
+    <div class="text-center mt-4">
+      <a href="https://www.google.com/search?client=firefox-b-d&q=sr+rent+a+car#lrd=0x3ae2f9da7f0d8cad:0x23cc584d58386b05,1,,,," target="_blank" rel="noopener">
+        <img src="assets/images/home/google.png" alt="Google" style="max-width:180px;">
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-7 text-center heading-section ftco-animate">
+        <span class="subheading">Blog</span>
+        <h2 class="mb-4">Recent Posts</h2>
+      </div>
+    </div>
+
+    <div class="container mb-4">
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+          <div class="card shadow">
+            <div class="card-body text-center">
+              <a href="#">
+                <img class="card-img-top" src="assets/images/blog/car_crashed.jpg" alt="">
+              </a>
+              <ul class="list-inline mt-3">
+                <li class="list-inline-item"><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
+                <li class="list-inline-item"><i class="far fa-clock"></i> Apr 19, 2024</li>
+              </ul>
+              <hr>
+              <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: royalblue;">Navigating a Vehicle Accident in Sri Lanka as a Foreigner: A Comprehensive Guide</h3>
+              <p style="text-align: justify; font-size: 14px;">Driving in a foreign country can be an exciting experience, but it's essential to be prepared for unexpected situations like a vehicle accident. If you find yourself in this unfortunate situation while driving a rental vehicle in Sri Lanka, knowing the right steps to...</p>
+              <a class="theme-btn btn-style-three" href="[[~7]]" role="button">Read more...</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+        <div class="card shadow">
+          <div class="card-body text-center">
+            <a href="#">
+              <img class="card-img-top" src="assets/images/blog/hidden_gems.jpg" alt="">
+            </a>
+            <ul class="list-inline mt-3">
+              <li class="list-inline-item"><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
+              <li class="list-inline-item"><i class="far fa-clock"></i> Sep 20, 2023</li>
+            </ul>
+            <hr>
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: royalblue;">Hidden Gems near Kandy to Discover with Your Rental Car</h3>
+            <p style="text-align: justify; font-size: 14px;">Kandy, the cultural jewel of Sri Lanka, beckons travellers with its rich history, vibrant culture, and captivating landscapes. While the city itself teems with attractions, the true essence of this region lies in the undiscovered gems hidden in its environs. For an...</p>
+            <a class="theme-btn btn-style-three" href="[[~8]]" role="button">Read more...</a>
+          </div>
+        </div>
+      </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+        <div class="card shadow">
+          <div class="card-body text-center">
+            <a href="#">
+              <img class="card-img-top" src="assets/images/blog/driving_license.jpg" alt="">
+            </a>
+            <ul class="list-inline mt-3">
+              <li class="list-inline-item"><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
+              <li class="list-inline-item"><i class="far fa-clock"></i>Nov 1, 2021</li>
+            </ul>
+            <hr>
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: royalblue;">Valid Driving Licenses To Rent A Car In Sri Lanka</h3>
+            <p style="text-align: justify; font-size: 14px;">Driving in a foreign country can be an exciting experience, but it's essential to be prepared for unexpected situations like a vehicle accident. If you find yourself in this unfortunate situation while driving a rental vehicle in Sri Lanka, knowing the right steps to...</p>
+            <a class="theme-btn btn-style-three" href="[[~12]]" role="button">Read more...</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Large Button Section -->
+    <div class="text-center mt-5">
+      <a class="theme-btn btn-style-two" href="[[~5]]" role="button">View All Posts</a>
+    </div>
+
+  </div>
+</section>
 	
 
 	<style>
