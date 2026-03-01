@@ -9144,8 +9144,9 @@ line-height: 20px; }
   font-size: 24px; }
 
 .ftco-section {
-  padding: 4em 0;
-  position: relative; }
+  padding: 40px 0;
+  position: relative;
+background-color: #f8f9fb; }
 
   .ftco-footersection {
     padding: 2em 0;
@@ -14253,4 +14254,108 @@ font-size:14px;
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+
+/* ===== We Offer (like the reference image) ===== */
+.we-offer .offer-card{
+  display:block;
+  text-decoration:none;
+  padding:16px 16px 14px;
+  border-radius:22px;
+  background:#0c31401f;             /* soft blue like image */
+  box-shadow: 0 10px 25px rgba(0,0,0,.06);
+  position:relative;
+  overflow:hidden;
+  height: 360px;
+}
+
+.we-offer .offer-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+
+.we-offer .offer-title{
+  margin:0;
+  font-weight:700;
+  color:#1a2a3a;
+  font-size:18px;
+}
+
+.we-offer .offer-media{
+  position:relative;
+  height: 200px;
+  border-radius:18px;
+  background: rgba(255,255,255,.35);
+  overflow:hidden;
+}
+
+/* round icon badge at top-left */
+.we-offer .offer-icon{
+  position:absolute;
+  top:12px;
+  left:12px;
+  width:52px;
+  height:52px;
+  border-radius:999px;
+  background:#ffffff;
+  color:#2f90b0;
+  display:grid;
+  place-items:center;
+  box-shadow: 0 8px 18px rgba(0,0,0,.08);
+  z-index:2;
+}
+
+/* image aligned to right */
+.we-offer .offer-img{
+  position:absolute;
+  right:10px;
+  top:18px;
+  width: 72%;
+  height: 170px;
+  object-fit: cover;
+  border-radius:16px;
+}
+
+/* bottom white rounded bubble */
+.we-offer .offer-bubble{
+  position:absolute;
+  left:16px;
+  right:16px;
+  bottom:14px;
+  background:#fff;
+  border-radius:18px;
+  padding:14px 52px 14px 14px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.06);
+}
+
+.we-offer .offer-bubble p{
+  margin:0;
+  color:#5a6775;
+  font-size:13px;
+  line-height:1.35;
+}
+
+/* little arrow button at bubble right */
+.we-offer .offer-arrow{
+  position:absolute;
+  right:12px;
+  top:50%;
+  transform:translateY(-50%);
+  width:40px;
+  height:40px;
+  border-radius:999px;
+  background:#eef3f6;
+  display:grid;
+  place-items:center;
+  color:#0f1b24;
+  font-weight:700;
+}
+
+/* hover */
+.we-offer .offer-card:hover{
+  transform: translateY(-2px);
+  transition: transform .2s ease;
 }

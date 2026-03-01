@@ -417,7 +417,6 @@
 	
 	</div>
 </section> -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <!-- our fleet section -->
 <section id="our-fleet">
@@ -542,76 +541,110 @@
     </div>
   </div>
 </section>
-
-  <!-- Include jQuery and Bootstrap JS (add this before the closing </body> tag) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
-	
-  <section class="ftco-section">
-    <div class="container">
-      <div class="row justify-content-center mb-5">
-        <div class="col-md-7 text-center heading-section ftco-animate">
-          <span class="subheading">What</span>
-          <h2 class="mb-4">We Offer</h2>
-        </div>
+<!-- what we offer section -->
+<section class="ftco-section we-offer">
+  <div class="container">
+    <div class="row justify-content-center mb-0">
+      <div class="col-md-7 text-center heading-section ftco-animate">
+        <span class="subheading_ourfleet">What We Offer</span>
+        <h2 class="mb-4">Our Services</h2>
       </div>
-
-      <div class="container mb-4">
-        <div class="row">
-          <!-- Card 1 -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-            <div class="card shadow">
-              <div class="card-body text-center" style="height: 450px;">
-                <a href="#">
-                  <img class="card-img-top" src="assets/images/home/rentacar.jpg" alt="">
-                </a>
-                <hr>
-                <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: rgb(0, 8, 34);size: 20px;">Rent A Car</h3>
-                <hr>
-                <p style="text-align: justify; font-size: 14px;">SR Rent A Car is an independent car rental company in Sri Lanka since 2004. We offer luxurious customer service for you at the most affordable rental car rates.</p>
-                <a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
-              </div>
-            </div>
-          </div>
-          <!-- Card 2 -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-          <div class="card shadow">
-            <div class="card-body text-center" style="height: 450px;">
-              <a href="#">
-                <img class="card-img-top" src="assets/images/home/transfer.jpg" alt="">
-              </a>
-              <hr>
-              <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: rgb(0, 8, 34);size: 20px;">Airport Transfer</h3>
-              <hr>
-              <p style="text-align: justify; font-size: 14px;">SR Rent A Car offer chauffeur-driven Airport Transfer and Hotel Transfer in Sri Lanka. We offer our service for Colombo International Airport & all hotels in Sri Lanka.</p>
-              <a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
-            </div>
-          </div>
-        </div>
-
-          <!-- Card 3 -->
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-4">
-          <div class="card shadow">
-            <div class="card-body text-center" style="height: 450px;">
-              <a href="#">
-                <img class="card-img-top" src="assets/images/home/wedding.jpg" alt="">
-              </a>
-              <hr>
-              <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: rgb(0, 8, 34);size: 20px;">Wedding Rentals</h3>
-              <hr>
-              <p style="text-align: justify; font-size: 14px;">Your wedding day is the most memorable day which you’ll remember for the rest of your life. You try your very best to make it perfect with many items.</p>
-              <a class="theme-btn btn-style-four" href="[[~9]]" role="button">Explore More</a>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-
-    
-
     </div>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-12 col-md-6 col-lg-4 mt-4">
+        <a href="[[~9]]" class="offer-card">
+          <div class="offer-head">
+            <h4 class="offer-title">Rent A Car</h4>
+          </div>
+
+          <div class="offer-media">
+            <span class="offer-icon">
+              <!-- car icon -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M3 13l2-6a2 2 0 0 1 1.9-1.3h10.2A2 2 0 0 1 19 7l2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M5 13h14v5a1 1 0 0 1-1 1h-1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M5 19H4a1 1 0 0 1-1-1v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="7.5" cy="18" r="1" fill="currentColor"/>
+                <circle cx="16.5" cy="18" r="1" fill="currentColor"/>
+              </svg>
+            </span>
+
+            <img src="assets/images/home/rentacar.jpg" alt="Rent A Car" class="offer-img">
+          </div>
+
+          <div class="offer-bubble">
+            <p>
+              SR Rent A Car is an independent car rental company in Sri Lanka since 2004.
+              We offer luxurious customer service at affordable rates.
+            </p>
+            <span class="offer-arrow">↗</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-6 col-lg-4 mt-4">
+        <a href="[[~9]]" class="offer-card">
+          <div class="offer-head">
+            <h4 class="offer-title">Airport Transfer</h4>
+          </div>
+
+          <div class="offer-media">
+            <span class="offer-icon">
+              <!-- plane icon -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M10 21l2-7 7-2 2 2-2 7-7 2-2-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M12 14L3 9l2-2 9 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M14 12l5-9 2 2-5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+
+            <img src="assets/images/home/transfer.jpg" alt="Airport Transfer" class="offer-img">
+          </div>
+
+          <div class="offer-bubble">
+            <p>
+              Chauffeur-driven airport and hotel transfers across Sri Lanka.
+              Service available for Colombo International Airport & all hotels.
+            </p>
+            <span class="offer-arrow">↗</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-md-6 col-lg-4 mt-4">
+        <a href="[[~9]]" class="offer-card">
+          <div class="offer-head">
+            <h4 class="offer-title">Wedding Rentals</h4>
+          </div>
+
+          <div class="offer-media">
+            <span class="offer-icon">
+              <!-- heart icon -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M12 21s-7-4.6-9.5-8.5C.6 9.5 2.3 6 6 6c2 0 3.2 1 4 2 0 0 1.2-2 4-2 3.7 0 5.4 3.5 3.5 6.5C19 16.4 12 21 12 21z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </span>
+
+            <img src="assets/images/home/wedding.jpg" alt="Wedding Rentals" class="offer-img">
+          </div>
+
+          <div class="offer-bubble">
+            <p>
+              Make your wedding day perfect with premium vehicles and professional service.
+              Comfort, style, and punctuality guaranteed.
+            </p>
+            <span class="offer-arrow">↗</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
 </section>
 		  
 		  <section class="ftco-section testimony-section img">
@@ -864,7 +897,6 @@
   });
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   new Swiper(".fleetSwiper", {
