@@ -810,3 +810,6 @@ Array
 [2026-03-01 05:52:49] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(logo.png): File not supported
 [2026-03-01 05:52:49] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(logo.ico): File not supported
 [2026-03-01 05:52:49] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(whatsapp-icon.png): File not supported
+[2026-03-03 06:15:02] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(logo.png): File not supported
+[2026-03-03 06:15:04] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(logo.ico): File not supported
+[2026-03-03 06:15:04] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\Sources\modMediaSource.php : 2244) PHP warning: exif_read_data(whatsapp-icon.png): File not supported
