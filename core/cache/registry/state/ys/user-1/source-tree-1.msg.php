@@ -1,2 +1,2 @@
 <?php
-return '/Filesystem/assets/js';
+return '/Filesystem/assets/classes';
