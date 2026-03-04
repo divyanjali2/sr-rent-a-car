@@ -208,54 +208,33 @@
   </div>
 </section>
 
-<!-- offers section -->
-<section class="promo-banners">
+<section class="promo50-section">
   <div class="container">
-    <div class="promo-grid">
+    <div class="promo50-grid">
 
       <!-- Banner 1 -->
-      <article class="promo-banner light text-dark">
-        <div class="promo-content">
-          <span class="promo-badge gold">Flat 25% Discount</span>
+      <article class="promo50-card">
+        <img class="promo50-bg" src="assets/images/offers/promo-1.jpg" alt="Rental Offer 1">
 
-          <h2 class="promo-title">
-            Special <span>Weekend</span><br>Rental Deals
-          </h2>
-
-          <p class="promo-text">
-            Book early and save on mini & economy cars. Limited slots available this weekend.
-          </p>
-
-          <a href="[[~9]]" class="promo-btn">
-            Book Now <span>→</span>
-          </a>
-        </div>
-
-        <div class="promo-media">
-          <img src="assets/images/offers/offer-1.jpg" alt="Weekend Car Rental Deal">
+        <div class="promo50-overlay">
+          <div class="promo50-content">
+            <div class="promo50-title">50%<br>OFF</div>
+            <div class="promo50-sub">Clean. Safe. Reliable.</div>
+            <a href="[[~9]]" class="promo50-btn">Book Now</a>
+          </div>
         </div>
       </article>
 
       <!-- Banner 2 -->
-      <article class="promo-banner dark text-white" >
-        <div class="promo-content">
-          <span class="promo-badge green">Flat 20% Discount</span>
+      <article class="promo50-card">
+        <img class="promo50-bg" src="assets/images/offers/promo-2.jpg" alt="Rental Offer 2">
 
-          <h2 class="promo-title" style="color: white !important;">
-            Save Big on<br><span>Airport Transfers</span>
-          </h2>
-
-          <p class="promo-text">
-            Chauffeur-driven pickups from CMB. Comfortable fleet, professional drivers, 24/7 support.
-          </p>
-
-          <a href="[[~30]]" class="promo-btn white">
-            Get Quote <span>→</span>
-          </a>
-        </div>
-
-        <div class="promo-media">
-          <img src="assets/images/offers/offer-2.jpg" alt="Airport Transfer Discount">
+        <div class="promo50-overlay">
+          <div class="promo50-content">
+            <div class="promo50-title">50%<br>OFF</div>
+            <div class="promo50-sub">Limited time deal.</div>
+            <a href="[[~30]]" class="promo50-btn">Get Quote</a>
+          </div>
         </div>
       </article>
 
@@ -984,17 +963,17 @@
 
 <script>
 	document.addEventListener("DOMContentLoaded", function () {
-	new Swiper(".tmSwiper", {
-		spaceBetween: 18,
-		navigation: {
-		nextEl: ".tm-next",
-		prevEl: ".tm-prev",
-		},
-		breakpoints: {
-		0:   { slidesPerView: 1 },
-		768: { slidesPerView: 2 },
-		992: { slidesPerView: 3 },
-		},
-	});
+    new Swiper(".tmSwiper", {
+        spaceBetween: 18,
+        navigation: {
+        nextEl: ".tm-next",
+        prevEl: ".tm-prev",
+      },
+      breakpoints: {
+        0:   { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        992: { slidesPerView: 3 },
+      },
+    });
 	});
 </script>

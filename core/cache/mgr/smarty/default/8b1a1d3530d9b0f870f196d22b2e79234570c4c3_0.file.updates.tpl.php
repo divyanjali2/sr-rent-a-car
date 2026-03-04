@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.2, created on 2026-02-26 12:11:32
+/* Smarty version 4.5.2, created on 2026-03-03 17:44:17
   from 'C:\xampp\htdocs\srilankarentacar.com\manager\templates\default\dashboard\updates.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.2',
-  'unifunc' => 'content_69a02a64367ca0_21344092',
+  'unifunc' => 'content_69a70fe1560798_66081173',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_69a02a64367ca0_21344092 (Smarty_Internal_Template $_smarty_tpl) {
+function content_69a70fe1560798_66081173 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="modx-grid-updates" class="updates-widget">
     <div class="table-wrapper">
         <table class="table">

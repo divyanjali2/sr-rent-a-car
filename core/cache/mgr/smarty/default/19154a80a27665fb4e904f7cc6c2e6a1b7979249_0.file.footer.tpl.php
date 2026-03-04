@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.2, created on 2026-02-26 12:11:36
+/* Smarty version 4.5.2, created on 2026-03-03 17:44:23
   from 'C:\xampp\htdocs\srilankarentacar.com\manager\templates\default\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.2',
-  'unifunc' => 'content_69a02a682cdf06_32891206',
+  'unifunc' => 'content_69a70fe71d95d4_98387101',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_69a02a682cdf06_32891206 (Smarty_Internal_Template $_smarty_tpl) {
+function content_69a70fe71d95d4_98387101 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    </div>
     <!-- #modx-content-->
     <div id="modx-footer">

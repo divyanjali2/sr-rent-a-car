@@ -1,1 +1,0 @@
-[2026-02-26 12:10:58] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\setup\includes\modinstallsettings.class.php : 164) PHP warning: fopen(C:/xampp/htdocs/srilankarentacar.com/core/cache/setup/settings.cache.php): Failed to open stream: No such file or directory

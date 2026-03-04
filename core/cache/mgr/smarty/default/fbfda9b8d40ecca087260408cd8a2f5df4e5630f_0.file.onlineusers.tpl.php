@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.2, created on 2026-02-26 12:11:32
+/* Smarty version 4.5.2, created on 2026-03-03 17:44:18
   from 'C:\xampp\htdocs\srilankarentacar.com\manager\templates\default\dashboard\onlineusers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.2',
-  'unifunc' => 'content_69a02a64ccb208_56058625',
+  'unifunc' => 'content_69a70fe21d30d9_19802863',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_69a02a64ccb208_56058625 (Smarty_Internal_Template $_smarty_tpl) {
+function content_69a70fe21d30d9_19802863 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\srilankarentacar.com\\core\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 ?>
 <p><?php echo $_smarty_tpl->tpl_vars['_lang']->value['onlineusers_message'];?>

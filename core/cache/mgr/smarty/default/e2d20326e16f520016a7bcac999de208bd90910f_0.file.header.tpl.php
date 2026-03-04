@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.2, created on 2026-02-26 12:11:35
+/* Smarty version 4.5.2, created on 2026-03-03 17:44:21
   from 'C:\xampp\htdocs\srilankarentacar.com\manager\templates\default\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.2',
-  'unifunc' => 'content_69a02a67210d92_88588502',
+  'unifunc' => 'content_69a70fe5dfd9e1_43358220',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_69a02a67210d92_88588502 (Smarty_Internal_Template $_smarty_tpl) {
+function content_69a70fe5dfd9e1_43358220 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html dir="<?php echo $_smarty_tpl->tpl_vars['_config']->value['manager_direction'];?>
 " lang="<?php echo $_smarty_tpl->tpl_vars['_config']->value['cultureKey'];?>

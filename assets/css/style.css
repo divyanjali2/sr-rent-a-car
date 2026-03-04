@@ -16350,9 +16350,12 @@ font-size:14px;
   align-items: center;
   padding: 18px;
   background:
-  linear-gradient(
-  125deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .05) 40%, rgb(0 0 0 / 54%) 75%, rgba(0, 0, 0, .28) 100%)
-  }
+    linear-gradient(90deg,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,.05) 40%,
+      rgba(0,0,0,.22) 75%,
+      rgba(0,0,0,.28) 100%);
+}
 
 .promo50-content{
   text-align: left;
@@ -16385,7 +16388,7 @@ font-size:14px;
   height: 40px;
   padding: 0 18px;
   border-radius: 999px;
-  background: #003d8b; 
+  background: #074c89; 
   color: #fff;
   font-weight: 900;
   font-size: 13px;
@@ -16407,4 +16410,164 @@ font-size:14px;
 @media (max-width: 576px){
   .promo50-card{ height: 220px; }
   .promo50-title{ font-size: 46px; }
+}
+
+
+.offers-grid-section{
+  padding: 50px 0;
+  background: #f7f9fc;
+}
+
+.offers-grid-2{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.offer-mini-card{
+  background: #fff;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 15px 40px rgba(0,0,0,.06);
+  transition: .3s;
+}
+
+.offer-mini-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0,0,0,.1);
+}
+
+.offer-mini-card h4{
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.offer-mini-card p{
+  font-size: 14px;
+  color: #555;
+}
+
+.offer-mini-btn{
+  display: inline-block;
+  padding: 8px 14px;
+  background: #0b3a78;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.offer-tag{
+  font-size: 11px;
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.offer-tag.red{ background: #d40000; }
+.offer-tag.blue{ background: #0b3a78; }
+.offer-tag.green{ background: #1f7a3b; }
+.offer-tag.purple{ background: #7c3aed; }
+
+@media(max-width:992px){
+  .offers-grid-2{ grid-template-columns: repeat(2,1fr); }
+}
+@media(max-width:576px){
+  .offers-grid-2{ grid-template-columns: 1fr; }
+}
+
+.featured-offer-section{
+  padding: 60px 0;
+  background: #fff;
+}
+
+.featured-offer-box{
+  position: relative;
+  background: url('http://localhost/srilankarentacar.com/assets/images/offers/suv-bg.jpg') center center / cover no-repeat;
+  border-radius: 22px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* Dark overlay for readability */
+.featured-overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 1;
+}
+
+/* Make content appear above overlay */
+.featured-left,
+.featured-right{
+  position: relative;
+  z-index: 2;
+}
+
+.featured-badge{
+  display: inline-block;
+  background: #ffc107;
+  color: #000;
+  font-weight: 800;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 50px;
+  margin-bottom: 12px;
+}
+
+.featured-left h2{
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 12px;
+color : #fff;
+}
+
+.featured-left p{
+  opacity: .95;
+  max-width: 420px;
+}
+
+.featured-right{
+  text-align: center;
+}
+
+.featured-price span{
+  display:block;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.featured-price strong{
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.featured-btn{
+  display: inline-block;
+  padding: 12px 20px;
+  background: #fff;
+  color: #0b3a78;
+  font-weight: 800;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.featured-btn:hover{
+  transform: translateY(-2px);
+  background: #f3f3f3;
+}
+
+@media(max-width:768px){
+  .featured-offer-box{
+    text-align: center;
+    padding: 40px 25px;
+  }
 }

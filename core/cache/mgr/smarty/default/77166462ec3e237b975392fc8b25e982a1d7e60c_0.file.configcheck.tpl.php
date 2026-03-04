@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.2, created on 2026-02-26 12:11:31
+/* Smarty version 4.5.2, created on 2026-03-03 17:44:08
   from 'C:\xampp\htdocs\srilankarentacar.com\manager\templates\default\dashboard\configcheck.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.2',
-  'unifunc' => 'content_69a02a630aeee8_12022794',
+  'unifunc' => 'content_69a70fd848f9f3_26371627',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_69a02a630aeee8_12022794 (Smarty_Internal_Template $_smarty_tpl) {
+function content_69a70fd848f9f3_26371627 (Smarty_Internal_Template $_smarty_tpl) {
 if (count($_smarty_tpl->tpl_vars['warnings']->value)) {?>
     <h4><?php echo $_smarty_tpl->tpl_vars['_lang']->value['configcheck_notok'];?>
 </h4>

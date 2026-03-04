@@ -2,12 +2,12 @@
   'resourceClass' => 'MODX\\Revolution\\modDocument',
   'resource' => 
   array (
-    'id' => 1,
+    'id' => 6,
     'type' => 'document',
-    'pagetitle' => 'Home',
+    'pagetitle' => 'contact_us',
     'longtitle' => 'Congratulations!',
     'description' => '',
-    'alias' => 'index',
+    'alias' => 'contact-us',
     'link_attributes' => '',
     'published' => 1,
     'pub_date' => 0,
@@ -15,1070 +15,208 @@
     'parent' => 0,
     'isfolder' => 0,
     'introtext' => '',
-    'content' => '   
+    'content' => '  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5861K2TN4V"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag(\'js\', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(\'js\', new Date());
 
-    gtag(\'config\', \'G-5861K2TN4V\');
+  gtag(\'config\', \'G-5861K2TN4V\');
 </script>
 
-<!-- home hero section -->
-<section class="heroRent heroRent--yacht">
-
-  <div class="heroRent__frame">
-
-    <!-- Swiper -->
-    <div class="heroRent__swiper swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/1.jpeg\');">
-          <div class="heroRent__shade"></div>
-        </div>
-        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/2.jpg\');">
-          <div class="heroRent__shade"></div>
-        </div>
-        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/3.jpg\');">
-          <div class="heroRent__shade"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Content -->
-    <div class="heroRent__content">
-      <div class="container">
-        <div class="heroRent__contentInner heroRent__contentInner--left">
-          <span class="heroRent__sub">Affordable</span>
-          <h1 class="heroRent__title">Sri Lanka Rent A Car</h1>
-          <p class="heroRent__lead">Premium vehicles • Chauffeur services • Airport pickup</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="heroRent__bar">
-      <div class="container">
-        <!-- Mobile Accordion Toggle -->
-      <button type="button" class="heroRentAcc__toggle" aria-expanded="false" aria-controls="heroRentAccPanel">
-        <span>Search & Reserve</span>
-        <span class="heroRentAcc__icon" aria-hidden="true"></span>
-      </button>
-
-      <!-- Accordion Panel -->
-      <div class="heroRentAcc__panel" id="heroRentAccPanel" hidden>
-        <form class="heroRentForm" action="[[~4]]" method="get">
-          <div class="heroRentForm__grid">
-
-            <!-- Pickup -->
-            <div class="heroRentForm__field heroRentForm__field--wide">
-              <label class="heroRentForm__label" for="heroRent_pickup">Vehicle Pickup location</label>
-              <input class="heroRentForm__input" id="heroRent_pickup" type="text" name="pickup_location" placeholder="e.g., Colombo" required>
-            </div>
-
-            <!-- Same location checkbox -->
-            <div class="heroRentForm__field heroRentForm__field--check">
-              <label class="heroRentForm__checkLabel" for="heroRent_sameLocation">
-                <input type="checkbox" id="heroRent_sameLocation" checked>
-                <span>Return to same location</span>
-              </label>
-            </div>
-
-            <!-- Drop-off -->
-            <div class="heroRentForm__field heroRentForm__field--wide" id="heroRent_dropWrap" style="display:none;">
-              <label class="heroRentForm__label" for="heroRent_dropInput">Vehicle Drop-off location</label>
-              <input class="heroRentForm__input" type="text" name="dropoff_location" id="heroRent_dropInput" placeholder="e.g., Kandy">
-            </div>
-
-            <!-- Pickup datetime (Flatpickr) -->
-            <div class="heroRentForm__field">
-              <label class="heroRentForm__label" for="heroRent_pickupDT">Pickup date & time</label>
-              <input class="heroRentForm__input heroRentDT" id="heroRent_pickupDT" type="text" name="pickup_datetime" placeholder="Pickup Date & Time" required>
-            </div>
-
-            <!-- Dropoff datetime (Flatpickr) -->
-            <div class="heroRentForm__field">
-              <label class="heroRentForm__label" for="heroRent_dropDT">Drop-off date & time</label>
-              <input class="heroRentForm__input heroRentDT" id="heroRent_dropDT" type="text" name="dropoff_datetime" placeholder="Drop-off Date & Time" required>
-            </div>
-
-            <!-- Submit -->
-            <div class="heroRentForm__field heroRentForm__field--submit">
-              <button type="submit" class="heroRentForm__btn">Search</button>
-            </div>
-
-          </div>
-        </form>
-      </div>
-      </div>
-    </div>
-
-    <!-- Wave bottom -->
-    <div class="heroRent__wave">
-      <svg viewBox="0 0 1440 180" preserveAspectRatio="none">
-        <path fill="#ffffff" d="
-          M0,170
-          C220,170 360,165 520,150
-          C820,120 980,55 1440,85
-          L1440,180
-          L0,180
-          Z">
-        </path>
-      </svg>
-    </div>
-  </div>
+<section class="hero-wrap hero-wrap-2" style="background-image: url(\'assets/images/home/breadcrumb.jpg\');" data-stellar-background-ratio="0.5">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-end justify-content-center">
+		<div class="col-md-9 ftco-animate text-center mb-4">
+			<h1 class="mb-2 bread">Contact Us</h1>
+			<p class="breadcrumbs" style="padding-bottom: 20px;"><span class="mr-2"><a href="[[~1]]">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact Us <i class="ion-ios-arrow-forward"></i></span></p>
+		</div>
+		</div>
+	</div>
 </section>
 
-<!-- who we are section -->
-<section class="ftco-section ftco-wrap-about srAbout">
-  <div class="container">
-    <div id="tsparticles"></div>
+<section class="contact-modern">
+	<div class="container">
 
-    <div class="row align-items-start">
-      <!-- LEFT: big image -->
-      <div class="col-lg-5">
-        <div class="srAbout__bigImg" style="background-image:url(\'assets/images/home/about_us_1.jpg\');"></div>
-      </div>
+		<div class="row align-items-center">
 
-      <!-- RIGHT: content -->
-      <div class="col-lg-7">
-        <div class="srAbout__content ftco-animate pt-0">
+		<!-- LEFT: Contact Info -->
+		<div class="col-lg-5">
+			<div class="contact-card">
 
-          <div class="srAbout__heading">
-            <span class="srAbout__tag">WHO</span>
-            <h2 class="srAbout__title">We Are</h2>
-          </div>
+			<h2 class="text-white">Get In Touch</h3>
+			<p>We’re here to help you with rentals, transfers, and reservations. Reach out anytime.</p>
 
-          <p class="srAbout__text">
-            <b class="srAbout__brand">SR Rent A Car</b> 
-            is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers.
-            The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect
-            and deliver because we know what it’s like to be a consumer.
-          </p>
+			<div class="contact-item">
+				<span class="contact-icon">📍</span>
+					<div>
+				<strong>Address</strong>
+				<p>
+					<a href="https://maps.app.goo.gl/N69GRNHpC4VfgpWs5"
+					target="_blank"
+					class="contact-link">
+					SR Rent A Car (Pvt.) Ltd,<br>
+					371/5, Negombo Road, Seeduwa, Sri Lanka
+					</a>
+				</p>
+				</div>
+			</div>
 
-          <!-- Floating Image Inside Text -->
-          <div class="srAbout__floatImg" style="background-image:url(\'assets/images/home/about_us_2.jpg\');"></div>
+			<div class="contact-item">
+				<span class="contact-icon">📞</span>
+				<div>
+				<strong>Phone</strong>
+				<p><a href="tel:+94777780729">+94 77 778 0729</a></p>
+				</div>
+			</div>
 
-          <p class="srAbout__text">
-            Our new fleets of vehicles are maintained to the highest standard, ensuring cleanliness & reliability.
-            We take safety very seriously, making it easier for you to relax and enjoy a family vacation.
-            From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.
-          </p>
+			<div class="contact-item">
+				<span class="contact-icon">✉️</span>
+				<div>
+				<strong>Email</strong>
+				<p><a href="mailto:bookings@srilankarentacar.com">bookings@srilankarentacar.com</a></p>
+				</div>
+			</div>
 
-          <p class="srAbout__text">
-            With offices conveniently located near Bandaranaike International Airport, we\'re able to meet and greet you with a smile
-            and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
-          </p>
+			<div class="social-section">
+				<h6>Follow Us</h6>
+				<div class="social-icons">
 
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-		
-<!-- counter section -->
-<section class="srStats" id="section-counter">
-  <div class="container">
-    <div class="srStats__grid">
+					<a href="https://www.linkedin.com/company/31174684/admin/dashboard/" 
+						target="_blank" 
+						class="social-btn linkedin">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
 
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">🏆</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="15">0</strong>
-          <span class="srStats__label">Awards</span>
-        </div>
-      </div>
+					<a href="https://www.facebook.com/srrentacar" 
+						target="_blank" 
+						class="social-btn facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
 
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">⏳</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="20">0</strong>
-          <span class="srStats__label">Years of Experience</span>
-        </div>
-      </div>
+					<a href="https://www.instagram.com/srrentacarsrilanka/" 
+						target="_blank" 
+						class="social-btn instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
 
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">🚗</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="500">0</strong>
-          <span class="srStats__label">Vehicles</span>
-        </div>
-      </div>
+					</div>
+			</div>
 
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">🧑‍✈️</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="560">0</strong>
-          <span class="srStats__label">Chauffeurs</span>
-        </div>
-      </div>
-
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">😊</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="45000">0</strong>
-          <span class="srStats__label">Happy Customers Annually</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="promo50-section">
-  <div class="container">
-    <div class="promo50-grid">
-
-      <!-- Banner 1 -->
-      <article class="promo50-card">
-        <img class="promo50-bg" src="assets/images/offers/offer-1.jpg" alt="Rental Offer 1">
-
-        <div class="promo50-overlay">
-          <div class="promo50-content">
-            <div class="promo50-title">50%<br>OFF</div>
-            <div class="promo50-sub">Clean. Safe. Reliable.</div>
-            <a href="[[~9]]" class="promo50-btn">Book Now</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Banner 2 -->
-      <article class="promo50-card">
-        <img class="promo50-bg" src="assets/images/offers/offer-2.jpg" alt="Rental Offer 2">
-
-        <div class="promo50-overlay">
-          <div class="promo50-content">
-            <div class="promo50-title">50%<br>OFF</div>
-            <div class="promo50-sub">Limited time deal.</div>
-            <a href="[[~30]]" class="promo50-btn">Get Quote</a>
-          </div>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section class="offers-grid-section">
-  <div class="container">
-    <div class="offers-grid-2">
-
-      <!-- Offer Card 1 -->
-      <div class="offer-mini-card">
-        <div class="offer-mini-top">
-          <span class="offer-tag red">HOT DEAL</span>
-        </div>
-        <h4>Long Term Rental Offer</h4>
-        <p>Get up to <strong>30% OFF</strong> on monthly rentals (30+ days).</p>
-        <a href="[[~9]]" class="offer-mini-btn">View Details</a>
-      </div>
-
-      <!-- Offer Card 2 -->
-      <div class="offer-mini-card">
-        <div class="offer-mini-top">
-          <span class="offer-tag blue">LIMITED</span>
-        </div>
-        <h4>Free Airport Pickup</h4>
-        <p>Book 5+ days rental and enjoy <strong>FREE CMB pickup.</strong></p>
-        <a href="[[~30]]" class="offer-mini-btn">Claim Offer</a>
-      </div>
-
-      <!-- Offer Card 3 -->
-      <div class="offer-mini-card">
-        <div class="offer-mini-top">
-          <span class="offer-tag green">SPECIAL</span>
-        </div>
-        <h4>Early Bird Discount</h4>
-        <p>Book 14 days in advance and save <strong>20% instantly.</strong></p>
-        <a href="[[~9]]" class="offer-mini-btn">Book Now</a>
-      </div>
-
-      <!-- Offer Card 4 -->
-      <div class="offer-mini-card">
-        <div class="offer-mini-top">
-          <span class="offer-tag purple">WEEKEND</span>
-        </div>
-        <h4>Weekend Saver</h4>
-        <p>Flat <strong>25% OFF</strong> on Friday–Sunday bookings.</p>
-        <a href="[[~9]]" class="offer-mini-btn">Grab Deal</a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="featured-offer-section pt-0">
-  <div class="container">
-    <div class="featured-offer-box">
-
-      <div class="featured-overlay"></div>
-
-      <div class="featured-left">
-        <span class="featured-badge">EXCLUSIVE OFFER</span>
-        <h2>Up to 40% OFF on SUV Rentals</h2>
-        <p>Perfect for family tours and long road trips across Sri Lanka.</p>
-      </div>
-
-      <div class="featured-right">
-        <div class="featured-price">
-          <span>Save</span>
-          <strong>40%</strong>
-        </div>
-        <a href="[[~9]]" class="featured-btn">Reserve Now →</a>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- why-special section -->
-<section id="why-special" class="srWhy py-5">
-  <div class="container">
-
-    <!-- Section Heading -->
-    <div class="srWhy__heading text-center mb-5">
-      <span class="srWhy__tag">WHY CHOOSE US</span>
-      <h2 class="srWhy__title">What Makes Us Special</h2>
-      <p class="srWhy__subtitle">
-        Experience comfort, reliability and professional service across Sri Lanka.
-      </p>
-    </div>
-
-    <!-- Cards -->
-    <div class="srWhy__grid">
-		<div class="srWhy__card">
-		<div class="srWhy__icon">💰</div>
-		<h4 class="srWhy__cardTitle">Affordable Rates</h4>
-		<p class="srWhy__cardText">
-			Competitive pricing with transparent costs, ensuring exceptional value for every journey.
-		</p>
+			</div>
 		</div>
 
-		<div class="srWhy__card">
-		<div class="srWhy__icon">⏳</div>
-		<h4 class="srWhy__cardTitle">20+ Years Experience</h4>
-		<p class="srWhy__cardText">
-			Over two decades of trusted service delivering reliability and customer satisfaction.
-		</p>
+		<!-- RIGHT: Contact Form -->
+		<div class="col-lg-7">
+			<div class="contact-form-box">
+
+			<h3>Send Us a Message</h3>
+
+			<form id="contactForm" method="POST">
+				<div class="floating-group">
+				<input type="text" name="name" required placeholder="Your Name">
+				<!-- <label>Your Name</label> -->
+				</div>
+
+				<div class="floating-group">
+				<input type="email" name="email" required placeholder="Your Email">
+				<!-- <label>Your Email</label> -->
+				</div>
+
+				<div class="floating-group">
+				<input type="text" name="subject" required placeholder="Subject">
+				<!-- <label>Subject</label> -->
+				</div>
+
+				<div class="floating-group">
+				<textarea name="message" rows="5" required placeholder="Your Message"></textarea>
+				<!-- <label>Your Message</label> -->
+				</div>
+
+				<button type="submit" class="contact-btn">
+				Send Message →
+				</button>
+
+			</form>
+
+			<div id="formMessage"></div>
+
+			</div>
 		</div>
 
-		<div class="srWhy__card">
-		<div class="srWhy__icon">🛡️</div>
-		<h4 class="srWhy__cardTitle">Insurance Coverage</h4>
-		<p class="srWhy__cardText">
-			Comprehensive insurance protection for a safe and worry-free travel experience.
-		</p>
 		</div>
-
-		<div class="srWhy__card">
-		<div class="srWhy__icon">🔁</div>
-		<h4 class="srWhy__cardTitle">Multiple Drop-Off Locations</h4>
-		<p class="srWhy__cardText">
-			Flexible pick-up and drop-off options across Sri Lanka for maximum convenience.
-		</p>
+	</div>
+</section>
+     
+<div class="row">
+	<div class="col-12">
+		<div class="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.971183150275!2d79.87322757499844!3d7.129329892874595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f9da7f0d8cad%3A0x23cc584d58386b05!2sSR%20Rent%20A%20Car%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1724917513316!5m2!1sen!2slk"
+				width="100%" height="450" style="border:2;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
-
-		<div class="srWhy__card">
-		<div class="srWhy__icon">🚨</div>
-		<h4 class="srWhy__cardTitle">Roadside Assistance</h4>
-		<p class="srWhy__cardText">
-			24/7 emergency support to ensure uninterrupted travel throughout your trip.
-		</p>
-		</div>
-
-		<div class="srWhy__card">
-		<div class="srWhy__icon">🕒</div>
-		<h4 class="srWhy__cardTitle">24/7 Access</h4>
-		<p class="srWhy__cardText">
-			Round-the-clock booking and customer support whenever you need us.
-		</p>
-		</div>
-    </div>
-  </div>
-</section>
-
-<!-- our fleet section -->
-<section id="our-fleet">
-  <div class="container">
-    <div class="row justify-content-center mb-3">
-      <div class="col-md-7 text-center heading-section ftco-animate">
-        <span class="subheading_ourfleet">Our Fleet</span>
-        <h2 class="mb-4">Explore Our Fleet</h2>
-      </div>
-    </div>
-
-    <div class="fleet-swiper-wrap mt-4">
-
-      <!-- Arrows -->
-      <div class="fleet-swiper-actions">
-        <button class="fleet-nav fleet-prev">&#8592;</button>
-        <button class="fleet-nav fleet-next">&#8594;</button>
-      </div>
-
-      <div class="swiper fleetSwiper">
-        <div class="swiper-wrapper">
-
-          <!-- 1 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/mcar.png" class="fleet-img">
-              <h5 class="fleet-title">MINI CARS</h5>
-            </a>
-          </div>
-
-          <!-- 2 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/econ.png" class="fleet-img">
-              <h5 class="fleet-title">ECONOMY CARS</h5>
-            </a>
-          </div>
-
-          <!-- 3 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/standard.png" class="fleet-img">
-              <h5 class="fleet-title">STANDARD CARS</h5>
-            </a>
-          </div>
-
-          <!-- 4 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/semi_ex.png" class="fleet-img">
-              <h5 class="fleet-title">SEMI EXECUTIVE CARS</h5>
-            </a>
-          </div>
-
-          <!-- 5 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/lux.png" class="fleet-img">
-              <h5 class="fleet-title">LUXURY CARS</h5>
-            </a>
-          </div>
-
-          <!-- 6 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/ex.png" class="fleet-img">
-              <h5 class="fleet-title">EXECUTIVE CARS</h5>
-            </a>
-          </div>
-
-          <!-- 7 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/msuv.png" class="fleet-img">
-              <h5 class="fleet-title">MINI SUV (4 X 4)</h5>
-            </a>
-          </div>
-
-          <!-- 8 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/lsuv.png" class="fleet-img">
-              <h5 class="fleet-title">LARGE SUV (4 X 4)</h5>
-            </a>
-          </div>
-
-          <!-- 9 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/minivan.png" class="fleet-img">
-              <h5 class="fleet-title">MINI VAN</h5>
-            </a>
-          </div>
-
-          <!-- 10 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/van.png" class="fleet-img">
-              <h5 class="fleet-title">VAN</h5>
-            </a>
-          </div>
-
-          <!-- 11 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/minibus.png" class="fleet-img">
-              <h5 class="fleet-title">LUXURY COACH</h5>
-            </a>
-          </div>
-
-          <!-- 12 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/bus.png" class="fleet-img">
-              <h5 class="fleet-title">SUPER LUXURY COACH</h5>
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-  
-<!-- what we offer section -->
-<section class="ftco-section we-offer">
-  <div class="container">
-    <div class="row justify-content-center mb-0">
-      <div class="col-md-7 text-center heading-section ftco-animate">
-        <span class="subheading_ourfleet">What We Offer</span>
-        <h2 class="mb-4">Our Services</h2>
-      </div>
-    </div>
-
-    <div class="row g-4">
-      <!-- Card 1 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <a href="[[~9]]" class="offer-card">
-          <div class="offer-head">
-            <h4 class="offer-title">Rent A Car</h4>
-          </div>
-
-          <div class="offer-media">
-            <span class="offer-icon">
-              <!-- car icon -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                <path d="M3 13l2-6a2 2 0 0 1 1.9-1.3h10.2A2 2 0 0 1 19 7l2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M5 13h14v5a1 1 0 0 1-1 1h-1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M5 19H4a1 1 0 0 1-1-1v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <circle cx="7.5" cy="18" r="1" fill="currentColor"/>
-                <circle cx="16.5" cy="18" r="1" fill="currentColor"/>
-              </svg>
-            </span>
-
-            <img src="assets/images/home/rentacar.jpg" alt="Rent A Car" class="offer-img">
-          </div>
-
-          <div class="offer-bubble">
-            <p>
-              SR Rent A Car is an independent car rental company in Sri Lanka since 2004.
-              We offer luxurious customer service at affordable rates.
-            </p>
-            <span class="offer-arrow">↗</span>
-          </div>
-        </a>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <a href="[[~9]]" class="offer-card">
-          <div class="offer-head">
-            <h4 class="offer-title">Airport Transfer</h4>
-          </div>
-
-          <div class="offer-media">
-            <span class="offer-icon">
-              <!-- plane icon -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                <path d="M10 21l2-7 7-2 2 2-2 7-7 2-2-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                <path d="M12 14L3 9l2-2 9 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M14 12l5-9 2 2-5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </span>
-
-            <img src="assets/images/home/transfer.jpg" alt="Airport Transfer" class="offer-img">
-          </div>
-
-          <div class="offer-bubble">
-            <p>
-              Chauffeur-driven airport and hotel transfers across Sri Lanka.
-              Service available for Colombo International Airport & all hotels.
-            </p>
-            <span class="offer-arrow">↗</span>
-          </div>
-        </a>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <a href="[[~9]]" class="offer-card">
-          <div class="offer-head">
-            <h4 class="offer-title">Wedding Rentals</h4>
-          </div>
-
-          <div class="offer-media">
-            <span class="offer-icon">
-              <!-- heart icon -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                <path d="M12 21s-7-4.6-9.5-8.5C.6 9.5 2.3 6 6 6c2 0 3.2 1 4 2 0 0 1.2-2 4-2 3.7 0 5.4 3.5 3.5 6.5C19 16.4 12 21 12 21z"
-                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-              </svg>
-            </span>
-
-            <img src="assets/images/home/wedding.jpg" alt="Wedding Rentals" class="offer-img">
-          </div>
-
-          <div class="offer-bubble">
-            <p>
-              Make your wedding day perfect with premium vehicles and professional service.
-              Comfort, style, and punctuality guaranteed.
-            </p>
-            <span class="offer-arrow">↗</span>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-		  
-<section class="testimonials-modern">
-  <div class="container">
-    <div class="text-center mb-0">
-      <span class="tm-sub">Testimonial</span>
-      <h2 class="tm-title">We Care About Our<br>Customers Experience Too</h2>
-    </div>
-
-    <div class="tm-wrap">
-      <!-- arrows (right side like image) -->
-      <div class="tm-controls">
-        <button class="tm-btn tm-prev" type="button" aria-label="Previous">&#8592;</button>
-        <button class="tm-btn tm-next" type="button" aria-label="Next">&#8594;</button>
-      </div>
-
-      <!-- Swiper -->
-      <div class="swiper tmSwiper">
-        <div class="swiper-wrapper">
-
-          <!-- Review 1 -->
-          <div class="swiper-slide">
-            <div class="tm-card">
-              <div class="tm-avatar">
-                <img src="assets/images/testimonial/1.png" alt="UnderSmokingDoors TV">
-              </div>
-
-              <p class="tm-text">
-                “Tutto perfetto, ritiro semplice e veloce, auto in perfette condizioni.. un ringraziamento particolare a Sampath… consiglio assolutamente!”
-              </p>
-
-              <div class="tm-footer">
-                <div>
-                  <div class="tm-name">UnderSmokingDoors TV</div>
-                  <div class="tm-role">Google Review • Aug 20, 2024</div>
-                </div>
-
-                <div class="tm-stars" aria-label="5 stars">
-                  ★★★★★
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Review 2 -->
-          <div class="swiper-slide">
-            <div class="tm-card">
-              <div class="tm-avatar">
-                <img src="assets/images/testimonial/2.png" alt="Daniel Kraiks Vachal">
-              </div>
-
-              <p class="tm-text">
-                “Great service overall, we were delayed because of our flight. No problem, they offered to deliver the car to our hotel…”
-              </p>
-
-              <div class="tm-footer">
-                <div>
-                  <div class="tm-name">Daniel “Kraiks” Vachal</div>
-                  <div class="tm-role">Google Review • Aug 12, 2024</div>
-                </div>
-
-                <div class="tm-stars" aria-label="4 stars">
-                  ★★★★☆
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Review 3 -->
-          <div class="swiper-slide">
-            <div class="tm-card">
-              <div class="tm-avatar">
-                <img src="assets/images/testimonial/3.png" alt="Brian Steele">
-              </div>
-
-              <p class="tm-text">
-                “We had booked an airport transfer… our driver Sahan had been delayed by the weather and traffic but still managed…”
-              </p>
-
-              <div class="tm-footer">
-                <div>
-                  <div class="tm-name">Brian Steele</div>
-                  <div class="tm-role">Google Review • Aug 19, 2024</div>
-                </div>
-
-                <div class="tm-stars" aria-label="4 stars">
-                  ★★★★☆
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Review 4 (optional extra slide) -->
-          <div class="swiper-slide">
-            <div class="tm-card">
-              <div class="tm-avatar">
-                <img src="assets/images/testimonial/4.png" alt="Devran Karaveli">
-              </div>
-
-              <p class="tm-text">
-                “A good, reliable business with understanding and well-intentioned staff who help in every way possible.”
-              </p>
-
-              <div class="tm-footer">
-                <div>
-                  <div class="tm-name">Devran Karaveli</div>
-                  <div class="tm-role">Google Review • Jul 22, 2024</div>
-                </div>
-
-                <div class="tm-stars" aria-label="4 stars">
-                  ★★★★☆
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <div class="text-center mt-4">
-      <a href="https://www.google.com/search?client=firefox-b-d&q=sr+rent+a+car#lrd=0x3ae2f9da7f0d8cad:0x23cc584d58386b05,1,,,," target="_blank" rel="noopener">
-        <img src="assets/images/home/google.png" alt="Google" style="max-width:180px;">
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="ftco-section bg-light blog-modern" style="background-color: #ffffffbf !important;">
-  <div class="container">
-    <div class="row justify-content-center mb-0">
-      <div class="col-md-7 text-center heading-section ftco-animate">
-        <span class="subheading_ourfleet">Blog</span>
-        <h2 class="mb-4">Recent Posts</h2>
-      </div>
-    </div>
-
-    <div class="row g-4">
-      <!-- Card 1 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <article class="post-card">
-          <a class="post-media" href="[[~7]]" aria-label="Read post">
-            <img src="assets/images/blog/car_crashed.jpg" alt="Navigating a Vehicle Accident in Sri Lanka" />
-            <span class="post-badge">Sri Lanka Travel Guide</span>
-            <span class="post-hover">Read more →</span>
-          </a>
-
-          <div class="post-body">
-            <ul class="post-meta">
-              <li><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-              <li><i class="far fa-clock"></i> Apr 19, 2024</li>
-            </ul>
-
-            <h3 class="post-title">
-              <a href="[[~7]]">Navigating a Vehicle Accident in Sri Lanka as a Foreigner: A Comprehensive Guide</a>
-            </h3>
-
-            <p class="post-excerpt">
-              Driving in a foreign country can be an exciting experience, but it\'s essential to be prepared for unexpected situations like a vehicle accident...
-            </p>
-
-            <a class="post-btn" href="[[~7]]">Read more</a>
-          </div>
-        </article>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <article class="post-card">
-          <a class="post-media" href="[[~8]]" aria-label="Read post">
-            <img src="assets/images/blog/hidden_gems.jpg" alt="Hidden Gems near Kandy" />
-            <span class="post-badge">Sri Lanka Travel Guide</span>
-            <span class="post-hover">Read more →</span>
-          </a>
-
-          <div class="post-body">
-            <ul class="post-meta">
-              <li><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-              <li><i class="far fa-clock"></i> Sep 20, 2023</li>
-            </ul>
-
-            <h3 class="post-title">
-              <a href="[[~8]]">Hidden Gems near Kandy to Discover with Your Rental Car</a>
-            </h3>
-
-            <p class="post-excerpt">
-              Kandy, the cultural jewel of Sri Lanka, beckons travellers with its rich history, vibrant culture, and captivating landscapes...
-            </p>
-
-            <a class="post-btn" href="[[~8]]">Read more</a>
-          </div>
-        </article>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <article class="post-card">
-          <a class="post-media" href="[[~12]]" aria-label="Read post">
-            <img src="assets/images/blog/driving_license.jpg" alt="Valid Driving Licenses To Rent A Car" />
-            <span class="post-badge">Sri Lanka Travel Guide</span>
-            <span class="post-hover">Read more →</span>
-          </a>
-
-          <div class="post-body">
-            <ul class="post-meta">
-              <li><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-              <li><i class="far fa-clock"></i> Nov 1, 2021</li>
-            </ul>
-
-            <h3 class="post-title">
-              <a href="[[~12]]">Valid Driving Licenses To Rent A Car In Sri Lanka</a>
-            </h3>
-
-            <p class="post-excerpt">
-              Driving in a foreign country can be an exciting experience, but it\'s essential to be prepared for unexpected situations...
-            </p>
-
-            <a class="post-btn" href="[[~12]]">Read more</a>
-          </div>
-        </article>
-      </div>
-    </div>
-
-    <!-- Large Button Section -->
-    <div class="text-center mt-5">
-      <a class="theme-btn btn-style-two" href="[[~5]]" role="button" style="background: #023f75;">View All Posts</a>
-    </div>
-  </div>
-</section>
-	
-
-<style>
-	.card-body:hover {
-		border-color: #051425; 
-		box-shadow: 10px 20px 35px rgba(0, 0, 0, 0.2); 
-	}
-</style>
+	</div>
+</div>      
 
 <script>
-  // Swiper init
-  const heroRentSwiper = new Swiper(\'.heroRent__swiper\', {
-    loop: true,
-    autoplay: { delay: 3500, disableOnInteraction: false },
-    speed: 800,
-    effect: \'fade\',
-    fadeEffect: { crossFade: true },
-    pagination: { el: \'.heroRent__dots\', clickable: true },
-    navigation: { nextEl: \'.heroRent__next\', prevEl: \'.heroRent__prev\' }
-  });
-</script>
+	document.getElementById("contactForm").addEventListener("submit", function(e) {
+		e.preventDefault();
 
-<script>
-	document.addEventListener("DOMContentLoaded", function () {
-	new Swiper(".fleetSwiper", {
-		slidesPerView: 1,
-		spaceBetween: 20,
-		navigation: {
-		nextEl: ".fleet-next",
-		prevEl: ".fleet-prev"
-		},
-		breakpoints: {
-		576: { slidesPerView: 2 },
-		992: { slidesPerView: 3 }
-		}
-	});
-	});
-</script>
+		const form = this;
+		const button = form.querySelector("button[type=\'submit\']");
+		const msg = document.getElementById("formMessage");
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.querySelector(\'.heroRentAcc__toggle\');
-    const panel = document.getElementById(\'heroRentAccPanel\');
-    const mq = window.matchMedia("(max-width: 767px)");
+		button.disabled = true;
+		button.innerHTML = "Sending...";
+		msg.innerHTML = "";
 
-    function setAccordionState() {
-      if (!btn || !panel) return;
+		const formData = new FormData(form);
 
-      const isMobile = mq.matches;
+		fetch("send-mail.php", {
+			method: "POST",
+			body: formData
+		})
+		.then(response => response.text())
+		.then(data => {
 
-      if (isMobile) {
-        if (btn.getAttribute("data-user-toggled") !== "1") {
-          btn.setAttribute("aria-expanded", "false");
-          panel.hidden = true;
-        }
-      } else {
-        btn.setAttribute("aria-expanded", "true");
-        panel.hidden = false;
-      }
-    }
+			if (data.trim() === "success") {
+				msg.innerHTML = "<p style=\'color:green;font-weight:600;\'>✔ Message sent successfully!</p>";
 
-    if (btn && panel) {
-      btn.addEventListener("click", () => {
-        btn.setAttribute("data-user-toggled", "1");
-        const expanded = btn.getAttribute("aria-expanded") === "true";
-        btn.setAttribute("aria-expanded", String(!expanded));
-        panel.hidden = expanded;
+				setTimeout(() => {
+					location.reload();
+				}, 2500);
 
-        if (!expanded) setTimeout(initFlatpickr, 50);
-      });
-
-      // initial state
-      setAccordionState();
-
-      if (mq.addEventListener) {
-        mq.addEventListener("change", () => {
-          btn.removeAttribute("data-user-toggled");
-          setAccordionState();
-          if (!mq.matches) setTimeout(initFlatpickr, 0);
-        });
-      } else {
-        window.addEventListener("resize", () => {
-          btn.removeAttribute("data-user-toggled");
-          setAccordionState();
-          if (!mq.matches) setTimeout(initFlatpickr, 0);
-        });
-      }
-    }
-
-    // ----- Same location toggle -----
-    const same = document.getElementById(\'heroRent_sameLocation\');
-    const wrap = document.getElementById(\'heroRent_dropWrap\');
-    const input = document.getElementById(\'heroRent_dropInput\');
-
-    function toggleDrop(){
-      if (!same || !wrap || !input) return;
-      const show = !same.checked;
-      wrap.style.display = show ? \'block\' : \'none\';
-      input.required = show;
-      if(!show) input.value = \'\';
-    }
-
-    if (same) {
-      same.addEventListener(\'change\', toggleDrop);
-      toggleDrop();
-    }
-
-    let fpInitialized = false;
-
-    function initFlatpickr() {
-      if (fpInitialized) return;
-
-      if (typeof flatpickr === "undefined") {
-        console.error("Flatpickr is not loaded. Include flatpickr.js before init.");
-        return;
-      }
-
-      const pickupEl = document.getElementById("heroRent_pickupDT");
-      const dropEl   = document.getElementById("heroRent_dropDT");
-      if (!pickupEl || !dropEl) return;
-
-      let dropPicker;
-
-      flatpickr(pickupEl, {
-        enableTime: true,
-        dateFormat: "Y-m-d H:i",
-        minDate: "today",
-        time_24hr: true,
-        minuteIncrement: 15,
-        disableMobile: true, 
-        onChange: function(selectedDates) {
-          if (dropPicker && selectedDates && selectedDates[0]) {
-            dropPicker.set("minDate", selectedDates[0]);
-            const d = dropPicker.selectedDates[0];
-            if (d && d < selectedDates[0]) dropPicker.clear();
-          }
-        }
-      });
-
-      dropPicker = flatpickr(dropEl, {
-        enableTime: true,
-        dateFormat: "Y-m-d H:i",
-        minDate: "today",
-        time_24hr: true,
-        minuteIncrement: 15,
-        disableMobile: true 
-      });
-
-      fpInitialized = true;
-    }
-    if (!mq.matches) initFlatpickr();
-
-  });
-</script>
-
-<script>
-	document.addEventListener("DOMContentLoaded", () => {
-
-	function attachAuto(id, defaultValue = null){
-		const el = document.getElementById(id);
-		if(!el || !window.google) return;
-
-		const ac = new google.maps.places.Autocomplete(el, {
-		componentRestrictions: { country: "lk" }
-		});
-
-		// Set default value if provided
-		if (defaultValue) {
-		el.value = defaultValue;
-
-		// Optional: force Google to recognize the default as a real place
-		const service = new google.maps.places.AutocompleteService();
-		service.getPlacePredictions({
-			input: defaultValue,
-			componentRestrictions: { country: "lk" }
-		}, function(predictions, status) {
-			if (status === google.maps.places.PlacesServiceStatus.OK && predictions.length > 0) {
-			// You could optionally fetch full place details here if needed
-			// But for most booking forms, just pre-filling text is enough
+			} else {
+				msg.innerHTML = "<p style=\'color:red;\'>Something went wrong. Please try again.</p>";
+				button.disabled = false;
+				button.innerHTML = "Send Message →";
 			}
+		})
+		.catch(error => {
+			msg.innerHTML = "<p style=\'color:red;\'>Server error. Please try later.</p>";
+
+			button.disabled = false;
+			button.innerHTML = "Send Message →";
 		});
-		}
-
-		ac.addListener("place_changed", () => {
-		const place = ac.getPlace();
-		// console.log(place.formatted_address);
-		});
-	}
-
-	// Pickup with default
-	attachAuto("heroRent_pickup", "SR Rent A Car Sri Lanka, Negombo");
-
-	// Dropoff without default
-	attachAuto("heroRent_dropInput");
-
-	});
-</script>
-
-<script>
-	document.addEventListener("DOMContentLoaded", function () {
-	new Swiper(".tmSwiper", {
-		spaceBetween: 18,
-		navigation: {
-		nextEl: ".tm-next",
-		prevEl: ".tm-prev",
-		},
-		breakpoints: {
-		0:   { slidesPerView: 1 },
-		768: { slidesPerView: 2 },
-		992: { slidesPerView: 3 },
-		},
-	});
 	});
 </script>',
     'richtext' => 1,
     'template' => 2,
-    'menuindex' => 0,
+    'menuindex' => 4,
     'searchable' => 1,
     'cacheable' => 1,
     'createdby' => 1,
-    'createdon' => 1723316876,
+    'createdon' => 1724916257,
     'editedby' => 1,
-    'editedon' => 1772557408,
+    'editedon' => 1772526931,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
-    'publishedon' => 0,
-    'publishedby' => 0,
+    'publishedon' => 1724916240,
+    'publishedby' => 1,
     'menutitle' => '',
     'donthit' => 0,
     'privateweb' => 0,
@@ -1088,7 +226,7 @@
     'class_key' => 'MODX\\Revolution\\modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => 'index.html',
+    'uri' => 'contact-us.html',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
@@ -1270,1054 +408,192 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-   
+  
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5861K2TN4V"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag(\'js\', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(\'js\', new Date());
 
-    gtag(\'config\', \'G-5861K2TN4V\');
+  gtag(\'config\', \'G-5861K2TN4V\');
 </script>
 
-<!-- home hero section -->
-<section class="heroRent heroRent--yacht">
-
-  <div class="heroRent__frame">
-
-    <!-- Swiper -->
-    <div class="heroRent__swiper swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/1.jpeg\');">
-          <div class="heroRent__shade"></div>
-        </div>
-        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/2.jpg\');">
-          <div class="heroRent__shade"></div>
-        </div>
-        <div class="swiper-slide heroRent__slide" style="background-image:url(\'assets/images/3.jpg\');">
-          <div class="heroRent__shade"></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Content -->
-    <div class="heroRent__content">
-      <div class="container">
-        <div class="heroRent__contentInner heroRent__contentInner--left">
-          <span class="heroRent__sub">Affordable</span>
-          <h1 class="heroRent__title">Sri Lanka Rent A Car</h1>
-          <p class="heroRent__lead">Premium vehicles • Chauffeur services • Airport pickup</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="heroRent__bar">
-      <div class="container">
-        <!-- Mobile Accordion Toggle -->
-      <button type="button" class="heroRentAcc__toggle" aria-expanded="false" aria-controls="heroRentAccPanel">
-        <span>Search & Reserve</span>
-        <span class="heroRentAcc__icon" aria-hidden="true"></span>
-      </button>
-
-      <!-- Accordion Panel -->
-      <div class="heroRentAcc__panel" id="heroRentAccPanel" hidden>
-        <form class="heroRentForm" action="index.php?id=4" method="get">
-          <div class="heroRentForm__grid">
-
-            <!-- Pickup -->
-            <div class="heroRentForm__field heroRentForm__field--wide">
-              <label class="heroRentForm__label" for="heroRent_pickup">Vehicle Pickup location</label>
-              <input class="heroRentForm__input" id="heroRent_pickup" type="text" name="pickup_location" placeholder="e.g., Colombo" required>
-            </div>
-
-            <!-- Same location checkbox -->
-            <div class="heroRentForm__field heroRentForm__field--check">
-              <label class="heroRentForm__checkLabel" for="heroRent_sameLocation">
-                <input type="checkbox" id="heroRent_sameLocation" checked>
-                <span>Return to same location</span>
-              </label>
-            </div>
-
-            <!-- Drop-off -->
-            <div class="heroRentForm__field heroRentForm__field--wide" id="heroRent_dropWrap" style="display:none;">
-              <label class="heroRentForm__label" for="heroRent_dropInput">Vehicle Drop-off location</label>
-              <input class="heroRentForm__input" type="text" name="dropoff_location" id="heroRent_dropInput" placeholder="e.g., Kandy">
-            </div>
-
-            <!-- Pickup datetime (Flatpickr) -->
-            <div class="heroRentForm__field">
-              <label class="heroRentForm__label" for="heroRent_pickupDT">Pickup date & time</label>
-              <input class="heroRentForm__input heroRentDT" id="heroRent_pickupDT" type="text" name="pickup_datetime" placeholder="Pickup Date & Time" required>
-            </div>
-
-            <!-- Dropoff datetime (Flatpickr) -->
-            <div class="heroRentForm__field">
-              <label class="heroRentForm__label" for="heroRent_dropDT">Drop-off date & time</label>
-              <input class="heroRentForm__input heroRentDT" id="heroRent_dropDT" type="text" name="dropoff_datetime" placeholder="Drop-off Date & Time" required>
-            </div>
-
-            <!-- Submit -->
-            <div class="heroRentForm__field heroRentForm__field--submit">
-              <button type="submit" class="heroRentForm__btn">Search</button>
-            </div>
-
-          </div>
-        </form>
-      </div>
-      </div>
-    </div>
-
-    <!-- Wave bottom -->
-    <div class="heroRent__wave">
-      <svg viewBox="0 0 1440 180" preserveAspectRatio="none">
-        <path fill="#ffffff" d="
-          M0,170
-          C220,170 360,165 520,150
-          C820,120 980,55 1440,85
-          L1440,180
-          L0,180
-          Z">
-        </path>
-      </svg>
-    </div>
-  </div>
+<section class="hero-wrap hero-wrap-2" style="background-image: url(\'assets/images/home/breadcrumb.jpg\');" data-stellar-background-ratio="0.5">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-end justify-content-center">
+		<div class="col-md-9 ftco-animate text-center mb-4">
+			<h1 class="mb-2 bread">Contact Us</h1>
+			<p class="breadcrumbs" style="padding-bottom: 20px;"><span class="mr-2"><a href="index.php?id=1">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact Us <i class="ion-ios-arrow-forward"></i></span></p>
+		</div>
+		</div>
+	</div>
 </section>
 
-<!-- who we are section -->
-<section class="ftco-section ftco-wrap-about srAbout">
-  <div class="container">
-    <div id="tsparticles"></div>
+<section class="contact-modern">
+	<div class="container">
 
-    <div class="row align-items-start">
-      <!-- LEFT: big image -->
-      <div class="col-lg-5">
-        <div class="srAbout__bigImg" style="background-image:url(\'assets/images/home/about_us_1.jpg\');"></div>
-      </div>
+		<div class="row align-items-center">
 
-      <!-- RIGHT: content -->
-      <div class="col-lg-7">
-        <div class="srAbout__content ftco-animate pt-0">
+		<!-- LEFT: Contact Info -->
+		<div class="col-lg-5">
+			<div class="contact-card">
 
-          <div class="srAbout__heading">
-            <span class="srAbout__tag">WHO</span>
-            <h2 class="srAbout__title">We Are</h2>
-          </div>
+			<h2 class="text-white">Get In Touch</h3>
+			<p>We’re here to help you with rentals, transfers, and reservations. Reach out anytime.</p>
 
-          <p class="srAbout__text">
-            <b class="srAbout__brand">SR Rent A Car</b> 
-            is a locally owned and operated car rental company in Sri Lanka that provides affordable options for all travelers.
-            The SR Team has been welcoming visitors from all over the world since 2004. We understand what our clients expect
-            and deliver because we know what it’s like to be a consumer.
-          </p>
+			<div class="contact-item">
+				<span class="contact-icon">📍</span>
+					<div>
+				<strong>Address</strong>
+				<p>
+					<a href="https://maps.app.goo.gl/N69GRNHpC4VfgpWs5"
+					target="_blank"
+					class="contact-link">
+					SR Rent A Car (Pvt.) Ltd,<br>
+					371/5, Negombo Road, Seeduwa, Sri Lanka
+					</a>
+				</p>
+				</div>
+			</div>
 
-          <!-- Floating Image Inside Text -->
-          <div class="srAbout__floatImg" style="background-image:url(\'assets/images/home/about_us_2.jpg\');"></div>
+			<div class="contact-item">
+				<span class="contact-icon">📞</span>
+				<div>
+				<strong>Phone</strong>
+				<p><a href="tel:+94777780729">+94 77 778 0729</a></p>
+				</div>
+			</div>
 
-          <p class="srAbout__text">
-            Our new fleets of vehicles are maintained to the highest standard, ensuring cleanliness & reliability.
-            We take safety very seriously, making it easier for you to relax and enjoy a family vacation.
-            From a fleet of more than 500 vehicles, you can find the perfect match between budget and luxury from well-known brands.
-          </p>
+			<div class="contact-item">
+				<span class="contact-icon">✉️</span>
+				<div>
+				<strong>Email</strong>
+				<p><a href="mailto:bookings@srilankarentacar.com">bookings@srilankarentacar.com</a></p>
+				</div>
+			</div>
 
-          <p class="srAbout__text">
-            With offices conveniently located near Bandaranaike International Airport, we\'re able to meet and greet you with a smile
-            and provide a two-way airport shuttle. You can also try our doorstep delivery service anywhere in the country for a nominal fee.
-          </p>
+			<div class="social-section">
+				<h6>Follow Us</h6>
+				<div class="social-icons">
 
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-		
-<!-- counter section -->
-<section class="srStats" id="section-counter">
-  <div class="container">
-    <div class="srStats__grid">
+					<a href="https://www.linkedin.com/company/31174684/admin/dashboard/" 
+						target="_blank" 
+						class="social-btn linkedin">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
 
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">🏆</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="15">0</strong>
-          <span class="srStats__label">Awards</span>
-        </div>
-      </div>
+					<a href="https://www.facebook.com/srrentacar" 
+						target="_blank" 
+						class="social-btn facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
 
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">⏳</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="20">0</strong>
-          <span class="srStats__label">Years of Experience</span>
-        </div>
-      </div>
+					<a href="https://www.instagram.com/srrentacarsrilanka/" 
+						target="_blank" 
+						class="social-btn instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
 
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">🚗</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="500">0</strong>
-          <span class="srStats__label">Vehicles</span>
-        </div>
-      </div>
+					</div>
+			</div>
 
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">🧑‍✈️</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="560">0</strong>
-          <span class="srStats__label">Chauffeurs</span>
-        </div>
-      </div>
-
-      <div class="srStats__card ftco-animate">
-        <div class="srStats__icon" aria-hidden="true">😊</div>
-        <div class="srStats__meta">
-          <strong class="srStats__num number" data-number="45000">0</strong>
-          <span class="srStats__label">Happy Customers Annually</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="promo50-section">
-  <div class="container">
-    <div class="promo50-grid">
-
-      <!-- Banner 1 -->
-      <article class="promo50-card">
-        <img class="promo50-bg" src="assets/images/offers/offer-1.jpg" alt="Rental Offer 1">
-
-        <div class="promo50-overlay">
-          <div class="promo50-content">
-            <div class="promo50-title">50%<br>OFF</div>
-            <div class="promo50-sub">Clean. Safe. Reliable.</div>
-            <a href="index.php?id=9" class="promo50-btn">Book Now</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Banner 2 -->
-      <article class="promo50-card">
-        <img class="promo50-bg" src="assets/images/offers/offer-2.jpg" alt="Rental Offer 2">
-
-        <div class="promo50-overlay">
-          <div class="promo50-content">
-            <div class="promo50-title">50%<br>OFF</div>
-            <div class="promo50-sub">Limited time deal.</div>
-            <a href="index.php?id=30" class="promo50-btn">Get Quote</a>
-          </div>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section class="offers-grid-section">
-  <div class="container">
-    <div class="offers-grid-2">
-
-      <!-- Offer Card 1 -->
-      <div class="offer-mini-card">
-        <div class="offer-mini-top">
-          <span class="offer-tag red">HOT DEAL</span>
-        </div>
-        <h4>Long Term Rental Offer</h4>
-        <p>Get up to <strong>30% OFF</strong> on monthly rentals (30+ days).</p>
-        <a href="index.php?id=9" class="offer-mini-btn">View Details</a>
-      </div>
-
-      <!-- Offer Card 2 -->
-      <div class="offer-mini-card">
-        <div class="offer-mini-top">
-          <span class="offer-tag blue">LIMITED</span>
-        </div>
-        <h4>Free Airport Pickup</h4>
-        <p>Book 5+ days rental and enjoy <strong>FREE CMB pickup.</strong></p>
-        <a href="index.php?id=30" class="offer-mini-btn">Claim Offer</a>
-      </div>
-
-      <!-- Offer Card 3 -->
-      <div class="offer-mini-card">
-        <div class="offer-mini-top">
-          <span class="offer-tag green">SPECIAL</span>
-        </div>
-        <h4>Early Bird Discount</h4>
-        <p>Book 14 days in advance and save <strong>20% instantly.</strong></p>
-        <a href="index.php?id=9" class="offer-mini-btn">Book Now</a>
-      </div>
-
-      <!-- Offer Card 4 -->
-      <div class="offer-mini-card">
-        <div class="offer-mini-top">
-          <span class="offer-tag purple">WEEKEND</span>
-        </div>
-        <h4>Weekend Saver</h4>
-        <p>Flat <strong>25% OFF</strong> on Friday–Sunday bookings.</p>
-        <a href="index.php?id=9" class="offer-mini-btn">Grab Deal</a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="featured-offer-section pt-0">
-  <div class="container">
-    <div class="featured-offer-box">
-
-      <div class="featured-overlay"></div>
-
-      <div class="featured-left">
-        <span class="featured-badge">EXCLUSIVE OFFER</span>
-        <h2>Up to 40% OFF on SUV Rentals</h2>
-        <p>Perfect for family tours and long road trips across Sri Lanka.</p>
-      </div>
-
-      <div class="featured-right">
-        <div class="featured-price">
-          <span>Save</span>
-          <strong>40%</strong>
-        </div>
-        <a href="index.php?id=9" class="featured-btn">Reserve Now →</a>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- why-special section -->
-<section id="why-special" class="srWhy py-5">
-  <div class="container">
-
-    <!-- Section Heading -->
-    <div class="srWhy__heading text-center mb-5">
-      <span class="srWhy__tag">WHY CHOOSE US</span>
-      <h2 class="srWhy__title">What Makes Us Special</h2>
-      <p class="srWhy__subtitle">
-        Experience comfort, reliability and professional service across Sri Lanka.
-      </p>
-    </div>
-
-    <!-- Cards -->
-    <div class="srWhy__grid">
-		<div class="srWhy__card">
-		<div class="srWhy__icon">💰</div>
-		<h4 class="srWhy__cardTitle">Affordable Rates</h4>
-		<p class="srWhy__cardText">
-			Competitive pricing with transparent costs, ensuring exceptional value for every journey.
-		</p>
+			</div>
 		</div>
 
-		<div class="srWhy__card">
-		<div class="srWhy__icon">⏳</div>
-		<h4 class="srWhy__cardTitle">20+ Years Experience</h4>
-		<p class="srWhy__cardText">
-			Over two decades of trusted service delivering reliability and customer satisfaction.
-		</p>
+		<!-- RIGHT: Contact Form -->
+		<div class="col-lg-7">
+			<div class="contact-form-box">
+
+			<h3>Send Us a Message</h3>
+
+			<form id="contactForm" method="POST">
+				<div class="floating-group">
+				<input type="text" name="name" required placeholder="Your Name">
+				<!-- <label>Your Name</label> -->
+				</div>
+
+				<div class="floating-group">
+				<input type="email" name="email" required placeholder="Your Email">
+				<!-- <label>Your Email</label> -->
+				</div>
+
+				<div class="floating-group">
+				<input type="text" name="subject" required placeholder="Subject">
+				<!-- <label>Subject</label> -->
+				</div>
+
+				<div class="floating-group">
+				<textarea name="message" rows="5" required placeholder="Your Message"></textarea>
+				<!-- <label>Your Message</label> -->
+				</div>
+
+				<button type="submit" class="contact-btn">
+				Send Message →
+				</button>
+
+			</form>
+
+			<div id="formMessage"></div>
+
+			</div>
 		</div>
 
-		<div class="srWhy__card">
-		<div class="srWhy__icon">🛡️</div>
-		<h4 class="srWhy__cardTitle">Insurance Coverage</h4>
-		<p class="srWhy__cardText">
-			Comprehensive insurance protection for a safe and worry-free travel experience.
-		</p>
 		</div>
-
-		<div class="srWhy__card">
-		<div class="srWhy__icon">🔁</div>
-		<h4 class="srWhy__cardTitle">Multiple Drop-Off Locations</h4>
-		<p class="srWhy__cardText">
-			Flexible pick-up and drop-off options across Sri Lanka for maximum convenience.
-		</p>
+	</div>
+</section>
+     
+<div class="row">
+	<div class="col-12">
+		<div class="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.971183150275!2d79.87322757499844!3d7.129329892874595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f9da7f0d8cad%3A0x23cc584d58386b05!2sSR%20Rent%20A%20Car%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1724917513316!5m2!1sen!2slk"
+				width="100%" height="450" style="border:2;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
-
-		<div class="srWhy__card">
-		<div class="srWhy__icon">🚨</div>
-		<h4 class="srWhy__cardTitle">Roadside Assistance</h4>
-		<p class="srWhy__cardText">
-			24/7 emergency support to ensure uninterrupted travel throughout your trip.
-		</p>
-		</div>
-
-		<div class="srWhy__card">
-		<div class="srWhy__icon">🕒</div>
-		<h4 class="srWhy__cardTitle">24/7 Access</h4>
-		<p class="srWhy__cardText">
-			Round-the-clock booking and customer support whenever you need us.
-		</p>
-		</div>
-    </div>
-  </div>
-</section>
-
-<!-- our fleet section -->
-<section id="our-fleet">
-  <div class="container">
-    <div class="row justify-content-center mb-3">
-      <div class="col-md-7 text-center heading-section ftco-animate">
-        <span class="subheading_ourfleet">Our Fleet</span>
-        <h2 class="mb-4">Explore Our Fleet</h2>
-      </div>
-    </div>
-
-    <div class="fleet-swiper-wrap mt-4">
-
-      <!-- Arrows -->
-      <div class="fleet-swiper-actions">
-        <button class="fleet-nav fleet-prev">&#8592;</button>
-        <button class="fleet-nav fleet-next">&#8594;</button>
-      </div>
-
-      <div class="swiper fleetSwiper">
-        <div class="swiper-wrapper">
-
-          <!-- 1 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/mcar.png" class="fleet-img">
-              <h5 class="fleet-title">MINI CARS</h5>
-            </a>
-          </div>
-
-          <!-- 2 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/econ.png" class="fleet-img">
-              <h5 class="fleet-title">ECONOMY CARS</h5>
-            </a>
-          </div>
-
-          <!-- 3 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/standard.png" class="fleet-img">
-              <h5 class="fleet-title">STANDARD CARS</h5>
-            </a>
-          </div>
-
-          <!-- 4 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/semi_ex.png" class="fleet-img">
-              <h5 class="fleet-title">SEMI EXECUTIVE CARS</h5>
-            </a>
-          </div>
-
-          <!-- 5 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/lux.png" class="fleet-img">
-              <h5 class="fleet-title">LUXURY CARS</h5>
-            </a>
-          </div>
-
-          <!-- 6 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/ex.png" class="fleet-img">
-              <h5 class="fleet-title">EXECUTIVE CARS</h5>
-            </a>
-          </div>
-
-          <!-- 7 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/msuv.png" class="fleet-img">
-              <h5 class="fleet-title">MINI SUV (4 X 4)</h5>
-            </a>
-          </div>
-
-          <!-- 8 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/lsuv.png" class="fleet-img">
-              <h5 class="fleet-title">LARGE SUV (4 X 4)</h5>
-            </a>
-          </div>
-
-          <!-- 9 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/minivan.png" class="fleet-img">
-              <h5 class="fleet-title">MINI VAN</h5>
-            </a>
-          </div>
-
-          <!-- 10 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/van.png" class="fleet-img">
-              <h5 class="fleet-title">VAN</h5>
-            </a>
-          </div>
-
-          <!-- 11 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/minibus.png" class="fleet-img">
-              <h5 class="fleet-title">LUXURY COACH</h5>
-            </a>
-          </div>
-
-          <!-- 12 -->
-          <div class="swiper-slide">
-            <a href="#" class="fleet-card">
-              <img src="assets/images/fleet/bus.png" class="fleet-img">
-              <h5 class="fleet-title">SUPER LUXURY COACH</h5>
-            </a>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-  
-<!-- what we offer section -->
-<section class="ftco-section we-offer">
-  <div class="container">
-    <div class="row justify-content-center mb-0">
-      <div class="col-md-7 text-center heading-section ftco-animate">
-        <span class="subheading_ourfleet">What We Offer</span>
-        <h2 class="mb-4">Our Services</h2>
-      </div>
-    </div>
-
-    <div class="row g-4">
-      <!-- Card 1 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <a href="index.php?id=9" class="offer-card">
-          <div class="offer-head">
-            <h4 class="offer-title">Rent A Car</h4>
-          </div>
-
-          <div class="offer-media">
-            <span class="offer-icon">
-              <!-- car icon -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                <path d="M3 13l2-6a2 2 0 0 1 1.9-1.3h10.2A2 2 0 0 1 19 7l2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M5 13h14v5a1 1 0 0 1-1 1h-1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M5 19H4a1 1 0 0 1-1-1v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <circle cx="7.5" cy="18" r="1" fill="currentColor"/>
-                <circle cx="16.5" cy="18" r="1" fill="currentColor"/>
-              </svg>
-            </span>
-
-            <img src="assets/images/home/rentacar.jpg" alt="Rent A Car" class="offer-img">
-          </div>
-
-          <div class="offer-bubble">
-            <p>
-              SR Rent A Car is an independent car rental company in Sri Lanka since 2004.
-              We offer luxurious customer service at affordable rates.
-            </p>
-            <span class="offer-arrow">↗</span>
-          </div>
-        </a>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <a href="index.php?id=9" class="offer-card">
-          <div class="offer-head">
-            <h4 class="offer-title">Airport Transfer</h4>
-          </div>
-
-          <div class="offer-media">
-            <span class="offer-icon">
-              <!-- plane icon -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                <path d="M10 21l2-7 7-2 2 2-2 7-7 2-2-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                <path d="M12 14L3 9l2-2 9 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M14 12l5-9 2 2-5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </span>
-
-            <img src="assets/images/home/transfer.jpg" alt="Airport Transfer" class="offer-img">
-          </div>
-
-          <div class="offer-bubble">
-            <p>
-              Chauffeur-driven airport and hotel transfers across Sri Lanka.
-              Service available for Colombo International Airport & all hotels.
-            </p>
-            <span class="offer-arrow">↗</span>
-          </div>
-        </a>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <a href="index.php?id=9" class="offer-card">
-          <div class="offer-head">
-            <h4 class="offer-title">Wedding Rentals</h4>
-          </div>
-
-          <div class="offer-media">
-            <span class="offer-icon">
-              <!-- heart icon -->
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                <path d="M12 21s-7-4.6-9.5-8.5C.6 9.5 2.3 6 6 6c2 0 3.2 1 4 2 0 0 1.2-2 4-2 3.7 0 5.4 3.5 3.5 6.5C19 16.4 12 21 12 21z"
-                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-              </svg>
-            </span>
-
-            <img src="assets/images/home/wedding.jpg" alt="Wedding Rentals" class="offer-img">
-          </div>
-
-          <div class="offer-bubble">
-            <p>
-              Make your wedding day perfect with premium vehicles and professional service.
-              Comfort, style, and punctuality guaranteed.
-            </p>
-            <span class="offer-arrow">↗</span>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-		  
-<section class="testimonials-modern">
-  <div class="container">
-    <div class="text-center mb-0">
-      <span class="tm-sub">Testimonial</span>
-      <h2 class="tm-title">We Care About Our<br>Customers Experience Too</h2>
-    </div>
-
-    <div class="tm-wrap">
-      <!-- arrows (right side like image) -->
-      <div class="tm-controls">
-        <button class="tm-btn tm-prev" type="button" aria-label="Previous">&#8592;</button>
-        <button class="tm-btn tm-next" type="button" aria-label="Next">&#8594;</button>
-      </div>
-
-      <!-- Swiper -->
-      <div class="swiper tmSwiper">
-        <div class="swiper-wrapper">
-
-          <!-- Review 1 -->
-          <div class="swiper-slide">
-            <div class="tm-card">
-              <div class="tm-avatar">
-                <img src="assets/images/testimonial/1.png" alt="UnderSmokingDoors TV">
-              </div>
-
-              <p class="tm-text">
-                “Tutto perfetto, ritiro semplice e veloce, auto in perfette condizioni.. un ringraziamento particolare a Sampath… consiglio assolutamente!”
-              </p>
-
-              <div class="tm-footer">
-                <div>
-                  <div class="tm-name">UnderSmokingDoors TV</div>
-                  <div class="tm-role">Google Review • Aug 20, 2024</div>
-                </div>
-
-                <div class="tm-stars" aria-label="5 stars">
-                  ★★★★★
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Review 2 -->
-          <div class="swiper-slide">
-            <div class="tm-card">
-              <div class="tm-avatar">
-                <img src="assets/images/testimonial/2.png" alt="Daniel Kraiks Vachal">
-              </div>
-
-              <p class="tm-text">
-                “Great service overall, we were delayed because of our flight. No problem, they offered to deliver the car to our hotel…”
-              </p>
-
-              <div class="tm-footer">
-                <div>
-                  <div class="tm-name">Daniel “Kraiks” Vachal</div>
-                  <div class="tm-role">Google Review • Aug 12, 2024</div>
-                </div>
-
-                <div class="tm-stars" aria-label="4 stars">
-                  ★★★★☆
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Review 3 -->
-          <div class="swiper-slide">
-            <div class="tm-card">
-              <div class="tm-avatar">
-                <img src="assets/images/testimonial/3.png" alt="Brian Steele">
-              </div>
-
-              <p class="tm-text">
-                “We had booked an airport transfer… our driver Sahan had been delayed by the weather and traffic but still managed…”
-              </p>
-
-              <div class="tm-footer">
-                <div>
-                  <div class="tm-name">Brian Steele</div>
-                  <div class="tm-role">Google Review • Aug 19, 2024</div>
-                </div>
-
-                <div class="tm-stars" aria-label="4 stars">
-                  ★★★★☆
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Review 4 (optional extra slide) -->
-          <div class="swiper-slide">
-            <div class="tm-card">
-              <div class="tm-avatar">
-                <img src="assets/images/testimonial/4.png" alt="Devran Karaveli">
-              </div>
-
-              <p class="tm-text">
-                “A good, reliable business with understanding and well-intentioned staff who help in every way possible.”
-              </p>
-
-              <div class="tm-footer">
-                <div>
-                  <div class="tm-name">Devran Karaveli</div>
-                  <div class="tm-role">Google Review • Jul 22, 2024</div>
-                </div>
-
-                <div class="tm-stars" aria-label="4 stars">
-                  ★★★★☆
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <div class="text-center mt-4">
-      <a href="https://www.google.com/search?client=firefox-b-d&q=sr+rent+a+car#lrd=0x3ae2f9da7f0d8cad:0x23cc584d58386b05,1,,,," target="_blank" rel="noopener">
-        <img src="assets/images/home/google.png" alt="Google" style="max-width:180px;">
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="ftco-section bg-light blog-modern" style="background-color: #ffffffbf !important;">
-  <div class="container">
-    <div class="row justify-content-center mb-0">
-      <div class="col-md-7 text-center heading-section ftco-animate">
-        <span class="subheading_ourfleet">Blog</span>
-        <h2 class="mb-4">Recent Posts</h2>
-      </div>
-    </div>
-
-    <div class="row g-4">
-      <!-- Card 1 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <article class="post-card">
-          <a class="post-media" href="index.php?id=7" aria-label="Read post">
-            <img src="assets/images/blog/car_crashed.jpg" alt="Navigating a Vehicle Accident in Sri Lanka" />
-            <span class="post-badge">Sri Lanka Travel Guide</span>
-            <span class="post-hover">Read more →</span>
-          </a>
-
-          <div class="post-body">
-            <ul class="post-meta">
-              <li><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-              <li><i class="far fa-clock"></i> Apr 19, 2024</li>
-            </ul>
-
-            <h3 class="post-title">
-              <a href="index.php?id=7">Navigating a Vehicle Accident in Sri Lanka as a Foreigner: A Comprehensive Guide</a>
-            </h3>
-
-            <p class="post-excerpt">
-              Driving in a foreign country can be an exciting experience, but it\'s essential to be prepared for unexpected situations like a vehicle accident...
-            </p>
-
-            <a class="post-btn" href="index.php?id=7">Read more</a>
-          </div>
-        </article>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <article class="post-card">
-          <a class="post-media" href="index.php?id=8" aria-label="Read post">
-            <img src="assets/images/blog/hidden_gems.jpg" alt="Hidden Gems near Kandy" />
-            <span class="post-badge">Sri Lanka Travel Guide</span>
-            <span class="post-hover">Read more →</span>
-          </a>
-
-          <div class="post-body">
-            <ul class="post-meta">
-              <li><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-              <li><i class="far fa-clock"></i> Sep 20, 2023</li>
-            </ul>
-
-            <h3 class="post-title">
-              <a href="index.php?id=8">Hidden Gems near Kandy to Discover with Your Rental Car</a>
-            </h3>
-
-            <p class="post-excerpt">
-              Kandy, the cultural jewel of Sri Lanka, beckons travellers with its rich history, vibrant culture, and captivating landscapes...
-            </p>
-
-            <a class="post-btn" href="index.php?id=8">Read more</a>
-          </div>
-        </article>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="col-12 col-md-6 col-lg-4 mt-4">
-        <article class="post-card">
-          <a class="post-media" href="index.php?id=12" aria-label="Read post">
-            <img src="assets/images/blog/driving_license.jpg" alt="Valid Driving Licenses To Rent A Car" />
-            <span class="post-badge">Sri Lanka Travel Guide</span>
-            <span class="post-hover">Read more →</span>
-          </a>
-
-          <div class="post-body">
-            <ul class="post-meta">
-              <li><i class="fas fa-user"></i> Sri Lanka Travel Guide</li>
-              <li><i class="far fa-clock"></i> Nov 1, 2021</li>
-            </ul>
-
-            <h3 class="post-title">
-              <a href="index.php?id=12">Valid Driving Licenses To Rent A Car In Sri Lanka</a>
-            </h3>
-
-            <p class="post-excerpt">
-              Driving in a foreign country can be an exciting experience, but it\'s essential to be prepared for unexpected situations...
-            </p>
-
-            <a class="post-btn" href="index.php?id=12">Read more</a>
-          </div>
-        </article>
-      </div>
-    </div>
-
-    <!-- Large Button Section -->
-    <div class="text-center mt-5">
-      <a class="theme-btn btn-style-two" href="index.php?id=5" role="button" style="background: #023f75;">View All Posts</a>
-    </div>
-  </div>
-</section>
-	
-
-<style>
-	.card-body:hover {
-		border-color: #051425; 
-		box-shadow: 10px 20px 35px rgba(0, 0, 0, 0.2); 
-	}
-</style>
+	</div>
+</div>      
 
 <script>
-  // Swiper init
-  const heroRentSwiper = new Swiper(\'.heroRent__swiper\', {
-    loop: true,
-    autoplay: { delay: 3500, disableOnInteraction: false },
-    speed: 800,
-    effect: \'fade\',
-    fadeEffect: { crossFade: true },
-    pagination: { el: \'.heroRent__dots\', clickable: true },
-    navigation: { nextEl: \'.heroRent__next\', prevEl: \'.heroRent__prev\' }
-  });
-</script>
+	document.getElementById("contactForm").addEventListener("submit", function(e) {
+		e.preventDefault();
 
-<script>
-	document.addEventListener("DOMContentLoaded", function () {
-	new Swiper(".fleetSwiper", {
-		slidesPerView: 1,
-		spaceBetween: 20,
-		navigation: {
-		nextEl: ".fleet-next",
-		prevEl: ".fleet-prev"
-		},
-		breakpoints: {
-		576: { slidesPerView: 2 },
-		992: { slidesPerView: 3 }
-		}
-	});
-	});
-</script>
+		const form = this;
+		const button = form.querySelector("button[type=\'submit\']");
+		const msg = document.getElementById("formMessage");
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.querySelector(\'.heroRentAcc__toggle\');
-    const panel = document.getElementById(\'heroRentAccPanel\');
-    const mq = window.matchMedia("(max-width: 767px)");
+		button.disabled = true;
+		button.innerHTML = "Sending...";
+		msg.innerHTML = "";
 
-    function setAccordionState() {
-      if (!btn || !panel) return;
+		const formData = new FormData(form);
 
-      const isMobile = mq.matches;
+		fetch("send-mail.php", {
+			method: "POST",
+			body: formData
+		})
+		.then(response => response.text())
+		.then(data => {
 
-      if (isMobile) {
-        if (btn.getAttribute("data-user-toggled") !== "1") {
-          btn.setAttribute("aria-expanded", "false");
-          panel.hidden = true;
-        }
-      } else {
-        btn.setAttribute("aria-expanded", "true");
-        panel.hidden = false;
-      }
-    }
+			if (data.trim() === "success") {
+				msg.innerHTML = "<p style=\'color:green;font-weight:600;\'>✔ Message sent successfully!</p>";
 
-    if (btn && panel) {
-      btn.addEventListener("click", () => {
-        btn.setAttribute("data-user-toggled", "1");
-        const expanded = btn.getAttribute("aria-expanded") === "true";
-        btn.setAttribute("aria-expanded", String(!expanded));
-        panel.hidden = expanded;
+				setTimeout(() => {
+					location.reload();
+				}, 2500);
 
-        if (!expanded) setTimeout(initFlatpickr, 50);
-      });
-
-      // initial state
-      setAccordionState();
-
-      if (mq.addEventListener) {
-        mq.addEventListener("change", () => {
-          btn.removeAttribute("data-user-toggled");
-          setAccordionState();
-          if (!mq.matches) setTimeout(initFlatpickr, 0);
-        });
-      } else {
-        window.addEventListener("resize", () => {
-          btn.removeAttribute("data-user-toggled");
-          setAccordionState();
-          if (!mq.matches) setTimeout(initFlatpickr, 0);
-        });
-      }
-    }
-
-    // ----- Same location toggle -----
-    const same = document.getElementById(\'heroRent_sameLocation\');
-    const wrap = document.getElementById(\'heroRent_dropWrap\');
-    const input = document.getElementById(\'heroRent_dropInput\');
-
-    function toggleDrop(){
-      if (!same || !wrap || !input) return;
-      const show = !same.checked;
-      wrap.style.display = show ? \'block\' : \'none\';
-      input.required = show;
-      if(!show) input.value = \'\';
-    }
-
-    if (same) {
-      same.addEventListener(\'change\', toggleDrop);
-      toggleDrop();
-    }
-
-    let fpInitialized = false;
-
-    function initFlatpickr() {
-      if (fpInitialized) return;
-
-      if (typeof flatpickr === "undefined") {
-        console.error("Flatpickr is not loaded. Include flatpickr.js before init.");
-        return;
-      }
-
-      const pickupEl = document.getElementById("heroRent_pickupDT");
-      const dropEl   = document.getElementById("heroRent_dropDT");
-      if (!pickupEl || !dropEl) return;
-
-      let dropPicker;
-
-      flatpickr(pickupEl, {
-        enableTime: true,
-        dateFormat: "Y-m-d H:i",
-        minDate: "today",
-        time_24hr: true,
-        minuteIncrement: 15,
-        disableMobile: true, 
-        onChange: function(selectedDates) {
-          if (dropPicker && selectedDates && selectedDates[0]) {
-            dropPicker.set("minDate", selectedDates[0]);
-            const d = dropPicker.selectedDates[0];
-            if (d && d < selectedDates[0]) dropPicker.clear();
-          }
-        }
-      });
-
-      dropPicker = flatpickr(dropEl, {
-        enableTime: true,
-        dateFormat: "Y-m-d H:i",
-        minDate: "today",
-        time_24hr: true,
-        minuteIncrement: 15,
-        disableMobile: true 
-      });
-
-      fpInitialized = true;
-    }
-    if (!mq.matches) initFlatpickr();
-
-  });
-</script>
-
-<script>
-	document.addEventListener("DOMContentLoaded", () => {
-
-	function attachAuto(id, defaultValue = null){
-		const el = document.getElementById(id);
-		if(!el || !window.google) return;
-
-		const ac = new google.maps.places.Autocomplete(el, {
-		componentRestrictions: { country: "lk" }
-		});
-
-		// Set default value if provided
-		if (defaultValue) {
-		el.value = defaultValue;
-
-		// Optional: force Google to recognize the default as a real place
-		const service = new google.maps.places.AutocompleteService();
-		service.getPlacePredictions({
-			input: defaultValue,
-			componentRestrictions: { country: "lk" }
-		}, function(predictions, status) {
-			if (status === google.maps.places.PlacesServiceStatus.OK && predictions.length > 0) {
-			// You could optionally fetch full place details here if needed
-			// But for most booking forms, just pre-filling text is enough
+			} else {
+				msg.innerHTML = "<p style=\'color:red;\'>Something went wrong. Please try again.</p>";
+				button.disabled = false;
+				button.innerHTML = "Send Message →";
 			}
+		})
+		.catch(error => {
+			msg.innerHTML = "<p style=\'color:red;\'>Server error. Please try later.</p>";
+
+			button.disabled = false;
+			button.innerHTML = "Send Message →";
 		});
-		}
-
-		ac.addListener("place_changed", () => {
-		const place = ac.getPlace();
-		// console.log(place.formatted_address);
-		});
-	}
-
-	// Pickup with default
-	attachAuto("heroRent_pickup", "SR Rent A Car Sri Lanka, Negombo");
-
-	// Dropoff without default
-	attachAuto("heroRent_dropInput");
-
-	});
-</script>
-
-<script>
-	document.addEventListener("DOMContentLoaded", function () {
-	new Swiper(".tmSwiper", {
-		spaceBetween: 18,
-		navigation: {
-		nextEl: ".tm-next",
-		prevEl: ".tm-prev",
-		},
-		breakpoints: {
-		0:   { slidesPerView: 1 },
-		768: { slidesPerView: 2 },
-		992: { slidesPerView: 3 },
-		},
-	});
 	});
 </script>
 <!-- ✅ Global Top-Right Logo (visible on all pages) -->
@@ -2948,10 +1224,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 </html>
 ',
-    '[[~30]]' => 'index.php?id=30',
-    '[[~7]]' => 'index.php?id=7',
-    '[[~8]]' => 'index.php?id=8',
-    '[[~12]]' => 'index.php?id=12',
     '[[$footer?]]' => '<footer class="footer-section">
 
 
