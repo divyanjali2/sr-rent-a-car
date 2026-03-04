@@ -1,1 +1,29 @@
-[2026-03-04 05:50:43] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\cache\includes\elements\modx\revolution\modsnippet\4.include.cache.php : 2) PHP warning: require(C:\xampp\htdocs\srilankarentacar.com\core\cache\includes\elements\modx\revolution\modsnippet/assets/includes/db_connect.php): Failed to open stream: No such file or directory
+[2026-03-04 07:52:53] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 07:52:53] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 07:53:15] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 07:53:15] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 07:53:53] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 07:53:53] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 07:56:10] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 07:56:10] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 07:57:26] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 07:57:26] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 07:57:54] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 07:57:54] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 07:58:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 07:58:37] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 07:59:29] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 07:59:29] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 08:01:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 08:01:40] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 08:02:34] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 08:02:34] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 08:02:54] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 08:02:54] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 08:03:31] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 667) Could not load class: vehicles from mysql.vehicles
+[2026-03-04 08:03:31] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\xPDO.php : 1315) Could not get table name for class: 
+[2026-03-04 08:10:47] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\modParser.php : 512) Could not find snippet with name VehiclesList.
+[2026-03-04 08:10:47] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\modParser.php : 512) Could not find snippet with name VehiclesList.
+[2026-03-04 08:10:47] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\src\Revolution\modParser.php : 512) Could not find snippet with name VehiclesList.
+[2026-03-04 10:02:01] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 319) PHP warning: mkdir(): File exists
+[2026-03-04 10:02:01] (ERROR @ C:\xampp\htdocs\srilankarentacar.com\core\vendor\xpdo\xpdo\src\xPDO\Cache\xPDOCacheManager.php : 324) PHP warning: mkdir(): File exists

@@ -1,12 +1,16 @@
 <?php
+// VehiclesCategoryList: horizontal scroll cards from DB "vehicles"
 
 $tpl   = $modx->getOption('tpl', $scriptProperties, 'VehicleCategoryCardTpl');
 $limit = (int)$modx->getOption('limit', $scriptProperties, 20);
 $table = $modx->getOption('table', $scriptProperties, 'vehicles');
 
+// If you want to show one card per category (like "Small cars", "SUVs"...),
+// set &groupByCategory=1
 $groupBy = (int)$modx->getOption('groupByCategory', $scriptProperties, 1);
 
-$priceCol = $modx->getOption('priceCol', $scriptProperties, ''); 
+// Optional price column name, if exists (e.g., daily_rate)
+$priceCol = $modx->getOption('priceCol', $scriptProperties, ''); // '' disables
 
 $select = "image, car_category, pax_count, luggage_count";
 if ($priceCol !== '') {
@@ -16,6 +20,7 @@ if ($priceCol !== '') {
 }
 
 if ($groupBy) {
+  // pick "best representative" per category (latest id)
   $sql = "SELECT v1.*
           FROM {$table} v1
           INNER JOIN (
@@ -56,3 +61,4 @@ foreach ($rows as $row) {
 
 $out .= '</div>';
 return $out;
+return;
