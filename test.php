@@ -208,13 +208,12 @@
   </div>
 </section>
 
-<section class="promo50-section">
+<!-- <section class="promo50-section">
   <div class="container">
     <div class="promo50-grid">
 
-      <!-- Banner 1 -->
       <article class="promo50-card">
-        <img class="promo50-bg" src="assets/images/offers/promo-1.jpg" alt="Rental Offer 1">
+        <img class="promo50-bg" src="assets/images/offers/offer-1.jpg" alt="Rental Offer 1">
 
         <div class="promo50-overlay">
           <div class="promo50-content">
@@ -225,9 +224,8 @@
         </div>
       </article>
 
-      <!-- Banner 2 -->
       <article class="promo50-card">
-        <img class="promo50-bg" src="assets/images/offers/promo-2.jpg" alt="Rental Offer 2">
+        <img class="promo50-bg" src="assets/images/offers/offer-2.jpg" alt="Rental Offer 2">
 
         <div class="promo50-overlay">
           <div class="promo50-content">
@@ -241,6 +239,76 @@
     </div>
   </div>
 </section>
+
+<section class="offers-grid-section">
+  <div class="container">
+    <div class="offers-grid-2">
+
+      <div class="offer-mini-card">
+        <div class="offer-mini-top">
+          <span class="offer-tag red">HOT DEAL</span>
+        </div>
+        <h4>Long Term Rental Offer</h4>
+        <p>Get up to <strong>30% OFF</strong> on monthly rentals (30+ days).</p>
+        <a href="[[~9]]" class="offer-mini-btn">View Details</a>
+      </div>
+
+      <div class="offer-mini-card">
+        <div class="offer-mini-top">
+          <span class="offer-tag blue">LIMITED</span>
+        </div>
+        <h4>Free Airport Pickup</h4>
+        <p>Book 5+ days rental and enjoy <strong>FREE CMB pickup.</strong></p>
+        <a href="[[~30]]" class="offer-mini-btn">Claim Offer</a>
+      </div>
+
+      <div class="offer-mini-card">
+        <div class="offer-mini-top">
+          <span class="offer-tag green">SPECIAL</span>
+        </div>
+        <h4>Early Bird Discount</h4>
+        <p>Book 14 days in advance and save <strong>20% instantly.</strong></p>
+        <a href="[[~9]]" class="offer-mini-btn">Book Now</a>
+      </div>
+
+      <div class="offer-mini-card">
+        <div class="offer-mini-top">
+          <span class="offer-tag purple">WEEKEND</span>
+        </div>
+        <h4>Weekend Saver</h4>
+        <p>Flat <strong>25% OFF</strong> on Friday–Sunday bookings.</p>
+        <a href="[[~9]]" class="offer-mini-btn">Grab Deal</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="featured-offer-section pt-0">
+  <div class="container">
+    <div class="featured-offer-box">
+
+      <div class="featured-overlay"></div>
+
+      <div class="featured-left">
+        <span class="featured-badge">EXCLUSIVE OFFER</span>
+        <h2>Up to 40% OFF on SUV Rentals</h2>
+        <p>Perfect for family tours and long road trips across Sri Lanka.</p>
+      </div>
+
+      <div class="featured-right">
+        <div class="featured-price">
+          <span>Save</span>
+          <strong>40%</strong>
+        </div>
+        <a href="[[~9]]" class="featured-btn">Reserve Now →</a>
+      </div>
+
+    </div>
+  </div>
+</section> -->
+
+[[!Offers]]
 
 <!-- why-special section -->
 <section id="why-special" class="srWhy py-5">
@@ -963,17 +1031,17 @@
 
 <script>
 	document.addEventListener("DOMContentLoaded", function () {
-    new Swiper(".tmSwiper", {
-        spaceBetween: 18,
-        navigation: {
-        nextEl: ".tm-next",
-        prevEl: ".tm-prev",
-      },
-      breakpoints: {
-        0:   { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        992: { slidesPerView: 3 },
-      },
-    });
+	new Swiper(".tmSwiper", {
+		spaceBetween: 18,
+		navigation: {
+		nextEl: ".tm-next",
+		prevEl: ".tm-prev",
+		},
+		breakpoints: {
+		0:   { slidesPerView: 1 },
+		768: { slidesPerView: 2 },
+		992: { slidesPerView: 3 },
+		},
+	});
 	});
 </script>

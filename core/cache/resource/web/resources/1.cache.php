@@ -225,11 +225,10 @@
   </div>
 </section>
 
-<section class="promo50-section">
+<!-- <section class="promo50-section">
   <div class="container">
     <div class="promo50-grid">
 
-      <!-- Banner 1 -->
       <article class="promo50-card">
         <img class="promo50-bg" src="assets/images/offers/offer-1.jpg" alt="Rental Offer 1">
 
@@ -242,7 +241,6 @@
         </div>
       </article>
 
-      <!-- Banner 2 -->
       <article class="promo50-card">
         <img class="promo50-bg" src="assets/images/offers/offer-2.jpg" alt="Rental Offer 2">
 
@@ -263,7 +261,6 @@
   <div class="container">
     <div class="offers-grid-2">
 
-      <!-- Offer Card 1 -->
       <div class="offer-mini-card">
         <div class="offer-mini-top">
           <span class="offer-tag red">HOT DEAL</span>
@@ -273,7 +270,6 @@
         <a href="[[~9]]" class="offer-mini-btn">View Details</a>
       </div>
 
-      <!-- Offer Card 2 -->
       <div class="offer-mini-card">
         <div class="offer-mini-top">
           <span class="offer-tag blue">LIMITED</span>
@@ -283,7 +279,6 @@
         <a href="[[~30]]" class="offer-mini-btn">Claim Offer</a>
       </div>
 
-      <!-- Offer Card 3 -->
       <div class="offer-mini-card">
         <div class="offer-mini-top">
           <span class="offer-tag green">SPECIAL</span>
@@ -293,7 +288,6 @@
         <a href="[[~9]]" class="offer-mini-btn">Book Now</a>
       </div>
 
-      <!-- Offer Card 4 -->
       <div class="offer-mini-card">
         <div class="offer-mini-top">
           <span class="offer-tag purple">WEEKEND</span>
@@ -329,7 +323,10 @@
 
     </div>
   </div>
-</section>
+</section> -->
+
+[[!Offers]]
+
 <!-- why-special section -->
 <section id="why-special" class="srWhy py-5">
   <div class="container">
@@ -1073,7 +1070,7 @@
     'createdby' => 1,
     'createdon' => 1723316876,
     'editedby' => 1,
-    'editedon' => 1772557408,
+    'editedon' => 1772599569,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -1480,11 +1477,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
-<section class="promo50-section">
+<!-- <section class="promo50-section">
   <div class="container">
     <div class="promo50-grid">
 
-      <!-- Banner 1 -->
       <article class="promo50-card">
         <img class="promo50-bg" src="assets/images/offers/offer-1.jpg" alt="Rental Offer 1">
 
@@ -1497,7 +1493,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </article>
 
-      <!-- Banner 2 -->
       <article class="promo50-card">
         <img class="promo50-bg" src="assets/images/offers/offer-2.jpg" alt="Rental Offer 2">
 
@@ -1518,7 +1513,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="container">
     <div class="offers-grid-2">
 
-      <!-- Offer Card 1 -->
       <div class="offer-mini-card">
         <div class="offer-mini-top">
           <span class="offer-tag red">HOT DEAL</span>
@@ -1528,7 +1522,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="index.php?id=9" class="offer-mini-btn">View Details</a>
       </div>
 
-      <!-- Offer Card 2 -->
       <div class="offer-mini-card">
         <div class="offer-mini-top">
           <span class="offer-tag blue">LIMITED</span>
@@ -1538,7 +1531,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="index.php?id=30" class="offer-mini-btn">Claim Offer</a>
       </div>
 
-      <!-- Offer Card 3 -->
       <div class="offer-mini-card">
         <div class="offer-mini-top">
           <span class="offer-tag green">SPECIAL</span>
@@ -1548,7 +1540,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="index.php?id=9" class="offer-mini-btn">Book Now</a>
       </div>
 
-      <!-- Offer Card 4 -->
       <div class="offer-mini-card">
         <div class="offer-mini-top">
           <span class="offer-tag purple">WEEKEND</span>
@@ -1584,7 +1575,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     </div>
   </div>
-</section>
+</section> -->
+
+[[!Offers]]
+
 <!-- why-special section -->
 <section id="why-special" class="srWhy py-5">
   <div class="container">
@@ -4648,6 +4642,285 @@ document.addEventListener(\'scroll\', function() {
     ),
     'MODX\\Revolution\\modSnippet' => 
     array (
+      'Offers' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 4,
+          'source' => 1,
+          'property_preprocess' => false,
+          'name' => 'Offers',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 0,
+          'cache_type' => 0,
+          'snippet' => 'require "assets/includes/db_connect.php";
+
+
+$sql = "
+SELECT *
+FROM offers
+WHERE is_active = 1
+  AND (start_date IS NULL OR start_date <= NOW())
+  AND (end_date IS NULL OR end_date >= NOW())
+ORDER BY layout, sort_order ASC
+";
+$offers = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+
+$promo50 = [];
+$mini = [];
+$featured = [];
+
+foreach ($offers as $o) {
+  if ($o[\'layout\'] === \'promo50\') $promo50[] = $o;
+  if ($o[\'layout\'] === \'mini\') $mini[] = $o;
+  if ($o[\'layout\'] === \'featured\') $featured[] = $o;
+}
+
+$featuredOne = $featured[0] ?? null;
+?>
+
+<!-- ================= PROMO50 (2 banners) ================= -->
+<?php if (!empty($promo50)): ?>
+
+<section class="promo50-section">
+  <div class="container">
+    <div class="promo50-grid">
+
+      <?php foreach ($promo50 as $p): ?>
+        <article class="promo50-card">
+          <img class="promo50-bg" src="<?= htmlspecialchars($p[\'image_path\']) ?>" alt="<?= htmlspecialchars($p[\'title\']) ?>">
+
+          <div class="promo50-overlay">
+            <div class="promo50-content">
+              <div class="promo50-title">
+                <?= nl2br(htmlspecialchars(str_replace(\' \', "\\n", $p[\'discount_text\'] ?? \'\'))) ?>
+              </div>
+              <div class="promo50-sub"><?= htmlspecialchars($p[\'subtitle\'] ?? \'\') ?></div>
+              <a href="<?= htmlspecialchars($p[\'cta_link\'] ?? \'#\') ?>" class="promo50-btn">
+                <?= htmlspecialchars($p[\'cta_text\'] ?? \'Book Now\') ?>
+              </a>
+            </div>
+          </div>
+        </article>
+      <?php endforeach; ?>
+
+    </div>
+  </div>
+</section>
+
+<?php endif; ?>
+
+<!-- ================= MINI OFFERS (4 cards) ================= -->
+<?php if (!empty($mini)): ?>
+
+<section class="offers-grid-section">
+  <div class="container">
+    <div class="offers-grid-2">
+
+      <?php foreach ($mini as $m): ?>
+        <div class="offer-mini-card">
+          <div class="offer-mini-top">
+            <span class="offer-tag <?= htmlspecialchars($m[\'badge_color\'] ?? \'\') ?>">
+              <?= htmlspecialchars($m[\'badge_text\'] ?? \'\') ?>
+            </span>
+          </div>
+
+          <h4><?= htmlspecialchars($m[\'title\']) ?></h4>
+          <p><?= htmlspecialchars($m[\'description\']) ?></p>
+
+          <a href="<?= htmlspecialchars($m[\'cta_link\'] ?? \'#\') ?>" class="offer-mini-btn">
+            <?= htmlspecialchars($m[\'cta_text\'] ?? \'View Details\') ?>
+          </a>
+        </div>
+      <?php endforeach; ?>
+
+    </div>
+  </div>
+</section>
+
+<?php endif; ?>
+
+<!-- ================= FEATURED OFFER (1) ================= -->
+<?php if ($featuredOne): ?>
+
+<section class="featured-offer-section pt-0">
+  <div class="container">
+    <div class="featured-offer-box"
+         style="background:url(\'<?= htmlspecialchars($featuredOne[\'image_path\']) ?>\') center/cover no-repeat;">
+
+      <div class="featured-overlay"></div>
+
+      <div class="featured-left">
+        <span class="featured-badge">
+          <?= htmlspecialchars($featuredOne[\'badge_text\'] ?? \'EXCLUSIVE OFFER\') ?>
+        </span>
+
+        <h2><?= htmlspecialchars($featuredOne[\'title\']) ?></h2>
+        <p><?= htmlspecialchars($featuredOne[\'subtitle\'] ?? \'\') ?></p>
+      </div>
+
+      <div class="featured-right">
+        <div class="featured-price">
+          <span><?= htmlspecialchars(explode(\' \', $featuredOne[\'discount_text\'])[0] ?? \'Save\') ?></span>
+          <strong><?= htmlspecialchars(preg_replace(\'/[^0-9%]/\', \'\', $featuredOne[\'discount_text\'] ?? \'\')) ?></strong>
+        </div>
+
+        <a href="<?= htmlspecialchars($featuredOne[\'cta_link\'] ?? \'#\') ?>" class="featured-btn">
+          <?= htmlspecialchars($featuredOne[\'cta_text\'] ?? \'Reserve Now →\') ?>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<?php endif;',
+          'locked' => false,
+          'properties' => 
+          array (
+          ),
+          'moduleguid' => '',
+          'static' => false,
+          'static_file' => '',
+          'content' => 'require "assets/includes/db_connect.php";
+
+
+$sql = "
+SELECT *
+FROM offers
+WHERE is_active = 1
+  AND (start_date IS NULL OR start_date <= NOW())
+  AND (end_date IS NULL OR end_date >= NOW())
+ORDER BY layout, sort_order ASC
+";
+$offers = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+
+$promo50 = [];
+$mini = [];
+$featured = [];
+
+foreach ($offers as $o) {
+  if ($o[\'layout\'] === \'promo50\') $promo50[] = $o;
+  if ($o[\'layout\'] === \'mini\') $mini[] = $o;
+  if ($o[\'layout\'] === \'featured\') $featured[] = $o;
+}
+
+$featuredOne = $featured[0] ?? null;
+?>
+
+<!-- ================= PROMO50 (2 banners) ================= -->
+<?php if (!empty($promo50)): ?>
+
+<section class="promo50-section">
+  <div class="container">
+    <div class="promo50-grid">
+
+      <?php foreach ($promo50 as $p): ?>
+        <article class="promo50-card">
+          <img class="promo50-bg" src="<?= htmlspecialchars($p[\'image_path\']) ?>" alt="<?= htmlspecialchars($p[\'title\']) ?>">
+
+          <div class="promo50-overlay">
+            <div class="promo50-content">
+              <div class="promo50-title">
+                <?= nl2br(htmlspecialchars(str_replace(\' \', "\\n", $p[\'discount_text\'] ?? \'\'))) ?>
+              </div>
+              <div class="promo50-sub"><?= htmlspecialchars($p[\'subtitle\'] ?? \'\') ?></div>
+              <a href="<?= htmlspecialchars($p[\'cta_link\'] ?? \'#\') ?>" class="promo50-btn">
+                <?= htmlspecialchars($p[\'cta_text\'] ?? \'Book Now\') ?>
+              </a>
+            </div>
+          </div>
+        </article>
+      <?php endforeach; ?>
+
+    </div>
+  </div>
+</section>
+
+<?php endif; ?>
+
+<!-- ================= MINI OFFERS (4 cards) ================= -->
+<?php if (!empty($mini)): ?>
+
+<section class="offers-grid-section">
+  <div class="container">
+    <div class="offers-grid-2">
+
+      <?php foreach ($mini as $m): ?>
+        <div class="offer-mini-card">
+          <div class="offer-mini-top">
+            <span class="offer-tag <?= htmlspecialchars($m[\'badge_color\'] ?? \'\') ?>">
+              <?= htmlspecialchars($m[\'badge_text\'] ?? \'\') ?>
+            </span>
+          </div>
+
+          <h4><?= htmlspecialchars($m[\'title\']) ?></h4>
+          <p><?= htmlspecialchars($m[\'description\']) ?></p>
+
+          <a href="<?= htmlspecialchars($m[\'cta_link\'] ?? \'#\') ?>" class="offer-mini-btn">
+            <?= htmlspecialchars($m[\'cta_text\'] ?? \'View Details\') ?>
+          </a>
+        </div>
+      <?php endforeach; ?>
+
+    </div>
+  </div>
+</section>
+
+<?php endif; ?>
+
+<!-- ================= FEATURED OFFER (1) ================= -->
+<?php if ($featuredOne): ?>
+
+<section class="featured-offer-section pt-0">
+  <div class="container">
+    <div class="featured-offer-box"
+         style="background:url(\'<?= htmlspecialchars($featuredOne[\'image_path\']) ?>\') center/cover no-repeat;">
+
+      <div class="featured-overlay"></div>
+
+      <div class="featured-left">
+        <span class="featured-badge">
+          <?= htmlspecialchars($featuredOne[\'badge_text\'] ?? \'EXCLUSIVE OFFER\') ?>
+        </span>
+
+        <h2><?= htmlspecialchars($featuredOne[\'title\']) ?></h2>
+        <p><?= htmlspecialchars($featuredOne[\'subtitle\'] ?? \'\') ?></p>
+      </div>
+
+      <div class="featured-right">
+        <div class="featured-price">
+          <span><?= htmlspecialchars(explode(\' \', $featuredOne[\'discount_text\'])[0] ?? \'Save\') ?></span>
+          <strong><?= htmlspecialchars(preg_replace(\'/[^0-9%]/\', \'\', $featuredOne[\'discount_text\'] ?? \'\')) ?></strong>
+        </div>
+
+        <a href="<?= htmlspecialchars($featuredOne[\'cta_link\'] ?? \'#\') ?>" class="featured-btn">
+          <?= htmlspecialchars($featuredOne[\'cta_text\'] ?? \'Reserve Now →\') ?>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<?php endif;',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'MODX\\Revolution\\Sources\\modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
     ),
     'MODX\\Revolution\\modTemplateVar' => 
     array (
