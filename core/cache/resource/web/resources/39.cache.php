@@ -102,6 +102,30 @@ document.addEventListener(\'DOMContentLoaded\', () => {
     });
   });
 });
+</script>
+
+
+<script>
+document.addEventListener(\'DOMContentLoaded\', () => {
+  document.querySelectorAll(\'.vehicleScroller\').forEach(scroller => {
+    const rowId = scroller.getAttribute(\'data-scroller\');
+    const row = document.getElementById(rowId);
+    if (!row) return;
+
+    const scrollByCards = (dir) => {
+      const card = row.querySelector(\'.vehicleCard\');
+      const cardW = card ? (card.getBoundingClientRect().width + 12) : 200;
+      row.scrollBy({ left: dir * (cardW * 3), behavior: \'smooth\' }); // scroll ~3 cards
+    };
+
+    scroller.querySelectorAll(\'.vehicleScroller__btn\').forEach(btn => {
+      btn.addEventListener(\'click\', () => {
+        const dir = parseInt(btn.getAttribute(\'data-dir\'), 10) || 1;
+        scrollByCards(dir);
+      });
+    });
+  });
+});
 </script>',
     'richtext' => 1,
     'template' => 2,
@@ -111,7 +135,7 @@ document.addEventListener(\'DOMContentLoaded\', () => {
     'createdby' => 1,
     'createdon' => 1772606037,
     'editedby' => 1,
-    'editedon' => 1772614532,
+    'editedon' => 1772620945,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -392,6 +416,30 @@ document.addEventListener(\'DOMContentLoaded\', () => {
       const place = ac.getPlace();
       // if user picks a place name, prefer formatted_address if available
       if (place && place.formatted_address) input.value = place.formatted_address;
+    });
+  });
+});
+</script>
+
+
+<script>
+document.addEventListener(\'DOMContentLoaded\', () => {
+  document.querySelectorAll(\'.vehicleScroller\').forEach(scroller => {
+    const rowId = scroller.getAttribute(\'data-scroller\');
+    const row = document.getElementById(rowId);
+    if (!row) return;
+
+    const scrollByCards = (dir) => {
+      const card = row.querySelector(\'.vehicleCard\');
+      const cardW = card ? (card.getBoundingClientRect().width + 12) : 200;
+      row.scrollBy({ left: dir * (cardW * 3), behavior: \'smooth\' }); // scroll ~3 cards
+    };
+
+    scroller.querySelectorAll(\'.vehicleScroller__btn\').forEach(btn => {
+      btn.addEventListener(\'click\', () => {
+        const dir = parseInt(btn.getAttribute(\'data-dir\'), 10) || 1;
+        scrollByCards(dir);
+      });
     });
   });
 });
@@ -2732,23 +2780,25 @@ document.addEventListener(\'scroll\', function() {
           'snippet' => '<div class="vehicleCard">
   <div class="vehicleCard__top">
       <p class="vehicleCard__title">[[+car_category:ucfirst:htmlent]]</p>    <div class="vehicleCard__icons">
-      <span class="vehicleCard__icon">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
-          <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-4.4 0-8 2.2-8 5v3h16v-3c0-2.8-3.6-5-8-5z"/>
-        </svg>
-        [[+pax_count]]
-      </span>
-
-      <span class="vehicleCard__icon">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
-          <path d="M6 7V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1h1a2 2 0 0 1 2 2v9H3V9a2 2 0 0 1 2-2h1zm2 0h8V6H8v1z"/>
-        </svg>
-        [[+luggage_count]]
-      </span>
     </div>
   </div>
+  <div class="text-center">
+    <span class="vehicleCard__icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
+        <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-4.4 0-8 2.2-8 5v3h16v-3c0-2.8-3.6-5-8-5z"/>
+      </svg>
+      [[+pax_count]]
+    </span>
 
-  <img class="my-4 vehicleCard__img" src="[[+image]]" alt="[[+car_category:htmlent]]">
+    <span class="vehicleCard__icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
+        <path d="M6 7V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1h1a2 2 0 0 1 2 2v9H3V9a2 2 0 0 1 2-2h1zm2 0h8V6H8v1z"/>
+      </svg>
+      [[+luggage_count]]
+    </span>
+  </div>
+
+  <img class="mt-3 vehicleCard__img" src="[[+image]]" alt="[[+car_category:htmlent]]">
 
   <div class="vehicleCard__price">
     [[+price:isnot=``:then=`from <strong>[[+price]]</strong>`:else=``]]
@@ -2763,23 +2813,25 @@ document.addEventListener(\'scroll\', function() {
           'content' => '<div class="vehicleCard">
   <div class="vehicleCard__top">
       <p class="vehicleCard__title">[[+car_category:ucfirst:htmlent]]</p>    <div class="vehicleCard__icons">
-      <span class="vehicleCard__icon">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
-          <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-4.4 0-8 2.2-8 5v3h16v-3c0-2.8-3.6-5-8-5z"/>
-        </svg>
-        [[+pax_count]]
-      </span>
-
-      <span class="vehicleCard__icon">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
-          <path d="M6 7V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1h1a2 2 0 0 1 2 2v9H3V9a2 2 0 0 1 2-2h1zm2 0h8V6H8v1z"/>
-        </svg>
-        [[+luggage_count]]
-      </span>
     </div>
   </div>
+  <div class="text-center">
+    <span class="vehicleCard__icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
+        <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-4.4 0-8 2.2-8 5v3h16v-3c0-2.8-3.6-5-8-5z"/>
+      </svg>
+      [[+pax_count]]
+    </span>
 
-  <img class="my-4 vehicleCard__img" src="[[+image]]" alt="[[+car_category:htmlent]]">
+    <span class="vehicleCard__icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
+        <path d="M6 7V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1h1a2 2 0 0 1 2 2v9H3V9a2 2 0 0 1 2-2h1zm2 0h8V6H8v1z"/>
+      </svg>
+      [[+luggage_count]]
+    </span>
+  </div>
+
+  <img class="mt-3 vehicleCard__img" src="[[+image]]" alt="[[+car_category:htmlent]]">
 
   <div class="vehicleCard__price">
     [[+price:isnot=``:then=`from <strong>[[+price]]</strong>`:else=``]]
@@ -3002,23 +3054,13 @@ return $out;',
 $tpl   = $modx->getOption(\'tpl\', $scriptProperties, \'VehicleCategoryCardTpl\');
 $limit = (int)$modx->getOption(\'limit\', $scriptProperties, 20);
 $table = $modx->getOption(\'table\', $scriptProperties, \'vehicles\');
-
-// If you want to show one card per category (like "Small cars", "SUVs"...),
-// set &groupByCategory=1
 $groupBy = (int)$modx->getOption(\'groupByCategory\', $scriptProperties, 1);
-
-// Optional price column name, if exists (e.g., daily_rate)
 $priceCol = $modx->getOption(\'priceCol\', $scriptProperties, \'\'); // \'\' disables
 
 $select = "image, car_category, pax_count, luggage_count";
-if ($priceCol !== \'\') {
-  $select .= ", {$priceCol} AS price";
-} else {
-  $select .= ", \'\' AS price";
-}
+$select .= ($priceCol !== \'\') ? ", {$priceCol} AS price" : ", \'\' AS price";
 
 if ($groupBy) {
-  // pick "best representative" per category (latest id)
   $sql = "SELECT v1.*
           FROM {$table} v1
           INNER JOIN (
@@ -3044,7 +3086,12 @@ if (!$stmt->execute()) return \'<p>Could not load vehicles.</p>\';
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 if (!$rows) return \'<p>No vehicles found.</p>\';
 
-$out = \'<div class="vehicleRow">\';
+// Unique id so multiple lists on same page won\'t conflict
+$uid = \'vehRow_\' . substr(md5(uniqid(\'\', true)), 0, 8);
+
+$out  = \'<div class="vehicleScroller" data-scroller="\'.$uid.\'">\';
+$out .= \'  <button class="vehicleScroller__btn vehicleScroller__btn--left" type="button" aria-label="Scroll left" data-dir="-1">‹</button>\';
+$out .= \'  <div class="vehicleRow" id="\'.$uid.\'">\';
 
 foreach ($rows as $row) {
   $ph = [
@@ -3057,7 +3104,10 @@ foreach ($rows as $row) {
   $out .= $modx->getChunk($tpl, $ph);
 }
 
+$out .= \'  </div>\';
+$out .= \'  <button class="vehicleScroller__btn vehicleScroller__btn--right" type="button" aria-label="Scroll right" data-dir="1">›</button>\';
 $out .= \'</div>\';
+
 return $out;',
           'locked' => false,
           'properties' => 
@@ -3071,23 +3121,13 @@ return $out;',
 $tpl   = $modx->getOption(\'tpl\', $scriptProperties, \'VehicleCategoryCardTpl\');
 $limit = (int)$modx->getOption(\'limit\', $scriptProperties, 20);
 $table = $modx->getOption(\'table\', $scriptProperties, \'vehicles\');
-
-// If you want to show one card per category (like "Small cars", "SUVs"...),
-// set &groupByCategory=1
 $groupBy = (int)$modx->getOption(\'groupByCategory\', $scriptProperties, 1);
-
-// Optional price column name, if exists (e.g., daily_rate)
 $priceCol = $modx->getOption(\'priceCol\', $scriptProperties, \'\'); // \'\' disables
 
 $select = "image, car_category, pax_count, luggage_count";
-if ($priceCol !== \'\') {
-  $select .= ", {$priceCol} AS price";
-} else {
-  $select .= ", \'\' AS price";
-}
+$select .= ($priceCol !== \'\') ? ", {$priceCol} AS price" : ", \'\' AS price";
 
 if ($groupBy) {
-  // pick "best representative" per category (latest id)
   $sql = "SELECT v1.*
           FROM {$table} v1
           INNER JOIN (
@@ -3113,7 +3153,12 @@ if (!$stmt->execute()) return \'<p>Could not load vehicles.</p>\';
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 if (!$rows) return \'<p>No vehicles found.</p>\';
 
-$out = \'<div class="vehicleRow">\';
+// Unique id so multiple lists on same page won\'t conflict
+$uid = \'vehRow_\' . substr(md5(uniqid(\'\', true)), 0, 8);
+
+$out  = \'<div class="vehicleScroller" data-scroller="\'.$uid.\'">\';
+$out .= \'  <button class="vehicleScroller__btn vehicleScroller__btn--left" type="button" aria-label="Scroll left" data-dir="-1">‹</button>\';
+$out .= \'  <div class="vehicleRow" id="\'.$uid.\'">\';
 
 foreach ($rows as $row) {
   $ph = [
@@ -3126,7 +3171,10 @@ foreach ($rows as $row) {
   $out .= $modx->getChunk($tpl, $ph);
 }
 
+$out .= \'  </div>\';
+$out .= \'  <button class="vehicleScroller__btn vehicleScroller__btn--right" type="button" aria-label="Scroll right" data-dir="1">›</button>\';
 $out .= \'</div>\';
+
 return $out;',
         ),
         'policies' => 

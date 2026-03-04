@@ -1,58 +1,27 @@
-<?php
+<div class="vehicleCard">
+  <div class="vehicleCard__top">
+      <p class="vehicleCard__title">[[+car_category:ucfirst:htmlent]]</p>    <div class="vehicleCard__icons">
+    </div>
+  </div>
+  <div class="text-center">
+    <span class="vehicleCard__icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
+        <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-4.4 0-8 2.2-8 5v3h16v-3c0-2.8-3.6-5-8-5z"/>
+      </svg>
+      [[+pax_count]]
+    </span>
 
-$tpl   = $modx->getOption('tpl', $scriptProperties, 'VehicleCategoryCardTpl');
-$limit = (int)$modx->getOption('limit', $scriptProperties, 20);
-$table = $modx->getOption('table', $scriptProperties, 'vehicles');
+    <span class="vehicleCard__icon">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#000">
+        <path d="M6 7V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1h1a2 2 0 0 1 2 2v9H3V9a2 2 0 0 1 2-2h1zm2 0h8V6H8v1z"/>
+      </svg>
+      [[+luggage_count]]
+    </span>
+  </div>
 
-$groupBy = (int)$modx->getOption('groupByCategory', $scriptProperties, 1);
+  <img class="my-4 vehicleCard__img" src="[[+image]]" alt="[[+car_category:htmlent]]">
 
-$priceCol = $modx->getOption('priceCol', $scriptProperties, ''); 
-
-$select = "image, car_category, pax_count, luggage_count";
-if ($priceCol !== '') {
-  $select .= ", {$priceCol} AS price";
-} else {
-  $select .= ", '' AS price";
-}
-
-if ($groupBy) {
-  $sql = "SELECT v1.*
-          FROM {$table} v1
-          INNER JOIN (
-            SELECT car_category, MAX(id) AS max_id
-            FROM {$table}
-            GROUP BY car_category
-          ) v2 ON v1.id = v2.max_id
-          ORDER BY v1.car_category ASC
-          LIMIT :limit";
-} else {
-  $sql = "SELECT {$select}
-          FROM {$table}
-          ORDER BY id DESC
-          LIMIT :limit";
-}
-
-$stmt = $modx->prepare($sql);
-if (!$stmt) return '<p>Could not prepare vehicles query.</p>';
-
-$stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
-if (!$stmt->execute()) return '<p>Could not load vehicles.</p>';
-
-$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
-if (!$rows) return '<p>No vehicles found.</p>';
-
-$out = '<div class="vehicleRow">';
-
-foreach ($rows as $row) {
-  $ph = [
-    'image'         => $row['image'] ?? '',
-    'car_category'  => $row['car_category'] ?? '',
-    'pax_count'     => (int)($row['pax_count'] ?? 0),
-    'luggage_count' => (int)($row['luggage_count'] ?? 0),
-    'price'         => $row['price'] ?? '',
-  ];
-  $out .= $modx->getChunk($tpl, $ph);
-}
-
-$out .= '</div>';
-return $out;
+  <div class="vehicleCard__price">
+    [[+price:isnot=``:then=`from <strong>[[+price]]</strong>`:else=``]]
+  </div>
+</div>

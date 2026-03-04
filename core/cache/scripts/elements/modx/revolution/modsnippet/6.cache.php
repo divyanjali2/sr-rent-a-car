@@ -3,23 +3,13 @@
 $tpl   = $modx->getOption(\'tpl\', $scriptProperties, \'VehicleCategoryCardTpl\');
 $limit = (int)$modx->getOption(\'limit\', $scriptProperties, 20);
 $table = $modx->getOption(\'table\', $scriptProperties, \'vehicles\');
-
-// If you want to show one card per category (like "Small cars", "SUVs"...),
-// set &groupByCategory=1
 $groupBy = (int)$modx->getOption(\'groupByCategory\', $scriptProperties, 1);
-
-// Optional price column name, if exists (e.g., daily_rate)
 $priceCol = $modx->getOption(\'priceCol\', $scriptProperties, \'\'); // \'\' disables
 
 $select = "image, car_category, pax_count, luggage_count";
-if ($priceCol !== \'\') {
-  $select .= ", {$priceCol} AS price";
-} else {
-  $select .= ", \'\' AS price";
-}
+$select .= ($priceCol !== \'\') ? ", {$priceCol} AS price" : ", \'\' AS price";
 
 if ($groupBy) {
-  // pick "best representative" per category (latest id)
   $sql = "SELECT v1.*
           FROM {$table} v1
           INNER JOIN (
@@ -45,7 +35,12 @@ if (!$stmt->execute()) return \'<p>Could not load vehicles.</p>\';
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 if (!$rows) return \'<p>No vehicles found.</p>\';
 
-$out = \'<div class="vehicleRow">\';
+// Unique id so multiple lists on same page won\'t conflict
+$uid = \'vehRow_\' . substr(md5(uniqid(\'\', true)), 0, 8);
+
+$out  = \'<div class="vehicleScroller" data-scroller="\'.$uid.\'">\';
+$out .= \'  <button class="vehicleScroller__btn vehicleScroller__btn--left" type="button" aria-label="Scroll left" data-dir="-1">‹</button>\';
+$out .= \'  <div class="vehicleRow" id="\'.$uid.\'">\';
 
 foreach ($rows as $row) {
   $ph = [
@@ -58,7 +53,10 @@ foreach ($rows as $row) {
   $out .= $modx->getChunk($tpl, $ph);
 }
 
+$out .= \'  </div>\';
+$out .= \'  <button class="vehicleScroller__btn vehicleScroller__btn--right" type="button" aria-label="Scroll right" data-dir="1">›</button>\';
 $out .= \'</div>\';
+
 return $out;
 return;
 ';
